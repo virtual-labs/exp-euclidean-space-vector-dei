@@ -103,7 +103,7 @@ form{
 
 .tablink {
   background-color: lightgray;
-  color: white;
+  color: rgb(0, 0, 0);
   float: left;
   border: none;
   outline: none;
@@ -133,6 +133,7 @@ form{
 #btn1{
     background-color: red;
 }
+
 .pcont {
             display: flex;
            
@@ -209,23 +210,42 @@ form{
 	<div class="responsive-three-column-grid">
   <div class="col1" style="background-color:#fbeee6;">
   	<h3 style="color:indigo;"> Pick points P(a,b) & Q(c,d) &isin; R<sup>2</sup> to obtain S=P+Q</h3>
-  	<h5>Enter:</h5> 
-  <form id="cord_form" action="?" method="POST">
+  	
+  <!-- <form id="cord_form" action="?">
+    <h5 style="text-align: left;">For point P enter:</h5> 
   <label for="a_cord">a:</label>
-  <input type="text" id="a_cord" name="a_cord"><br><br>
+  <input type="number" id="a_cord" name="a_cord" min="-4" max="5"><br><br>
   <label for="b_cord">b:</label>
-  <input type="text" id="b_cord" name="b_cord"><br><br>
+  <input type="number" id="b_cord" name="b_cord" min="-4" max="5"><br><br>
+  <h5 style="text-align: left;">For point Q enter:</h5> 
   <label for="c_cord">c:</label>
-  <input type="text" id="c_cord" name="c_cord"><br><br>
+  <input type="number" id="c_cord" name="c_cord" min="-4" max="5"><br><br>
   <label for="d_cord">d:</label>          
-  <input type="text" id="d_cord" name="d_cord"><br><br>
-  <button class="subbtn" type="button" onclick="addition();">Submit</button><br/><br>
+  <input type="number" id="d_cord" name="d_cord" min="-4" max="5"><br><br>
+  <button type="submit" class="subbtn" onclick="return addition();">Submit </button><br/><br>
   <label style="color:#b22222;">Coordinate values: </label>
   <p id='displayab' style="color:green;"></p>
   <p id='displaycd' style="color:green;"></p>
     <p id='displayabcd' style="color:deeppink;"></p>
-</form>
-
+</form> -->
+<form id="cord_form" action="?" method="POST">
+    <h5 style="text-align: left;">For point P enter:</h5> 
+    <label for="a_cord">a:</label>
+    <input type="number" id="a_cord" name="a_cord"><br><br>
+    <label for="b_cord">b:</label>
+    <input type="number" id="b_cord" name="b_cord"><br><br>
+    <h5 style="text-align: left;">For point Q enter:</h5> 
+    <label for="c_cord">c:</label>
+    <input type="number" id="c_cord" name="c_cord"><br><br>
+    <label for="d_cord">d:</label>          
+    <input type="number" id="d_cord" name="d_cord"><br><br>
+    <button class="subbtn" type="button" onclick="addition();">Submit</button><br/><br>
+    <label style="color:#b22222;">Coordinate values: </label>
+    <p id='displayab' style="color:green;"></p>
+    <p id='displaycd' style="color:green;"></p>
+      <p id='displayabcd' style="color:deeppink;"></p>
+  </form>
+  
   </div>
   
   <div class="col2" style="background-color:#fbeee6;">
@@ -251,19 +271,19 @@ form{
 	<div class="responsive-three-column-grid">
   <div class="col1" style="background-color:#fbeee6;">
   	<h3 style="color:indigo;">Pick points &alpha; &isin; R & P(m,n) &isin; R<sup>2</sup> to obtain S = &alpha;.P</h3>
-  	<h5>Enter:</h5>
+  	<h5>For the convenience of presentation &alpha;, m & n should be entered in such a manner where -4 &leq; &alpha; m &leq; 14 and -9 &leq; &alpha; n &leq; 9</h5>
   <form id="cord_form" action="?" method="POST">
   <label for="al_cord">&alpha;:</label>
-  <input type="text" id="al_cord" name="al_cord"><br><br>
+  <input type="number" id="al_cord" name="al_cord"><br><br>
   <label for="m_cord">m:</label>
-  <input type="text" id="m_cord" name="m_cord"><br><br>
+  <input type="number" id="m_cord" name="m_cord"><br><br>
   <label for="n_cord">n:</label>
-  <input type="text" id="n_cord" name="n_cord"><br><br>
+  <input type="number" id="n_cord" name="n_cord"><br><br>
   <button type="button" onclick="multiplication();">Submit</button><br/><br>
   <label style="color:#b22222;">Coordinate values: </label>
   <p id='displayal' style="color:green;"></p>
   <p id='displaymn' style="color:green;"></p>
-    <p id='displayalmn' style="font-style:bold; color:deeppink;"></p>
+  <p id='displayalmn' style="font-style:bold; color:deeppink;"></p>
 </form>
 
   </div>
@@ -309,108 +329,99 @@ function showMul(){
     document.getElementById('add').style.display = "none";
     document.getElementById('mul').style.display = "block";
     document.getElementById("btn1").style.backgroundColor = "lightblue";
-    document.getElementById("btn2").style.backgroundColor = "red";
+    document.getElementById("btn2").style.backgroundColor = "yellow";
 }
 
 function addition() {
-    let a = document.querySelector("#a_cord").value;
-    let b = document.querySelector("#b_cord").value;
-    let c = document.querySelector("#c_cord").value;
-    let d = document.querySelector("#d_cord").value;
+    let a = Number(document.querySelector("#a_cord").value);
+let b = Number(document.querySelector("#b_cord").value);
+let c = Number(document.querySelector("#c_cord").value);
+let d = Number(document.querySelector("#d_cord").value);
 
+    let sumX = a + c;
+    let sumY = b + d;
     if(a == "" || b == "" || c == "" || d == "")
     {
 
         alert("Please enter the values a, b, c, and d.")
     }
-    else{
-        document.getElementById('displayab').innerHTML = ("(a,b) = ("+a+","+b+")");
 
-        document.getElementById('displaycd').innerHTML = ("(c,d) = ("+c+","+d+")");
-
-        document.getElementById('displayabcd').innerHTML =
-        ("S &equiv; (a+c , b+d) = " + "("+(Number(a)+Number(c)) + " , " + (Number(b)+Number(d))+")");
-
-        document.getElementById('note1').innerHTML = "Note: Addition performed w.r.t. the given pair of axes.";
-        document.getElementById('note2').innerHTML = "Note: Addition performed w.r.t. the given pair of axes.";
-
-        drawCoordinates(Number(a)*grid_size,-Number(b)*grid_size,"green");
-
-		drawCoordinates(Number(c)*grid_size,-Number(d)*grid_size,"green");
-
-		drawCoordinates((Number(a)+Number(c))*grid_size,-(Number(b)+Number(d))*grid_size,"deeppink");
-
-		drawCoords(Number(a)*gridsize,-Number(b)*gridsize,"green");
-
-		drawCoords(Number(c)*gridsize,-Number(d)*gridsize,"green");
-
-		drawCoords((Number(a)+Number(c))*gridsize,-(Number(b)+Number(d))*gridsize,"deeppink");
-
-		ctx.beginPath();
-
-		canvas_arrow(ctx, 0*grid_size,0*grid_size,a*gridsize,-b*gridsize,"black");
-
-		canvas_arrow(ctx, 0*grid_size,0*grid_size,c*gridsize,-d*gridsize,"black");
-
-		canvas_arrow(ctx, a*gridsize,-b*gridsize,(Number(a)+Number(c))*gridsize,-(Number(b)+Number(d))*gridsize,"black");
-
-		canvas_arrow(ctx, c*gridsize,-d*gridsize,(Number(a)+Number(c))*gridsize,-(Number(b)+Number(d))*gridsize,"black");
-
-		canvas_arrow(ctx, 0*grid_size,0*grid_size,(Number(a)+Number(c))*gridsize,-(Number(b)+Number(d))*gridsize,"black");
-
-		ctx.stroke();
-		ctx.lineWidth(3);
-		ctx.closepath();
-    }
-
-        
-
-    }
-
-function multiplication() {
-    let al = document.querySelector("#al_cord").value;
-    let m = document.querySelector("#m_cord").value;
-    let n = document.querySelector("#n_cord").value;
-    if(al == "" || m == "" || n == "")
-    {
-
-        alert("Please first enter all the values.");
+    else if (sumX > 14 || sumX < -4 || sumY > 9 || sumY < -9) {
+        alert("Invalid input! Ensure that:\n-4 ≤ (a + c) ≤ 14\n-9 ≤ (b + d) ≤ 9");
+        return;
     }
     else{
-        document.getElementById('displayal').innerHTML = 
-                    ("&alpha; = ("+al+")");
+    document.getElementById('displayab').innerHTML = `(a,b) = (${a},${b})`;
+    document.getElementById('displaycd').innerHTML = `(c,d) = (${c},${d})`;
+    document.getElementById('displayabcd').innerHTML = 
+        `S &equiv; (a+c , b+d) = (${sumX} , ${sumY})`;
+    
+    document.getElementById('note1').innerHTML = "Note: Addition performed w.r.t. the given pair of axes.";
+    document.getElementById('note2').innerHTML = "Note: Addition performed w.r.t. the given pair of axes.";
 
-        document.getElementById('displaymn').innerHTML = 
-                    ("(m,n) = ("+m+","+n+")");
+    drawCoordinates(a * grid_size, -b * grid_size, "green");
+    drawCoordinates(c * grid_size, -d * grid_size, "green");
+    drawCoordinates(sumX * grid_size, -sumY * grid_size, "deeppink");
 
-        document.getElementById('displayalmn').innerHTML =
-        ("S &equiv; (&alpha;m , &alpha;n) = " + "("+(Number(al)*Number(m)) + " , " + (Number(al)*Number(n))+")");
+    drawCoords(a * gridsize, -b * gridsize, "green");
+    drawCoords(c * gridsize, -d * gridsize, "green");
+    drawCoords(sumX * gridsize, -sumY * gridsize, "deeppink");
 
-        document.getElementById('note3').innerHTML = "Note: Scalar Multiplication performed w.r.t. the given pair of axis.";
-        document.getElementById('note4').innerHTML = "Note: Scalar Multiplication performed w.r.t. the given pair of axis.";
+    ctx.beginPath();
+    
+    canvas_arrow(ctx, 0, 0, a * gridsize, -b * gridsize, "black");
+    canvas_arrow(ctx, 0, 0, c * gridsize, -d * gridsize, "black");
+    canvas_arrow(ctx, a * gridsize, -b * gridsize, sumX * gridsize, -sumY * gridsize, "black");
+    canvas_arrow(ctx, c * gridsize, -d * gridsize, sumX * gridsize, -sumY * gridsize, "black");
+    canvas_arrow(ctx, 0, 0, sumX * gridsize, -sumY * gridsize, "black");
 
-		drawCoordnts(Number(m)*grdsize,-Number(n)*grdsize,"green");
+    ctx.stroke();
+    ctx.lineWidth = 3;
+    ctx.closePath();
+}}
 
-		drawCoordnts((Number(al))*(Number(m))*grdsize,(Number(al)*-(Number(n)))*grdsize,"deeppink");
 
-		drawCoordints(Number(m)*grdsze,-Number(n)*grdsze,"green");
+    function multiplication() {
+    let al = Number(document.querySelector("#al_cord").value);
+    let m = Number(document.querySelector("#m_cord").value);
+    let n = Number(document.querySelector("#n_cord").value);
 
-		drawCoordints((Number(al))*(Number(m))*grdsze,(Number(al)*-(Number(n)))*grdsze,"deeppink");
-
-		cntxt.beginPath();
-		cnvs_arrw(cntxt, 0*grdsze,0*grdsze,m*grdsze,-n*grdsze,"black");
-
-		cnvs_arrw(cntxt, m*grdsze,-n*grdsze,(Number(al))*(Number(m))*grdsze,(Number(al)*-(Number(n)))*grdsze,"black");
-
-		cnvs_arrw(cntxt, 0*grdsze,0*grdsze,(Number(al))*(Number(m))*grdsze,(Number(al)*-(Number(n)))*grdsze,"black");
-
-	
-		cntxt.stroke();
-		cntxt.lineWidth(3);
-		cntxt.closepath();
-
+    if (isNaN(al) || isNaN(m) || isNaN(n) || document.querySelector("#al_cord").value === "" || document.querySelector("#m_cord").value === "" || document.querySelector("#n_cord").value === "") {
+        alert("Please enter all the values.");
+        return;
     }
+
+    let al_m = al * m;
+    let al_n = al * n;
+
+    if (al_m < -4 || al_m > 14 || al_n < -9 || al_n > 9) {
+        alert("Invalid values! Ensure that -4 ≤ α*m ≤ 14 and -9 ≤ α*n ≤ 9.");
+        return;
     }
+
+    document.getElementById('displayal').innerHTML = "&alpha; = (" + al + ")";
+    document.getElementById('displaymn').innerHTML = "(m,n) = (" + m + "," + n + ")";
+    document.getElementById('displayalmn').innerHTML =
+        "S &equiv; (&alpha;m , &alpha;n) = (" + al_m + " , " + al_n + ")";
+
+    document.getElementById('note3').innerHTML = "Note: Scalar Multiplication performed w.r.t. the given pair of axis.";
+    document.getElementById('note4').innerHTML = "Note: Scalar Multiplication performed w.r.t. the given pair of axis.";
+
+    drawCoordnts(m * grdsize, -n * grdsize, "green");
+    drawCoordnts(al_m * grdsize, -al_n * grdsize, "deeppink");
+    drawCoordnts(m * grdsze, -n * grdsze, "green");
+    drawCoordnts(al_m * grdsze, -al_n * grdsze, "deeppink");
+
+    cntxt.beginPath();
+    cnvs_arrw(cntxt, 0 * grdsze, 0 * grdsze, m * grdsze, -n * grdsze, "black");
+    cnvs_arrw(cntxt, m * grdsze, -n * grdsze, al_m * grdsze, -al_n * grdsze, "black");
+    cnvs_arrw(cntxt, 0 * grdsze, 0 * grdsze, al_m * grdsze, -al_n * grdsze, "black");
+
+    cntxt.stroke();
+    cntxt.lineWidth(3);
+    cntxt.closePath();
+}
+
 
  
 var grid_size = 12;
