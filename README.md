@@ -12,7 +12,7 @@ In this experiment, mathematical model for plane has been determined which leads
 
 <b>Name of Developer | <b> Prof. Gunjan Agrawal
 :--|:--|
-<b> Institute | <b>  Dayalbagh Educational Institute 
+<b> Institute | <b>  Dayalbagh Educational Institute (Deemed University)
 <b> Email id|     <b>  dei.gunjan@yahoo.com
 <b> Department |  Mathematics
 
