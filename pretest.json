@@ -1,0 +1,72 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "Which of the following is an element of R?",
+            "answers": {
+                "a": "∞",
+                "b": "{2}",
+                "c": "(0 , 6)",
+                "d": "None"
+            },
+            "explanations": {
+                "a": "Explanation 1  <a href='www.google.com'>here</a>",
+                "b": "Explanation 2",
+                "c": "Explanation 2",
+                "d": "Explanation 2"
+            },
+            "correctAnswer": "d",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "Which of the following is an element of R<sup>2</sup>?",
+            "answers": {
+                "a": "( 3 , i ), where i is √(-1)",
+                "b": "[0 , 2]",
+                "c": "{5 , 0}",
+                "d": "None"
+            },
+            "explanations": {
+                "a": "Explanation 1  <a href='www.google.com'>here</a>",
+                "b": "Explanation 2",
+                "c": "Explanation 2",
+                "d": "Explanation 2"
+            },
+            "correctAnswer": "d",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "Let A and B be the statements as given below : <br> A : π is a rational number <br> B : 1/0 is not a real number <br> Then",
+            "answers": {
+                "a": "A is true, B is false",
+                "b": "A is false, B is true",
+                "c": "A is true, B is true",
+                "d": "A is false, B is false"
+            },
+            "explanations": {
+                "a": "Explanation 1  <a href='www.google.com'>here</a>",
+                "b": "Explanation 2",
+                "c": "Explanation 2",
+                "d": "Explanation 2"
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "Which of the following is an element of R<sup>3</sup>?",
+            "answers": {
+                "a": "(π, i<sup>2</sup>, log(1))",
+                "b": "(3, 11, √(-2))",
+                "c": "√2, 0, 3",
+                "d": "{0 , 0 , 0}"
+            },
+            "explanations": {
+                "a": "Explanation 1  <a href='www.google.com'>here</a>",
+                "b": "Explanation 2",
+                "c": "Explanation 2",
+                "d": "Explanation 2"
+            },
+            "correctAnswer": "a",
+            "difficulty": "beginner"
+        }
+    ]
+}
