@@ -24,7 +24,7 @@ The one-to-one correspondence between the plane and R<sup>2</sup>, described abo
 **4. Vector Representation:**
  Let P be a point on the plane and (u , v) be the corresponding ordered pair. The line segment joining the origin and the point directed towards the point is called the vector at the origin associated with the point P. Please see the diagram given below.
 
- ![Vector Representation](images/theoryimage.jpeg "Vector Represntation")
+ ![Vector Representation](images/exp1newimage.jpeg "Vector Represntation")
 
 **5. n-dimensional Euclidean Space:**
  It is the system ( R<sup>n</sup> , + , . ) together with R, where R<sup>n</sup> = {(x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub>) | x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub> ∈ R} and operations + and . called addition and scalar multiplication respectively are defined as:
