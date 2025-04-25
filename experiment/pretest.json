@@ -6,7 +6,7 @@
                 "a": "∞",
                 "b": "{2}",
                 "c": "(0 , 6)",
-                "d": "None"
+                "d": "√4"
             },
             "explanations": {
                 "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -23,7 +23,7 @@
                 "a": "( 3 , i ), where i is √(-1)",
                 "b": "[0 , 2]",
                 "c": "{5 , 0}",
-                "d": "None"
+                "d": "(-1, √7i2)"
             },
             "explanations": {
                 "a": "Explanation 1  <a href='www.google.com'>here</a>",
