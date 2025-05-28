@@ -1,0 +1,7 @@
+
+/home/runner/work/exp-euclidean-space-vector-dei/exp-euclidean-space-vector-dei/experiment/simulation/js/main.js
+   2:10  warning  'dispmenu' is defined but never used    no-unused-vars
+  60:10  warning  'myFunction' is defined but never used  no-unused-vars
+
+✖ 2 problems (0 errors, 2 warnings)
+
