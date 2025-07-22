@@ -8,7 +8,7 @@
 
 ### About the Experiment 
 
-In this experiment, mathematical model for plane has been determined which leads to the understanding of Euclidean Space.
+In this experiment, mathematical model for plane has been explained which leads to the understanding of Euclidean Space through dynamic interface in a user-friendly way.
 
 <b>Name of Developer | <b> Prof. Gunjan Agrawal
 :--|:--|
