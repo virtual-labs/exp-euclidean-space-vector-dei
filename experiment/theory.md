@@ -57,7 +57,7 @@ It can be geometrically visualised for 1≤n≤3 only.
 **NOTE:** (i) The elements of F are called **scalars** and the elements of V are **vectors**. A vector space over F will be denoted by V.<br> 
 (ii) Let C be the set of complex numbers and each of its elements is denoted by a+ib, where a, b∈R.  The operations ‘‘+’’ (addition), ‘‘.’’ (scalar multiplication) and ‘‘.’’ (multiplication) on C, defined as follows: <br> 
 a. Addition: (a+ib)+(c+id)=((a+c)+(b+d)i), where (a+ib) and (c+id)∈C. <br> 
-b. Scalar multiplication: α.(a+ib)=(α.a, α.ib); where α∈R and (a+ib)∈C. <br> 
+b. Scalar multiplication: α.(a+ib)=(α.a+α.ib); where α∈R and (a+ib)∈C. <br> 
 c. Multiplication: (a+ib).(c+id)=(ac-bd+(bc+ad)i), where (a+ib) and (c+id)∈C.
 
 
