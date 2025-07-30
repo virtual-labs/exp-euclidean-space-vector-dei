@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+<link rel = "icon" href = "https://www.vlab.co.in/images/logo.jpg" type = "image/x-icon">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<style>
+    body, html {
+  margin: 0;
+  font-family: Arial;
+}
+	h1{
+  		background-color: #87ceeb;
+  		align-content: center;
+  		text-align: center;
+	}
+
+	.headbtn{
+		font-style: bold;
+  		color:rgb(0, 0, 0);
+  		font-size: 20px;
+ 		width: 7em;
+  		height: 1.5em;
+  		background-color: rgb(221,191,218);
+        border:2px solid indigo;
+        padding: 2px;
+        margin-left: 5px;
+        border-radius: 5px;
+	}
+
+	* {
+  box-sizing: border-box;
+}
+.responsive-three-column-grid {
+    display:block;
+    float: center;
+
+}
+
+.responsive-three-column-grid > * {
+    padding:.1rem 1rem;
+    margin: 0.5rem;
+    background-color: silver;
+}
+
+@media (min-width:768px) {
+    .responsive-three-column-grid {
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.col1{
+    border:2px solid indigo;
+}
+.col2{
+    border:2px solid indianred;
+}
+.col3{
+    border:2px solid green;
+}
+form{
+    align:center;
+    text-align: center;
+}
+
+.next{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    align-content: center;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    width:8rem;
+    float:right;
+}
+.next:hover {
+  background-color: #ada;
+  color: black;
+}
+.previous{
+    display: block;
+    float:left;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    align-content: center;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    width:8rem;
+}
+.previous:hover {
+  background-color: #ada;
+  color: black;
+}
+
+.tablink {
+  background-color: lightgray;
+  color: rgb(0, 0, 0);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 8px;
+  font-size: 15px;
+  width: 50%;
+}
+
+.tablink:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.tabcontent {
+  display: none;
+  padding: 40px 10px;
+}
+.subbtn{
+    cursor: pointer;
+    background-color: #04AA6D;
+    border: none;
+    color:white;
+    width: 4rem;
+    height:1.2rem;
+}
+#btn1{
+    background-color: red;
+}
+
+.pcont {
+            display: flex;
+           
+            text-align: center;
+        }
+        .p1 {
+           
+           font-size: 23px;
+            flex: 0 0 20%; /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 70% */
+            margin: 10px;
+            
+        }
+       .p2{
+        flex: 0 0 70%; /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 70% */
+            margin: 10px;
+            font-size: 23px;
+            color: blueviolet;
+            text-align: left;
+       }
+       .p1 p{
+        background-color: lightblue;
+        padding: 10px;
+        border: solid blue;
+        margin: 0;
+       }
+       .p2 p{
+        margin-top: 5px;
+        padding: 5px;
+        background-color: greenyellow;
+        width: 40%;
+       }
+       .p3 p{
+        background-color: lightblue;
+        padding: 10px;
+        border: solid blue;
+        margin: 10px 10px;
+        width: 20%;
+        font-size: 23px;
+        text-align: center;
+       }
+       
+</style>
+</head>
+
+<body>
+    <p style="float: center; align-content:right;">
+<a href="index.html" class="previous">&laquo; Previous</a>
+<a href="ndeuclideanspace.html" class="next" >Next &raquo;</a></p><br><br>
+<h1> 2-Dimensional Euclidean Space</h1>
+
+
+    
+    <div class="pcont">
+        <div class="p1" id="p1">
+            <p>Underlying Set</p>
+        </div>
+        <div class="p2" id="p1">
+            <p> &emsp; R<sup>2</sup> (i.e. Plane / Vectors at Origin)</p>
+        </div>
+   </div>
+   <div class="p3" id="p3">
+    <p>OPERATIONS</p>
+</div>
+    <div class="btnsdiv">
+       <button class="tablink" id="btn1" onclick=showAdd()>Addition</button>
+    <button class="tablink" id="btn2" onclick=showMul()>Scalar Multiplication</button>
+    
+   </div>
+	
+   
+    
+</div>
+<div id="add" class="tabcontent" style="display: block;">
+	<div class="responsive-three-column-grid">
+        <div class="col1" style="background-color:#fbeee6;">
+  	        <h3 style="color:indigo;"> Pick points P(a,b) & Q(c,d) &isin; R<sup>2</sup> to obtain S=P+Q</h3>
+  	
+             <form id="cord_form" action="?" method="POST">
+    <h5 style="text-align: left;">For point P enter coordinate values:</h5> 
+    <label for="a_cord">a:</label>
+    <input type="number" id="a_cord" name="a_cord"><br><br>
+    <label for="b_cord">b:</label>
+    <input type="number" id="b_cord" name="b_cord"><br><br>
+    <h5 style="text-align: left;">For point Q enter coordinate values::</h5> 
+    <label for="c_cord">c:</label>
+    <input type="number" id="c_cord" name="c_cord"><br><br>
+    <label for="d_cord">d:</label>          
+    <input type="number" id="d_cord" name="d_cord"><br><br>
+    <button class="subbtn" type="button" onclick="addition();">Submit</button><br/><br>
+    <label style="color:#b22222;">Chosen points in R<sup>2</sup>: </label>
+    <p id='displayab' style="color:green;"></p>
+    <p id='displaycd' style="color:green;"></p>
+      <p id='displayabcd' style="color:deeppink;"></p>
+             </form>
+  
+        </div>
+  
+        <div class="col2" style="background-color:#fbeee6;">
+  	<h3 style="color:maroon;"> Location of Points and Sum</h3>
+    <canvas id="graphcanvas" width="250vw" height="250vh"></canvas>
+    <br>
+    <p id="note1" style="color:#b22222;"></p>
+        </div>
+
+        <div class="col3" style="background-color:#fbeee6;">
+  	<h3 style="color:darkgreen;"> Vector Representation of Points and Sum</h3>
+    <canvas id="my-canvas" width="250vw" height="250vh"></canvas>
+
+    <br>
+    <p id="note2" style="color:#b22222;"></p>
+        </div>
+    </div>
+    <div class="statement" style="background-color: #fff9c4; font-size: 20px; text-align:center;">
+    <p>-- Practice operations in R<sup>n</sup> as you have done for R<sup>2</sup> --</p>
+    </div>
+</div>
+
+<div id="mul" class="tabcontent" style="display: none;">
+	<div class="responsive-three-column-grid">
+        <div class="col1" style="background-color:#fbeee6;">
+  	<h3 style="color:indigo;">Pick points &alpha; &isin; R & P(m,n) &isin; R<sup>2</sup> to obtain S = &alpha;.P</h3>
+  	<h5>For the convenience of presentation &alpha;, m & n should be entered in such a manner where -4 &leq; &alpha; m &leq; 14 and -9 &leq; &alpha; n &leq; 9</h5>
+  <form id="cord_form" action="?" method="POST">
+  <label for="al_cord">&alpha;:</label>
+  <input type="number" id="al_cord" name="al_cord"><br><br>
+  <label for="m_cord">m:</label>
+  <input type="number" id="m_cord" name="m_cord"><br><br>
+  <label for="n_cord">n:</label>
+  <input type="number" id="n_cord" name="n_cord"><br><br>
+  <button type="button" onclick="multiplication();">Submit</button><br/><br>
+  <label style="color:#b22222;">Coordinate values: </label>
+  <p id='displayal' style="color:green;"></p>
+  <p id='displaymn' style="color:green;"></p>
+  <p id='displayalmn' style="font-style:bold; color:deeppink;"></p>
+</form>
+
+        </div>
+  
+        <div class="col2" style="background-color:#fbeee6;">
+  	<h3 style="color:maroon;">Location of Points and Scalar Multiplication</h3>
+    <canvas id="grphcanvas" width="250vw" height="250vh"></canvas>
+    <br>
+    <p id="note3" style="color:#b22222;"></p>
+        </div>
+
+        <div class="col3" style="background-color:#fbeee6;">
+  	<h3 style="color:green;">Vector Representation of Points and Scalar Multiplication</h3>
+    <canvas id="grphcnvs" width="250vw" height="250vh"></canvas>
+    <br>
+    <p id="note4" style="color:#b22222;"></p>
+        </div>
+    </div>
+    <div class="statement" style="background-color: #fff9c4; font-size: 20px; text-align:center;">
+    <p>-- Practice operations in R<sup>n</sup> as you have done for R<sup>2</sup> --</p>
+    </div>
+
+</div>
+
+
+    <p style="float: center; align-content:right;">
+    <a href="index.html" class="previous">&laquo; Previous</a>
+    <a href="ndeuclideanspace.html" class="next" >Next &raquo;</a></p>
+
+<script type="text/javascript" src="js/operations1.js"></script>
+<script type="text/javascript" src="js/homepage.js"></script>
+
+</body>
+</html>
