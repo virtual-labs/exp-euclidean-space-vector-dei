@@ -208,68 +208,52 @@ form{
 </div>
 <div id="add" class="tabcontent" style="display: block;">
 	<div class="responsive-three-column-grid">
-  <div class="col1" style="background-color:#fbeee6;">
-  	<h3 style="color:indigo;"> Pick points P(a,b) & Q(c,d) &isin; R<sup>2</sup> to obtain S=P+Q</h3>
+        <div class="col1" style="background-color:#fbeee6;">
+  	        <h3 style="color:indigo;"> Pick points P(a,b) & Q(c,d) &isin; R<sup>2</sup> to obtain S=P+Q</h3>
   	
-  <!-- <form id="cord_form" action="?">
-    <h5 style="text-align: left;">For point P enter:</h5> 
-  <label for="a_cord">a:</label>
-  <input type="number" id="a_cord" name="a_cord" min="-4" max="5"><br><br>
-  <label for="b_cord">b:</label>
-  <input type="number" id="b_cord" name="b_cord" min="-4" max="5"><br><br>
-  <h5 style="text-align: left;">For point Q enter:</h5> 
-  <label for="c_cord">c:</label>
-  <input type="number" id="c_cord" name="c_cord" min="-4" max="5"><br><br>
-  <label for="d_cord">d:</label>          
-  <input type="number" id="d_cord" name="d_cord" min="-4" max="5"><br><br>
-  <button type="submit" class="subbtn" onclick="return addition();">Submit </button><br/><br>
-  <label style="color:#b22222;">Coordinate values: </label>
-  <p id='displayab' style="color:green;"></p>
-  <p id='displaycd' style="color:green;"></p>
-    <p id='displayabcd' style="color:deeppink;"></p>
-</form> -->
-<form id="cord_form" action="?" method="POST">
-    <h5 style="text-align: left;">For point P enter:</h5> 
+             <form id="cord_form" action="?" method="POST">
+    <h5 style="text-align: left;">For point P enter coordinate values:</h5> 
     <label for="a_cord">a:</label>
     <input type="number" id="a_cord" name="a_cord"><br><br>
     <label for="b_cord">b:</label>
     <input type="number" id="b_cord" name="b_cord"><br><br>
-    <h5 style="text-align: left;">For point Q enter:</h5> 
+    <h5 style="text-align: left;">For point Q enter coordinate values::</h5> 
     <label for="c_cord">c:</label>
     <input type="number" id="c_cord" name="c_cord"><br><br>
     <label for="d_cord">d:</label>          
     <input type="number" id="d_cord" name="d_cord"><br><br>
     <button class="subbtn" type="button" onclick="addition();">Submit</button><br/><br>
-    <label style="color:#b22222;">Coordinate values: </label>
+    <label style="color:#b22222;">Chosen points in R<sup>2</sup>: </label>
     <p id='displayab' style="color:green;"></p>
     <p id='displaycd' style="color:green;"></p>
       <p id='displayabcd' style="color:deeppink;"></p>
-  </form>
+             </form>
   
-  </div>
+        </div>
   
-  <div class="col2" style="background-color:#fbeee6;">
+        <div class="col2" style="background-color:#fbeee6;">
   	<h3 style="color:maroon;"> Location of Points and Sum</h3>
     <canvas id="graphcanvas" width="250vw" height="250vh"></canvas>
     <br>
     <p id="note1" style="color:#b22222;"></p>
-  </div>
+        </div>
 
-  <div class="col3" style="background-color:#fbeee6;">
+        <div class="col3" style="background-color:#fbeee6;">
   	<h3 style="color:darkgreen;"> Vector Representation of Points and Sum</h3>
     <canvas id="my-canvas" width="250vw" height="250vh"></canvas>
 
     <br>
     <p id="note2" style="color:#b22222;"></p>
-  </div>
-</div>
-<div class="statement" style="background-color: #fff9c4; font-size: 20px; text-align:center;">
+        </div>
+    </div>
+    <div class="statement" style="background-color: #fff9c4; font-size: 20px; text-align:center;">
     <p>-- Practice operations in R<sup>n</sup> as you have done for R<sup>2</sup> --</p>
+    </div>
 </div>
-</div>
+
 <div id="mul" class="tabcontent" style="display: none;">
 	<div class="responsive-three-column-grid">
-  <div class="col1" style="background-color:#fbeee6;">
+        <div class="col1" style="background-color:#fbeee6;">
   	<h3 style="color:indigo;">Pick points &alpha; &isin; R & P(m,n) &isin; R<sup>2</sup> to obtain S = &alpha;.P</h3>
   	<h5>For the convenience of presentation &alpha;, m & n should be entered in such a manner where -4 &leq; &alpha; m &leq; 14 and -9 &leq; &alpha; n &leq; 9</h5>
   <form id="cord_form" action="?" method="POST">
@@ -286,779 +270,35 @@ form{
   <p id='displayalmn' style="font-style:bold; color:deeppink;"></p>
 </form>
 
-  </div>
+        </div>
   
-  <div class="col2" style="background-color:#fbeee6;">
+        <div class="col2" style="background-color:#fbeee6;">
   	<h3 style="color:maroon;">Location of Points and Scalar Multiplication</h3>
     <canvas id="grphcanvas" width="250vw" height="250vh"></canvas>
     <br>
     <p id="note3" style="color:#b22222;"></p>
-  </div>
+        </div>
 
-  <div class="col3" style="background-color:#fbeee6;">
+        <div class="col3" style="background-color:#fbeee6;">
   	<h3 style="color:green;">Vector Representation of Points and Scalar Multiplication</h3>
     <canvas id="grphcnvs" width="250vw" height="250vh"></canvas>
     <br>
     <p id="note4" style="color:#b22222;"></p>
-  </div>
-</div>
-<div class="statement" style="background-color: #fff9c4; font-size: 20px; text-align:center;">
+        </div>
+    </div>
+    <div class="statement" style="background-color: #fff9c4; font-size: 20px; text-align:center;">
     <p>-- Practice operations in R<sup>n</sup> as you have done for R<sup>2</sup> --</p>
-</div>
+    </div>
 
 </div>
 
 
- <p style="float: center; align-content:right;">
+    <p style="float: center; align-content:right;">
     <a href="index.html" class="previous">&laquo; Previous</a>
     <a href="ndeuclideanspace.html" class="next" >Next &raquo;</a></p>
+
+<script type="text/javascript" src="js/operations1.js"></script>
+<script type="text/javascript" src="js/homepage.js"></script>
+
 </body>
-<script type="text/javascript" src="main.js"></script>
-<script type="text/javascript">
-
-
-function showAdd(){
-    document.getElementById('add').style.display = "block";
-    document.getElementById('mul').style.display = "none";
-    document.getElementById("btn1").style.backgroundColor = "red";
-    document.getElementById("btn2").style.backgroundColor = "lightblue";
-    
-}
-
-function showMul(){
-    document.getElementById('add').style.display = "none";
-    document.getElementById('mul').style.display = "block";
-    document.getElementById("btn1").style.backgroundColor = "lightblue";
-    document.getElementById("btn2").style.backgroundColor = "yellow";
-}
-
-function addition() {
-    let a = Number(document.querySelector("#a_cord").value);
-let b = Number(document.querySelector("#b_cord").value);
-let c = Number(document.querySelector("#c_cord").value);
-let d = Number(document.querySelector("#d_cord").value);
-
-    let sumX = a + c;
-    let sumY = b + d;
-    if(a == "" || b == "" || c == "" || d == "")
-    {
-
-        alert("Please enter the values a, b, c, and d.")
-    }
-
-    else if (sumX > 14 || sumX < -4 || sumY > 9 || sumY < -9) {
-        alert("Invalid input! Ensure that:\n-4 ≤ (a + c) ≤ 14\n-9 ≤ (b + d) ≤ 9");
-        return;
-    }
-    else{
-    document.getElementById('displayab').innerHTML = `(a,b) = (${a},${b})`;
-    document.getElementById('displaycd').innerHTML = `(c,d) = (${c},${d})`;
-    document.getElementById('displayabcd').innerHTML = 
-        `S &equiv; (a+c , b+d) = (${sumX} , ${sumY})`;
-    
-    document.getElementById('note1').innerHTML = "Note: Addition performed w.r.t. the given pair of axes.";
-    document.getElementById('note2').innerHTML = "Note: Addition performed w.r.t. the given pair of axes.";
-
-    drawCoordinates(a * grid_size, -b * grid_size, "green");
-    drawCoordinates(c * grid_size, -d * grid_size, "green");
-    drawCoordinates(sumX * grid_size, -sumY * grid_size, "deeppink");
-
-    drawCoords(a * gridsize, -b * gridsize, "green");
-    drawCoords(c * gridsize, -d * gridsize, "green");
-    drawCoords(sumX * gridsize, -sumY * gridsize, "deeppink");
-
-    ctx.beginPath();
-    
-    canvas_arrow(ctx, 0, 0, a * gridsize, -b * gridsize, "black");
-    canvas_arrow(ctx, 0, 0, c * gridsize, -d * gridsize, "black");
-    canvas_arrow(ctx, a * gridsize, -b * gridsize, sumX * gridsize, -sumY * gridsize, "black");
-    canvas_arrow(ctx, c * gridsize, -d * gridsize, sumX * gridsize, -sumY * gridsize, "black");
-    canvas_arrow(ctx, 0, 0, sumX * gridsize, -sumY * gridsize, "black");
-
-    ctx.stroke();
-    ctx.lineWidth = 3;
-    ctx.closePath();
-}}
-
-
-    function multiplication() {
-    let al = Number(document.querySelector("#al_cord").value);
-    let m = Number(document.querySelector("#m_cord").value);
-    let n = Number(document.querySelector("#n_cord").value);
-
-    if (isNaN(al) || isNaN(m) || isNaN(n) || document.querySelector("#al_cord").value === "" || document.querySelector("#m_cord").value === "" || document.querySelector("#n_cord").value === "") {
-        alert("Please enter all the values.");
-        return;
-    }
-
-    let al_m = al * m;
-    let al_n = al * n;
-
-    if (al_m < -4 || al_m > 14 || al_n < -9 || al_n > 9) {
-        alert("Invalid values! Ensure that -4 ≤ α*m ≤ 14 and -9 ≤ α*n ≤ 9.");
-        return;
-    }
-
-    document.getElementById('displayal').innerHTML = "&alpha; = (" + al + ")";
-    document.getElementById('displaymn').innerHTML = "(m,n) = (" + m + "," + n + ")";
-    document.getElementById('displayalmn').innerHTML =
-        "S &equiv; (&alpha;m , &alpha;n) = (" + al_m + " , " + al_n + ")";
-
-    document.getElementById('note3').innerHTML = "Note: Scalar Multiplication performed w.r.t. the given pair of axis.";
-    document.getElementById('note4').innerHTML = "Note: Scalar Multiplication performed w.r.t. the given pair of axis.";
-
-    drawCoordnts(m * grdsize, -n * grdsize, "green");
-    drawCoordnts(al_m * grdsize, -al_n * grdsize, "deeppink");
-    drawCoordnts(m * grdsze, -n * grdsze, "green");
-    drawCoordnts(al_m * grdsze, -al_n * grdsze, "deeppink");
-
-    cntxt.beginPath();
-    cnvs_arrw(cntxt, 0 * grdsze, 0 * grdsze, m * grdsze, -n * grdsze, "black");
-    cnvs_arrw(cntxt, m * grdsze, -n * grdsze, al_m * grdsze, -al_n * grdsze, "black");
-    cnvs_arrw(cntxt, 0 * grdsze, 0 * grdsze, al_m * grdsze, -al_n * grdsze, "black");
-
-    cntxt.stroke();
-    cntxt.lineWidth(3);
-    cntxt.closePath();
-}
-
-
- 
-var grid_size = 12;
-var x_axis_distance_grid_lines = 10;
-var y_axis_distance_grid_lines = 5;
-var x_axis_starting_point = { number: 1, suffix: '' };
-var y_axis_starting_point = { number: 1, suffix: '' };
-
-var canvas = document.getElementById("my-canvas");
-//canvas.setAttribute("style", "position: absolute; x:0; y:0;");
-//document.body.appendChild(canvas);
-
-var ctx = canvas.getContext("2d");
-
-var canvas_width = canvas.width;
-var canvas_height = canvas.height;
-
-var num_lines_x = Math.floor(canvas_width/grid_size);
-var num_lines_y = Math.floor(canvas_height/grid_size);
-
-// Draw grid lines along X-axis
-for(var i=0; i<=num_lines_x; i++) {
-    ctx.beginPath();
-    ctx.lineWidth = 1;
-    
-    // If line represents X-axis draw in different color
-    if(i == x_axis_distance_grid_lines) 
-        ctx.strokeStyle = "#000000";
-    else
-        ctx.strokeStyle = "#e9e9e9";
-    
-    if(i == num_lines_x) {
-        ctx.moveTo(0, grid_size*i);
-        ctx.lineTo(canvas_width, grid_size*i);
-    }
-    else {
-        ctx.moveTo(0, grid_size*i+0.5);
-        ctx.lineTo(canvas_width, grid_size*i+0.5);
-    }
-    ctx.stroke();
-}
-
-// Draw grid lines along Y-axis
-for(i=0; i<=num_lines_y; i++) {
-    ctx.beginPath();
-    ctx.lineWidth = 1;
-    
-    // If line represents X-axis draw in different color
-    if(i == y_axis_distance_grid_lines) 
-        ctx.strokeStyle = "#000000";
-    else
-        ctx.strokeStyle = "#e9e9e9";
-
-    if(i == num_lines_y) {
-        ctx.moveTo(grid_size*i, 0);
-        ctx.lineTo(grid_size*i, window.canvas_height);
-    }
-    else {
-        ctx.moveTo(grid_size*i+0.5, 0);
-        ctx.lineTo(grid_size*i+0.5, canvas_height);
-    }
-    
-    ctx.stroke();
-}
-
-// Translate to the new origin. Now Y-axis of the canvas is opposite to the Y-axis of the graph. So the y-coordinate of each element will be negative of the actual
-ctx.translate(y_axis_distance_grid_lines*grid_size, x_axis_distance_grid_lines*grid_size);
-
-// Ticks marks along the positive X-axis
-for(i=1; i<(num_lines_y - y_axis_distance_grid_lines); i++) {
-    ctx.beginPath();
-    ctx.lineWidth = 1;
-    ctx.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    ctx.moveTo(grid_size*i+0.5, -3);
-    ctx.lineTo(grid_size*i+0.5, 3);
-    ctx.stroke();
-
-    // Text value at that point
-    ctx.font = '9px Arial';
-    ctx.textAlign = 'start';
-    ctx.fillText(x_axis_starting_point.number*i + x_axis_starting_point.suffix, grid_size*i-2, 15);
-}
-
-// Ticks marks along the negative X-axis
-for(i=1; i<y_axis_distance_grid_lines; i++) {
-    ctx.beginPath();
-    ctx.lineWidth = 1;
-    ctx.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    ctx.moveTo(-grid_size*i+0.5, -3);
-    ctx.lineTo(-grid_size*i+0.5, 3);
-    ctx.stroke();
-
-    // Text value at that point
-    ctx.font = '9px Arial';
-    ctx.textAlign = 'end';
-    ctx.fillText(-x_axis_starting_point.number*i + x_axis_starting_point.suffix, -grid_size*i+3, 15);
-}
-
-// Ticks marks along the negative Y-axis
-for(i=1; i<(num_lines_x - x_axis_distance_grid_lines); i++) {
-    ctx.beginPath();
-    ctx.lineWidth = 1;
-    ctx.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    ctx.moveTo(-3, grid_size*i+0.5);
-    ctx.lineTo(3, grid_size*i+0.5);
-    ctx.stroke();
-
-    // Text value at that point
-    ctx.font = '9px Arial';
-    ctx.textAlign = 'start';
-    ctx.fillText(y_axis_starting_point.number*i + y_axis_starting_point.suffix, 8, -grid_size*i+3);
-}
-
-// Ticks marks along the positive Y-axis
-for(i=1; i<(x_axis_distance_grid_lines); i++) {
-    ctx.beginPath();
-    ctx.lineWidth = 1;
-    ctx.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    ctx.moveTo(-3, -grid_size*i+0.5);
-    ctx.lineTo(3, -grid_size*i+0.5);
-    ctx.stroke();
-
-    // Text value at that point
-    ctx.font = '9px Arial';
-    ctx.textAlign = 'start';
-    ctx.fillText(-y_axis_starting_point.number*i + y_axis_starting_point.suffix, 8, grid_size*i+3);
-}
-
-function drawCoordinates(x,y,bg){
-    var pointSize = 3; // Change according to the size of the point.
-   
-    ctx.fillStyle = bg; 
-
-    ctx.beginPath(); //Start path
-    ctx.arc(x, y, pointSize, 0, Math.PI * 2, true); // Draw a point using the arc function of the canvas with a point structure.
-    ctx.fill(); // Close the path and fill.
-}
-
-
-
-function canvas_arrow(ctx, fromx, fromy, tox, toy,clr) {
-  var headlen = 10; // length of head in pixels
-  var dx = tox - fromx;
-  var dy = toy - fromy;
-  var angle = Math.atan2(dy, dx);
-  ctx.strokeStyle=clr;
-  ctx.moveTo(fromx, fromy);
-  ctx.lineTo(tox, toy);
-  ctx.lineTo(tox - headlen * Math.cos(angle - Math.PI / 6), toy - headlen * Math.sin(angle - Math.PI / 6));
-  ctx.moveTo(tox, toy);
-  ctx.lineTo(tox - headlen * Math.cos(angle + Math.PI / 6), toy - headlen * Math.sin(angle + Math.PI / 6));
-
-}
-
-
-
-  
-var gridsize = 12;
-var x_distance_grid_lines = 10;
-var y_distance_grid_lines = 5;
-var x_starting_point = { number: 1, suffix: '' };
-var y_starting_point = { number: 1, suffix: '' };
-
-var cnvs = document.getElementById("graphcanvas");
-//canvas.setAttribute("style", "position: absolute; x:0; y:0;");
-//document.body.appendChild(canvas);
-
-var context = cnvs.getContext("2d");
-
-var cnvs_width = cnvs.width;
-var cnvs_height = cnvs.height;
-
-var num_x = Math.floor(cnvs_width/gridsize);
-var num_y = Math.floor(cnvs_height/gridsize);
-
-// Draw grid lines along X-axis
-for(var i=0; i<=num_x; i++) {
-    context.beginPath();
-    context.lineWidth = 1;
-    
-    // If line represents X-axis draw in different color
-    if(i == x_distance_grid_lines) 
-        context.strokeStyle = "#000000";
-    else
-        context.strokeStyle = "#e9e9e9";
-    
-    if(i == num_x) {
-        context.moveTo(0, gridsize*i);
-        context.lineTo(cnvs_width, gridsize*i);
-    }
-    else {
-        context.moveTo(0, gridsize*i+0.5);
-        context.lineTo(cnvs_height, gridsize*i+0.5);
-    }
-    context.stroke();
-}
-
-// Draw grid lines along Y-axis
-for(i=0; i<=num_y; i++) {
-    context.beginPath();
-    context.lineWidth = 1;
-    
-    // If line represents X-axis draw in different color
-    if(i == y_distance_grid_lines) 
-        context.strokeStyle = "#000000";
-    else
-        context.strokeStyle = "#e9e9e9";
-
-    if(i == num_y) {
-        context.moveTo(gridsize*i, 0);
-        context.lineTo(gridsize*i, window.cnvs_height);
-    }
-    else {
-        context.moveTo(gridsize*i+0.5, 0);
-        context.lineTo(gridsize*i+0.5, cnvs_height);
-    }
-    
-    context.stroke();
-}
-
-// Translate to the new origin. Now Y-axis of the canvas is opposite to the Y-axis of the graph. So the y-coordinate of each element will be negative of the actual
-context.translate(y_distance_grid_lines*gridsize, x_distance_grid_lines*gridsize);
-
-// Ticks marks along the positive X-axis
-for(i=1; i<(num_y - y_distance_grid_lines); i++) {
-    context.beginPath();
-    context.lineWidth = 1;
-    context.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    context.moveTo(gridsize*i+0.5, -3);
-    context.lineTo(gridsize*i+0.5, 3);
-    context.stroke();
-
-    // Text value at that point
-    context.font = '9px Arial';
-    context.textAlign = 'start';
-    context.fillText(x_starting_point.number*i + x_starting_point.suffix, gridsize*i-2, 15);
-}
-
-// Ticks marks along the negative X-axis
-for(i=1; i<y_distance_grid_lines; i++) {
-    context.beginPath();
-    context.lineWidth = 1;
-    context.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    context.moveTo(-gridsize*i+0.5, -3);
-    context.lineTo(-gridsize*i+0.5, 3);
-    context.stroke();
-
-    // Text value at that point
-    context.font = '9px Arial';
-    context.textAlign = 'end';
-    context.fillText(-x_starting_point.number*i + x_starting_point.suffix, -gridsize*i+3, 15);
-}
-
-// Ticks marks along the negative Y-axis
-// Positive Y-axis of graph is negative Y-axis of the canvas
-for(i=1; i<(num_x - x_distance_grid_lines); i++) {
-    context.beginPath();
-    context.lineWidth = 1;
-    context.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    context.moveTo(-3, gridsize*i+0.5);
-    context.lineTo(3, gridsize*i+0.5);
-    context.stroke();
-
-    // Text value at that point
-    context.font = '9px Arial';
-    context.textAlign = 'start';
-    context.fillText(y_starting_point.number*i + y_starting_point.suffix, 8, -gridsize*i+3);
-}
-
-// Ticks marks along the positive Y-axis
-for(i=1; i<(x_distance_grid_lines); i++) {
-    context.beginPath();
-    context.lineWidth = 1;
-    context.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    context.moveTo(-3, -gridsize*i+0.5);
-    context.lineTo(3, -gridsize*i+0.5);
-    context.stroke();
-
-    // Text value at that point
-    context.font = '9px Arial';
-    context.textAlign = 'start';
-    context.fillText(-y_starting_point.number*i + y_starting_point.suffix, 8, gridsize*i+3);
-}
-    
-
-
-
-function drawCoords(x,y,bg){
-    var pntSize = 3; // Change according to the size of the point.
-   
-    context.fillStyle = bg; // Red color
-
-    context.beginPath(); //Start path
-    context.arc(x, y, pntSize, 0, Math.PI * 2, true); // Draw a point using the arc function of the canvas with a point structure.
-    context.fill(); // Close the path and fill.
-}
-
-
-
-function cnvs_arrow(context, from_x, from_y, to_x, to_y) {
-  var headlength = 10; // length of head in pixels
-  var distx = to_x - from_x;
-  var disty = to_y - from_y;
-  var angl = Math.atan2(disty, distx);
-
-  context.moveTo(from_x, from_y);
-  context.lineTo(to_x, to_y);
-  context.lineTo(to_x - headlength * Math.cos(angl - Math.PI / 6), to_y - headlength * Math.sin(angl - Math.PI / 6));
-  context.moveTo(to_x, to_y);
-  context.lineTo(to_x - headlength * Math.cos(angl + Math.PI / 6), to_y - headlength * Math.sin(angl + Math.PI / 6));
-
-}
-
-  
-var grdsize = 12;
-var x_dist_grid_lines = 10;
-var y_dist_grid_lines = 5;
-var x_start_point = { number: 1, suffix: '' };
-var y_start_point = { number: 1, suffix: '' };
-
-var cvs = document.getElementById("grphcanvas");
-//canvas.setAttribute("style", "position: absolute; x:0; y:0;");
-//document.body.appendChild(canvas);
-
-var cntext = cvs.getContext("2d");
-
-var cvs_width = cvs.width;
-var cvs_height = cvs.height;
-
-var numx = Math.floor(cvs_width/gridsize);
-var numy = Math.floor(cvs_height/gridsize);
-
-// Draw grid lines along X-axis
-for(var i=0; i<=numx; i++) {
-    cntext.beginPath();
-    cntext.lineWidth = 1;
-    
-    // If line represents X-axis draw in different color
-    if(i == x_dist_grid_lines) 
-        cntext.strokeStyle = "#000000";
-    else
-        cntext.strokeStyle = "#e9e9e9";
-    
-    if(i == numx) {
-        cntext.moveTo(0, grdsize*i);
-        cntext.lineTo(cvs_width, grdsize*i);
-    }
-    else {
-        cntext.moveTo(0, grdsize*i+0.5);
-        cntext.lineTo(cvs_height, grdsize*i+0.5);
-    }
-    cntext.stroke();
-}
-
-// Draw grid lines along Y-axis
-for(i=0; i<=numy; i++) {
-    cntext.beginPath();
-    cntext.lineWidth = 1;
-    
-    // If line represents X-axis draw in different color
-    if(i == y_dist_grid_lines) 
-        cntext.strokeStyle = "#000000";
-    else
-        cntext.strokeStyle = "#e9e9e9";
-
-    if(i == numy) {
-        cntext.moveTo(grdsize*i, 0);
-        cntext.lineTo(grdsize*i, window.cvs_height);
-    }
-    else {
-        cntext.moveTo(grdsize*i+0.5, 0);
-        cntext.lineTo(grdsize*i+0.5, cvs_height);
-    }
-    
-    cntext.stroke();
-}
-
-// Translate to the new origin. Now Y-axis of the canvas is opposite to the Y-axis of the graph. So the y-coordinate of each element will be negative of the actual
-cntext.translate(y_dist_grid_lines*grdsize, x_dist_grid_lines*grdsize);
-
-// Ticks marks along the positive X-axis
-for(i=1; i<(numy - y_dist_grid_lines); i++) {
-    cntext.beginPath();
-    cntext.lineWidth = 1;
-    cntext.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    cntext.moveTo(grdsize*i+0.5, -3);
-    cntext.lineTo(grdsize*i+0.5, 3);
-    cntext.stroke();
-
-    // Text value at that point
-    cntext.font = '9px Arial';
-    cntext.textAlign = 'start';
-    cntext.fillText(x_start_point.number*i + x_start_point.suffix, grdsize*i-2, 15);
-}
-
-// Ticks marks along the negative X-axis
-for(i=1; i<y_dist_grid_lines; i++) {
-    cntext.beginPath();
-    cntext.lineWidth = 1;
-    cntext.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    cntext.moveTo(-grdsize*i+0.5, -3);
-    cntext.lineTo(-grdsize*i+0.5, 3);
-    cntext.stroke();
-
-    // Text value at that point
-    cntext.font = '9px Arial';
-    cntext.textAlign = 'end';
-    cntext.fillText(-x_start_point.number*i + x_start_point.suffix, -grdsize*i+3, 15);
-}
-
-// Ticks marks along the positive Y-axis
-// Positive Y-axis of graph is negative Y-axis of the canvas
-for(i=1; i<(numx - x_dist_grid_lines); i++) {
-    cntext.beginPath();
-    cntext.lineWidth = 1;
-    cntext.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    cntext.moveTo(-3, grdsize*i+0.5);
-    cntext.lineTo(3, grdsize*i+0.5);
-    cntext.stroke();
-
-    // Text value at that point
-    cntext.font = '9px Arial';
-    cntext.textAlign = 'start';
-    cntext.fillText(y_start_point.number*i + y_start_point.suffix, 8, -grdsize*i+3);
-}
-
-// Ticks marks along the negative Y-axis
-// Negative Y-axis of graph is positive Y-axis of the canvas
-for(i=1; i<(x_dist_grid_lines); i++) {
-    cntext.beginPath();
-    cntext.lineWidth = 1;
-    cntext.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    cntext.moveTo(-3, -grdsize*i+0.5);
-    cntext.lineTo(3, -grdsize*i+0.5);
-    cntext.stroke();
-
-    // Text value at that point
-    cntext.font = '9px Arial';
-    cntext.textAlign = 'start';
-    cntext.fillText(-y_start_point.number*i + y_start_point.suffix, 8, grdsize*i+3);
-}
-    
-
-
-
-function drawCoordnts(x,y,bg){
-    var ptSize = 3; // Change according to the size of the point.
-   
-    cntext.fillStyle = bg; // Red color
-
-    cntext.beginPath(); //Start path
-    cntext.arc(x, y, ptSize, 0, Math.PI * 2, true); // Draw a point using the arc function of the canvas with a point structure.
-    cntext.fill(); // Close the path and fill.
-}
-
-
-  
-var grdsze = 12;
-var x_grid_lines = 10;
-var y_grid_lines = 5;
-var x_start = { number: 1, suffix: '' };
-var y_start = { number: 1, suffix: '' };
-
-var cns = document.getElementById("grphcnvs");
-//canvas.setAttribute("style", "position: absolute; x:0; y:0;");
-//document.body.appendChild(canvas);
-
-var cntxt = cns.getContext("2d");
-
-var cns_width = cns.width;
-var cns_height = cns.height;
-
-var nx = Math.floor(cns_width/gridsize);
-var ny = Math.floor(cns_height/gridsize);
-
-// Draw grid lines along X-axis
-for(var i=0; i<=nx; i++) {
-    cntxt.beginPath();
-    cntxt.lineWidth = 1;
-    
-    // If line represents X-axis draw in different color
-    if(i == x_grid_lines) 
-        cntxt.strokeStyle = "#000000";
-    else
-        cntxt.strokeStyle = "#e9e9e9";
-
-    if(i == nx) {
-        cntxt.moveTo(0, grdsze*i);
-        cntxt.lineTo(cns_width, grdsze*i);
-    }
-    else {
-        cntxt.moveTo(0, grdsze*i+0.5);
-        cntxt.lineTo(cns_height, grdsze*i+0.5);
-    }
-    cntxt.stroke();
-}
-
-// Draw grid lines along Y-axis
-for(i=0; i<=ny; i++) {
-    cntxt.beginPath();
-    cntxt.lineWidth = 1;
-    
-    // If line represents X-axis draw in different color
-    if(i == y_grid_lines) 
-        cntxt.strokeStyle = "#000000";
-    else
-        cntxt.strokeStyle = "#e9e9e9";
-
-    if(i == ny) {
-        cntxt.moveTo(grdsze*i, 0);
-        cntxt.lineTo(grdsze*i, window.cns_height);
-    }
-    else {
-        cntxt.moveTo(grdsze*i+0.5, 0);
-        cntxt.lineTo(grdsze*i+0.5, cns_height);
-    }
-    
-    cntxt.stroke();
-}
-
-// Translate to the new origin. Now Y-axis of the canvas is opposite to the Y-axis of the graph. So the y-coordinate of each element will be negative of the actual
-cntxt.translate(y_grid_lines*grdsze, x_grid_lines*grdsze);
-
-// Ticks marks along the positive X-axis
-for(i=1; i<(ny - y_grid_lines); i++) {
-    cntxt.beginPath();
-    cntxt.lineWidth = 1;
-    cntxt.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    cntxt.moveTo(grdsze*i+0.5, -3);
-    cntxt.lineTo(grdsze*i+0.5, 3);
-    cntxt.stroke();
-
-    // Text value at that point
-    cntxt.font = '9px Arial';
-    cntxt.textAlign = 'start';
-    cntxt.fillText(x_start.number*i + x_start.suffix, grdsze*i-2, 15);
-}
-
-// Ticks marks along the negative X-axis
-for(i=1; i<y_grid_lines; i++) {
-    cntxt.beginPath();
-    cntxt.lineWidth = 1;
-    cntxt.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    cntxt.moveTo(-grdsze*i+0.5, -3);
-    cntxt.lineTo(-grdsze*i+0.5, 3);
-    cntxt.stroke();
-
-    // Text value at that point
-    cntxt.font = '9px Arial';
-    cntxt.textAlign = 'end';
-    cntxt.fillText(-x_start.number*i + x_start.suffix, -grdsze*i+3, 15);
-}
-
-// Ticks marks along the negative Y-axis
-for(i=1; i<(nx - x_grid_lines); i++) {
-    cntxt.beginPath();
-    cntxt.lineWidth = 1;
-    cntxt.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    cntxt.moveTo(-3, grdsze*i+0.5);
-    cntxt.lineTo(3, grdsze*i+0.5);
-    cntxt.stroke();
-
-    // Text value at that point
-    cntxt.font = '9px Arial';
-    cntxt.textAlign = 'start';
-    cntxt.fillText(y_start.number*i + y_start.suffix, 8, -grdsze*i+3);
-}
-
-// Ticks marks along the positive Y-axis
-for(i=1; i<(x_grid_lines); i++) {
-    cntxt.beginPath();
-    cntxt.lineWidth = 1;
-    cntxt.strokeStyle = "#000000";
-
-    // Draw a tick mark 6px long (-3 to 3)
-    cntxt.moveTo(-3, -grdsze*i+0.5);
-    cntxt.lineTo(3, -grdsze*i+0.5);
-    cntxt.stroke();
-
-    // Text value at that point
-    cntxt.font = '9px Arial';
-    cntxt.textAlign = 'start';
-    cntxt.fillText(-y_start.number*i + y_start.suffix, 8, grdsze*i+3);
-}
-
-function drawCoordints(x,y,bg){
-    var pSize = 3; // Change according to the size of the point.
-   
-    cntxt.fillStyle = bg; // Red color
-
-    cntxt.beginPath(); //Start path
-    cntxt.arc(x, y, pSize, 0, Math.PI * 2, true); // Draw a point using the arc function of the canvas with a point structure.
-    cntxt.fill(); // Close the path and fill.
-}
-function cnvs_arrw(cntxt, fx, fy, tx, ty,cr) {
-  var hl = 10; // length of head in pixels
-  var dstx = tx - fx;
-  var dsty = ty - fy;
-  var ngl = Math.atan2(dsty, dstx);
-  cntxt.fillstyle=cr;
-  cntxt.moveTo(fx, fy);
-  cntxt.lineTo(tx, ty);
-  cntxt.lineTo(tx - hl * Math.cos(ngl - Math.PI / 6), ty - hl * Math.sin(ngl - Math.PI / 6));
-  cntxt.moveTo(tx, ty);
-  cntxt.lineTo(tx - hl * Math.cos(ngl + Math.PI / 6), ty - hl * Math.sin(ngl + Math.PI / 6));
-
-}
-
-</script>
 </html>

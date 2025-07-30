@@ -9,10 +9,10 @@
                 "d": "√4"
             },
             "explanations": {
-                "a": "Explanation 1  this is an explanation 1",
-                "b": "Explanation 2",
-                "c": "Explanation 2",
-                "d": "Explanation 2"
+                "a": "Explanation Incorrect by definition of R",
+                "b": "Explanation Incorrect by definition of R",
+                "c": "Explanation Incorrect by definition of R",
+                "d": "Explanation Correct by definition of R"
             },
             "correctAnswer": "d",
             "difficulty": "beginner"
@@ -26,10 +26,10 @@
                 "d": "(-1, √7i2)"
             },
             "explanations": {
-                "a": "Explanation 1  <a href='www.google.com'>here</a>",
-                "b": "Explanation 2",
-                "c": "Explanation 2",
-                "d": "Explanation 2"
+                "a": "Incorrect by definition of R<sup>2</sup>",
+                "b": "Incorrect by definition of R<sup>2</sup>",
+                "c": "Incorrect by definition of R<sup>2</sup>",
+                "d": "Correct by definition of R<sup>2</sup>"
             },
             "correctAnswer": "d",
             "difficulty": "beginner"
