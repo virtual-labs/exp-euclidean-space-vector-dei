@@ -1,7 +1,7 @@
 {
     "version": 2.0,
     "questions": [{
-            "question": "Which of the following is an element of $R$?",
+            "question": "Which of the following is an element of $R^2 {R^2}$?",
             "answers": {
                 "a": "∞",
                 "b": "{2}",
