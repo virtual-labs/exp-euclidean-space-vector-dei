@@ -1,7 +1,7 @@
 {
     "version": 2.0,
     "questions": [{
-            "question": "Which of the following is an element of <i>R</i>?",
+            "question": "Which of the following is an element of $R$?",
             "answers": {
                 "a": "∞",
                 "b": "{2}",
@@ -26,7 +26,7 @@
                 "d": "(-1, √7i2)"
             },
             "explanations": {
-                "a": "Incorrect by definition of <i>R</i><sup>2</sup>",
+                "a": "Incorrect by definition of $R^{2}$",
                 "b": "Incorrect by definition of <i>R</i><sup>2</sup>",
                 "c": "Incorrect by definition of <i>R</i><sup>2</sup>",
                 "d": "Correct by definition of <i>R</i><sup>2</sup>"
