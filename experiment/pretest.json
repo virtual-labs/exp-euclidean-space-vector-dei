@@ -23,7 +23,7 @@
                 "a": "( 3 , i ), where i is √(-1)",
                 "b": "[0 , 2]",
                 "c": "{5 , 0}",
-                "d": "(-1, √7i2)"
+                "d": "(-1, √7/2)"
             },
             "explanations": {
                 "a": "Incorrect by definition of $R^{2}$",
@@ -37,10 +37,10 @@
         {
             "question": "Let <i>A</i> and <i>B</i> be the statements as given below : <br> <i>A</i> : π is a rational number <br> <i>B</i> : 1/0 is not a real number <br> Then",
             "answers": {
-                "a": " <i>A</i> is true, <i>B</i> is false",
-                "b": " <i>A</i> is false, <i>B</i> is true",
-                "c": " <i>A</i> is true, <i>B</i> is true",
-                "d": " <i>A</i> is false, <i>B</i> is false"
+                "a": " A is true, B is false",
+                "b": " A is false, B is true",
+                "c": " A is true, B is true",
+                "d": " A is false, B is false"
             },
             "explanations": {
                 "a": "Explanation 1  <a href='www.google.com'>here</a>",
