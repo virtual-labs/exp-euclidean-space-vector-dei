@@ -35,10 +35,10 @@
             "difficulty": "beginner"
         },
         {
-            "question": "We can visualize geometrically the $n$-dimensional Euclidean space, $n ∈ N$, for",
+            "question": "We can visualize geometrically the $n$-dimensional Euclidean space, $n ∈ N$,",
             "answers": {
-                "a": "all $n$",
-                "b": "$n$>3",
+                "a": "for all $n$",
+                "b": "for $n$>3",
                 "c": "only for $n$≤3",
                 "d": "only for $n$<3"
             },
