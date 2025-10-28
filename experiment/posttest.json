@@ -18,7 +18,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "Let $A$ and $B$ be the statements as given below : <br> $A$ : $R$<sup>4</sup> = {$(a, b, c, d) | a, b, c, d ∈ R$} is a vector space over $R$ <br> $B$ : $R$<sup>4</sup> = {$(a, b, c, d) | a, b, c, d ∈ R$} is a vector space over $Q$ <br> Then",
+            "question": "Let A and B be the statements as given below : <br> A : $R$<sup>4</sup> = {$(a, b, c, d) | a, b, c, d ∈ R$} is a vector space over $R$ <br> B : $R$<sup>4</sup> = {$(a, b, c, d) | a, b, c, d ∈ R$} is a vector space over $Q$ <br> Then",
             "answers": {
                 "a": "A is true, B is false",
                 "b": "A is false, B is true",
@@ -35,12 +35,12 @@
             "difficulty": "beginner"
         },
         {
-            "question": "We can visualize geometrically the n-dimensional Euclidean space, $n ∈ N$, for",
+            "question": "We can visualize geometrically the $n$-dimensional Euclidean space, $n ∈ N$, for",
             "answers": {
-                "a": "all n",
-                "b": "n>3",
-                "c": "only for n≤3",
-                "d": "only for n<3"
+                "a": "all $n$",
+                "b": "$n$>3",
+                "c": "only for $n$≤3",
+                "d": "only for $n$<3"
             },
             "explanations": {
                 "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -52,7 +52,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "Let $V$ be a vector space over $R$ and let $A$ and $B$ be the statements as given below : <br> $A : a+b = a+c ⇒ b=c;$ where $a, b, c ∈ V$ <br> $B : α.b = α.c ⇒ b=c;$ where $α ∈ F$ and $b, c ∈ V$ <br> Then",
+            "question": "Let $V$ be a vector space over $R$ and let $A$ and $B$ be the statements as given below : <br> A : $a+b = a+c ⇒ b=c;$ where $a, b, c ∈ V$ <br> B : $α.b = α.c ⇒ b=c;$ where $α ∈ F$ and $b, c ∈ V$ <br> Then",
             "answers": {
                 "a": "A is true, B is false",
                 "b": "A is false, B is true",
