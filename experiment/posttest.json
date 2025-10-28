@@ -1,7 +1,7 @@
 {
     "version": 2.0,
     "questions": [{
-            "question": "Let $R$<sup>3</sup> = {$(x, y, z) | x, y, z ∈ R$}. Then operations which can be performed in R<sup>3</sup> are",
+            "question": "Let $R$<sup>3</sup> = {$(x, y, z) | x, y, z ∈ R$}. Then operations which can be performed in $R$<sup>3</sup> are",
             "answers": {
                 "a": "addition and multiplication",
                 "b": "multiplication and scalar multiplication",
