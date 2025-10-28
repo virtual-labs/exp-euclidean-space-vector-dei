@@ -52,7 +52,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "Let $V$ be a vector space over $R$ and let $A$ and $B$ be the statements as given below : <br> A : $a+b = a+c ⇒ b=c;$ where $a, b, c ∈ V$ <br> B : $α.b = α.c ⇒ b=c;$ where $α ∈ F$ and $b, c ∈ V$ <br> Then",
+            "question": "Let $V$ be a vector space over $R$ and let A and B be the statements as given below : <br> A : $a+b = a+c ⇒ b=c;$ where $a, b, c ∈ V$ <br> B : $α.b = α.c ⇒ b=c;$ where $α ∈ F$ and $b, c ∈ V$ <br> Then",
             "answers": {
                 "a": "A is true, B is false",
                 "b": "A is false, B is true",
