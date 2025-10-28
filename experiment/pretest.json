@@ -18,7 +18,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "Which of the following is an element of <i>R</i><sup>2</sup>?",
+            "question": "Which of the following is an element of $R$<sup>2</sup>?",
             "answers": {
                 "a": "( 3 , i ), where i is √(-1)",
                 "b": "[0 , 2]",
@@ -35,7 +35,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "Let <i>A</i> and <i>B</i> be the statements as given below : <br> <i>A</i> : π is a rational number <br> <i>B</i> : 1/0 is not a real number <br> Then",
+            "question": "Let A and B be the statements as given below : <br> <i>A</i> : π is a rational number <br> <i>B</i> : 1/0 is not a real number <br> Then",
             "answers": {
                 "a": " A is true, B is false",
                 "b": " A is false, B is true",
@@ -52,7 +52,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "Which of the following is an element of <i>R</i><sup>3</sup>?",
+            "question": "Which of the following is an element of $R$<sup>3</sup>?",
             "answers": {
                 "a": "(π, <i>i</i><sup>2</sup>, log(1))",
                 "b": "(3, 11, √(-2))",
