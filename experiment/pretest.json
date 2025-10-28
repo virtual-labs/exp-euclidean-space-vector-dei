@@ -35,7 +35,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "Let A and B be the statements as given below : <br> <i>A</i> : π is a rational number <br> <i>B</i> : 1/0 is not a real number <br> Then",
+            "question": "Let A and B be the statements as given below : <br> A : π is a rational number <br> B : 1/0 is not a real number <br> Then",
             "answers": {
                 "a": " A is true, B is false",
                 "b": " A is false, B is true",
@@ -54,7 +54,7 @@
         {
             "question": "Which of the following is an element of $R$<sup>3</sup>?",
             "answers": {
-                "a": "(π, <i>i</i><sup>2</sup>, log(1))",
+                "a": "(π, i<sup>2</sup>, log(1))",
                 "b": "(3, 11, √(-2))",
                 "c": "√2, 0, 3",
                 "d": "{0 , 0 , 0}"
