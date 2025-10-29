@@ -1,0 +1,72 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "Let $R$<sup>3</sup> = {$(x, y, z) | x, y, z ∈ R$}. Then operations which can be performed in $R$<sup>3</sup> are",
+            "answers": {
+                "a": "addition and multiplication",
+                "b": "multiplication and scalar multiplication",
+                "c": "addition and scalar multiplication",
+                "d": "addition and division"
+            },
+            "explanations": {
+                "a": "Incorrect by definition",
+                "b": "Incorrect by definition",
+                "c": "Correct by definition",
+                "d": "Incorrect by definition"
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "Let A and B be the statements as given below : <br> A : $R$<sup>4</sup> = {$(a, b, c, d) | a, b, c, d ∈ R$} is a vector space over $R$ <br> B : $R$<sup>4</sup> = {$(a, b, c, d) | a, b, c, d ∈ R$} is a vector space over $Q$ <br> Then",
+            "answers": {
+                "a": "A is true, B is false",
+                "b": "A is false, B is true",
+                "c": "A is true, B is true",
+                "d": "A is false, B is false"
+            },
+            "explanations": {
+                "a": "Incorrect by definition",
+                "b": "Incorrect by definition",
+                "c": "Correct by definition",
+                "d": "Incorrect by definition"
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "We can visualize geometrically the $n$-dimensional Euclidean space, $n ∈ N$,",
+            "answers": {
+                "a": "for all $n$",
+                "b": "for $n$>3",
+                "c": "only for $n$≤3",
+                "d": "only for $n$<3"
+            },
+            "explanations": {
+                "a": "Incorrect by definition",
+                "b": "Incorrect by definition",
+                "c": "Correct by definition",
+                "d": "Incorrect by definition"
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "Let $V$ be a vector space over $R$ and let A and B be the statements as given below : <br> A : $a+b = a+c ⇒ b=c;$ where $a, b, c ∈ V$ <br> B : $α.b = α.c ⇒ b=c;$ where $α ∈ F$ and $b, c ∈ V$ <br> Then",
+            "answers": {
+                "a": "A is true, B is false",
+                "b": "A is false, B is true",
+                "c": "A is true, B is true",
+                "d": "A is false, B is false"
+            },
+            "explanations": {
+                "a": "Correct by definition",
+                "b": "Incorrect by definition",
+                "c": "Incorrect by definition",
+                "d": "Incorrect by definition"
+            },
+            "correctAnswer": "a",
+            "difficulty": "beginner"
+        }
+    ]
+}

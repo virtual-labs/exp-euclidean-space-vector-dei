@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+<title>Linear Algebra Virtual Lab</title>
+<link rel = "icon" href = "https://www.vlab.co.in/images/logo.jpg" type = "image/x-icon">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<style type="text/css">
+	
+.responsive-three-column-grid {
+    display:block;
+    float: center;
+    margin-top: 0;
+}
+
+.responsive-three-column-grid > * {
+    padding:.1rem 1rem;
+    margin: 0.5rem;
+}
+
+@media (min-width:768px) {
+    .responsive-three-column-grid {
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.col1{
+    border:2px solid crimson;
+}
+.col2{
+    border:2px solid green;
+}
+.col3{
+    border:2px solid #009;
+}
+.modelcol{
+    display:block;
+    float:center;
+    background-color: antiquewhite;
+    padding:1rem 2rem;
+    text-align: center;
+    border:2px solid darkorange;
+}
+.exphead{
+	background-color: #87ceeb;
+	align-content: center;
+	text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.linkhead{
+    align-content: center;
+    text-align: center;
+    background-color: bisque;
+    border: 2px solid brown;
+}
+.intro{
+    display: block;
+    text-align: center;
+    font-size:20px;
+    color: orangered;
+}
+canvas {
+    display: block;
+}
+.next{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    align-content: center;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    width:5rem;
+    float:right;
+}
+.next:hover {
+  background-color: #ada;
+  color: black;
+}
+.previous{
+    display: block;
+    float:left;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    align-content: center;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    width:5rem;
+}
+.previous:hover {
+  background-color: #ada;
+  color: black;
+}
+
+input{
+    background-color: #edbb99;
+    align-content: center;
+    text-align: center;
+    font-style:bold italic;
+    font-size: 14px;
+    color:white;
+    border:.5px solid red;
+    color: black;
+}
+input:hover{
+    background-color: brown;
+    color:white;
+}
+.plane{
+    cursor: crosshair;
+}
+.boxhead{
+    margin:0.5rem 0.5rem 0.5rem 0.5rem;
+}
+p{
+    margin:0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.stepbtn{
+    display:inline-block;
+    color:red;
+    border:1px solid yellow;
+    background: lightyellow;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    vertical-align:middle;
+    width:6rem;
+    padding: 5px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+</style>
+</head>
+<body>
+    
+    <p style="float: center; align-content:right;">
+        <a href="./" class="previous">&laquo; Home</a>
+        <a href="operations.html" class="next" >Next &raquo;</a>
+    </p>
+    <br><br><br>
+    <h1 class="exphead">n-Dimensional Euclidean Space</h1>
+    <h2 class="linkhead">Link (One-to-One Correspondence) between Plane, R<sup>2</sup> and Vectors at Origin</h2>
+	<div class="responsive-three-column-grid">
+    
+    <div class="col1" style="background-color:#fbeee6;">
+        <div class="stepbtn">Step-1</div>
+    	  <h3 class="boxhead" style="color:darkred; background-color: #fadbd8; text-align: center; font-size: 25px;">1. Points on Plane</h3>
+        <p style="background-color: #e8f5e9">(<span style="font-weight: bold;">Plane: </span> It is not a well defined term. It can be understood as a flat surface like top of a table that extends indefinitely in all the directions.)</p>
+        <p style="font-weight: bold; color:red;">Pick a point by clicking on plane given below</p>
+        <canvas id="planeCanvas" width="250" height="250"></canvas>
+         <p id="note1" style="color:blue;"></p>
+    </div>
+
+    <div class="col2" style="background-color:#fbeee6;">
+        <div class="stepbtn">Step-2</div>
+        <h3 class="boxhead" style="color:darkgreen; background-color:#e8f6f3; text-align:center; font-size:25px;">2. Geometric Visualization</h3>
+        <p style="color:darkgreen;"><strong>Given pair of axes</strong></p>
+        <canvas id="gridCanvas" width="250" height="250"></canvas>
+        <p id='printpoint1cords' style="font-size: 20px; color: green;"></p>
+        <p id="note2" style="color:blue"></p>
+    </div>
+
+    <div class="col3" style="background-color:#fbeee6;">
+        <div class="stepbtn">Step-3</div>
+        <h3 class="boxhead" style="color:#000099; background-color: #ccffff; text-align: center; font-size: 25px;">3. Vector Representation</h3>
+        <canvas id="vectorCanvas" width="250" height="250"></canvas>
+        <p id="note3" style="color:blue"></p>
+    </div>
+    
+</div>
+
+<div class="modelcol">
+    <h3 class="boxhead" style="color:firebrick; background-color: rgb(255,255,179); text-align: center; font-size: 25px;">MATH MODEL of Plane</h3>
+    <p style="font-weight: bold; font-size: 24px;">R<sup>2</sup> = {(x , y) | x , y &isin; R}</p>
+</div>
+
+<p style="float: center; align-content:right;">
+    <a href="./" class="previous">&laquo; Home</a>
+<a href="operations.html" class="next" >Next &raquo;</a></p>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+<script type="text/javascript" src="js/homepage.js"></script>
+</html>
