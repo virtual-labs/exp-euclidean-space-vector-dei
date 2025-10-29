@@ -9,10 +9,10 @@
                 "d": "√4"
             },
             "explanations": {
-                "a": "Incorrect by definition of <i>R</i>",
-                "b": "Incorrect by definition of <i>R</i>",
-                "c": "Incorrect by definition of <i>R</i>",
-                "d": "Correct by definition of <i>R</i>"
+                "a": "Incorrect by definition of $R$",
+                "b": "Incorrect by definition of $R$",
+                "c": "Incorrect by definition of $R$",
+                "d": "Correct by definition of $R$"
             },
             "correctAnswer": "d",
             "difficulty": "beginner"
