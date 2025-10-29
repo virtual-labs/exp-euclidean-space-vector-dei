@@ -9,10 +9,10 @@
                 "d": "√4"
             },
             "explanations": {
-                "a": "Explanation Incorrect by definition of <i>R</i>",
-                "b": "Explanation Incorrect by definition of <i>R</i>",
-                "c": "Explanation Incorrect by definition of <i>R</i>",
-                "d": "Explanation Correct by definition of <i>R</i>"
+                "a": "Incorrect by definition of $R$",
+                "b": "Incorrect by definition of $R$",
+                "c": "Incorrect by definition of $R$",
+                "d": "Correct by definition of $R$"
             },
             "correctAnswer": "d",
             "difficulty": "beginner"
@@ -27,9 +27,9 @@
             },
             "explanations": {
                 "a": "Incorrect by definition of $R^{2}$",
-                "b": "Incorrect by definition of <i>R</i><sup>2</sup>",
-                "c": "Incorrect by definition of <i>R</i><sup>2</sup>",
-                "d": "Correct by definition of <i>R</i><sup>2</sup>"
+                "b": "Incorrect by definition of $R^{2}$",
+                "c": "Incorrect by definition of $R^{2}$",
+                "d": "Correct by definition of $R^{2}$"
             },
             "correctAnswer": "d",
             "difficulty": "beginner"
@@ -43,10 +43,10 @@
                 "d": " A is false, B is false"
             },
             "explanations": {
-                "a": "Explanation 1  <a href='www.google.com'>here</a>",
-                "b": "Explanation 2",
-                "c": "Explanation 2",
-                "d": "Explanation 2"
+                "a": "Incorrect by definition",
+                "b": "Correct by definition",
+                "c": "Incorrect by definition",
+                "d": "Incorrect by definition"
             },
             "correctAnswer": "b",
             "difficulty": "beginner"
@@ -60,10 +60,10 @@
                 "d": "{0 , 0 , 0}"
             },
             "explanations": {
-                "a": "Explanation 1  <a href='www.google.com'>here</a>",
-                "b": "Explanation 2",
-                "c": "Explanation 2",
-                "d": "Explanation 2"
+                "a": "Correct by definition of $R^{3}$",
+                "b": "Incorrect by definition of $R^{3}$",
+                "c": "Incorrect by definition of $R^{3}$",
+                "d": "Incorrect by definition of $R^{3}$".
             },
             "correctAnswer": "a",
             "difficulty": "beginner"
