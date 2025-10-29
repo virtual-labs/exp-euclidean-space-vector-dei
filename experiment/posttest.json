@@ -60,8 +60,8 @@
                 "d": "A is false, B is false"
             },
             "explanations": {
-                "a": "Incorrect by definition",
-                "b": "Correct by definition",
+                "a": "Correct by definition",
+                "b": "Incorrect by definition",
                 "c": "Incorrect by definition",
                 "d": "Incorrect by definition"
             },
