@@ -63,7 +63,7 @@
                 "a": "Correct by definition of $R^{3}$",
                 "b": "Incorrect by definition of $R^{3}$",
                 "c": "Incorrect by definition of $R^{3}$",
-                "d": "Incorrect by definition of $R^{3}$".
+                "d": "Incorrect by definition of $R^{3}$"
             },
             "correctAnswer": "a",
             "difficulty": "beginner"
