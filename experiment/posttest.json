@@ -9,10 +9,10 @@
                 "d": "addition and division"
             },
             "explanations": {
-                "a": "Explanation 1  <a href='www.google.com'>here</a>",
-                "b": "Explanation 2",
-                "c": "Explanation 2",
-                "d": "Explanation 2"
+                "a": "Incorrect by definition",
+                "b": "Incorrect by definition",
+                "c": "Correct by definition",
+                "d": "Incorrect by definition"
             },
             "correctAnswer": "c",
             "difficulty": "beginner"
@@ -26,10 +26,10 @@
                 "d": "A is false, B is false"
             },
             "explanations": {
-                "a": "Explanation 1  <a href='www.google.com'>here</a>",
-                "b": "Explanation 2",
-                "c": "Explanation 2",
-                "d": "Explanation 2"
+                "a": "Incorrect by definition",
+                "b": "Incorrect by definition",
+                "c": "Correct by definition",
+                "d": "Incorrect by definition"
             },
             "correctAnswer": "c",
             "difficulty": "beginner"
@@ -43,10 +43,10 @@
                 "d": "only for $n$<3"
             },
             "explanations": {
-                "a": "Explanation 1  <a href='www.google.com'>here</a>",
-                "b": "Explanation 2",
-                "c": "Explanation 2",
-                "d": "Explanation 2"
+                "a": "Incorrect by definition",
+                "b": "Incorrect by definition",
+                "c": "Correct by definition",
+                "d": "Incorrect by definition"
             },
             "correctAnswer": "c",
             "difficulty": "beginner"
@@ -60,10 +60,10 @@
                 "d": "A is false, B is false"
             },
             "explanations": {
-                "a": "Explanation 1  <a href='www.google.com'>here</a>",
-                "b": "Explanation 2",
-                "c": "Explanation 2",
-                "d": "Explanation 2"
+                "a": "Incorrect by definition",
+                "b": "Correct by definition",
+                "c": "Incorrect by definition",
+                "d": "Incorrect by definition"
             },
             "correctAnswer": "a",
             "difficulty": "beginner"
