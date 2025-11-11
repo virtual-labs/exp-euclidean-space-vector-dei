@@ -10,7 +10,7 @@
 <style>
     body, html {
   margin: 0;
-  font-family: Arial;
+
 }
 	h1{
   		background-color: #87ceeb;
@@ -63,7 +63,7 @@
     border:2px solid green;
 }
 form{
-    align:center;
+   
     text-align: center;
 }
 
@@ -191,7 +191,7 @@ form{
             <p>Underlying Set</p>
         </div>
         <div class="p2" id="p1">
-            <p> &emsp; R<sup>2</sup> (i.e. Plane / Vectors at Origin)</p>
+            <p> &emsp; <i>R</i><sup>2</sup> (i.e. Plane / Vectors at Origin)</p>
         </div>
    </div>
    <div class="p3" id="p3">
@@ -209,21 +209,21 @@ form{
 <div id="add" class="tabcontent" style="display: block;">
 	<div class="responsive-three-column-grid">
         <div class="col1" style="background-color:#fbeee6;">
-  	        <h3 style="color:indigo;"> Pick points P(a,b) & Q(c,d) &isin; R<sup>2</sup> to obtain S=P+Q</h3>
+  	        <h3 style="color:indigo;"> Pick points <i>P(a,b) & Q(c,d)</i> &isin; <i>R</i><sup>2</sup> to obtain <i>S=P+Q</i></h3>
   	
              <form id="cord_form" action="?" method="POST">
-    <h5 style="text-align: left;">For point P enter coordinate values:</h5> 
-    <label for="a_cord">a:</label>
+    <h4 style="text-align: left;">For point <i>P</i> enter coordinate values:</h4> 
+    <label for="a_cord"><i>a</i>:</label>
     <input type="number" id="a_cord" name="a_cord"><br><br>
-    <label for="b_cord">b:</label>
+    <label for="b_cord"><i>b</i>:</label>
     <input type="number" id="b_cord" name="b_cord"><br><br>
-    <h5 style="text-align: left;">For point Q enter coordinate values::</h5> 
-    <label for="c_cord">c:</label>
+    <h4 style="text-align: left;">For point <i>Q</i> enter coordinate values::</h4> 
+    <label for="c_cord"><i>c</i>:</label>
     <input type="number" id="c_cord" name="c_cord"><br><br>
-    <label for="d_cord">d:</label>          
+    <label for="d_cord"><i>d</i>:</label>          
     <input type="number" id="d_cord" name="d_cord"><br><br>
     <button class="subbtn" type="button" onclick="addition();">Submit</button><br/><br>
-    <label style="color:#b22222;">Chosen points in R<sup>2</sup>: </label>
+    <label style="color:#b22222;">Chosen points in <i>R</i><sup>2</sup>: </label>
     <p id='displayab' style="color:green;"></p>
     <p id='displaycd' style="color:green;"></p>
       <p id='displayabcd' style="color:deeppink;"></p>
@@ -247,21 +247,21 @@ form{
         </div>
     </div>
     <div class="statement" style="background-color: #fff9c4; font-size: 20px; text-align:center;">
-    <p>-- Practice operations in R<sup>n</sup> as you have done for R<sup>2</sup> --</p>
+    <p>-- Practice operations in <i>R</i><sup><i>n</i></sup> as you have done for <i>R</i><sup>2</sup> --</p>
     </div>
 </div>
 
 <div id="mul" class="tabcontent" style="display: none;">
 	<div class="responsive-three-column-grid">
         <div class="col1" style="background-color:#fbeee6;">
-  	<h3 style="color:indigo;">Pick points &alpha; &isin; R & P(m,n) &isin; R<sup>2</sup> to obtain S = &alpha;.P</h3>
-  	<h5>For the convenience of presentation &alpha;, m & n should be entered in such a manner where -4 &leq; &alpha; m &leq; 14 and -9 &leq; &alpha; n &leq; 9</h5>
+  	<h3 style="color:indigo;">Pick points &alpha; &isin; <i>R & P(m,n)</i> &isin; <i>R</i><sup>2</sup> to obtain <i>S</i> = &alpha;.<i>P</i></h3>
+  	<h5>For the convenience of presentation &alpha;, <i>m</i> & <i>n</i> should be entered in such a manner where -4 &leq; &alpha; <i>m</i> &leq; 14 and -9 &leq; &alpha; <i>n</i> &leq; 9</h5>
   <form id="cord_form" action="?" method="POST">
   <label for="al_cord">&alpha;:</label>
   <input type="number" id="al_cord" name="al_cord"><br><br>
-  <label for="m_cord">m:</label>
+  <label for="m_cord"><i>m</i>:</label>
   <input type="number" id="m_cord" name="m_cord"><br><br>
-  <label for="n_cord">n:</label>
+  <label for="n_cord"><i>n</i>:</label>
   <input type="number" id="n_cord" name="n_cord"><br><br>
   <button type="button" onclick="multiplication();">Submit</button><br/><br>
   <label style="color:#b22222;">Coordinate values: </label>
@@ -287,7 +287,7 @@ form{
         </div>
     </div>
     <div class="statement" style="background-color: #fff9c4; font-size: 20px; text-align:center;">
-    <p>-- Practice operations in R<sup>n</sup> as you have done for R<sup>2</sup> --</p>
+    <p>-- Practice operations in <i>R</i><sup><i>n</i></sup> as you have done for <i>R</i><sup>2</sup> --</p>
     </div>
 
 </div>

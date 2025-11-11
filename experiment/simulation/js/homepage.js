@@ -169,9 +169,9 @@ if (canvases['vectorCanvas']) {
       const xCoord = ((x - origin.x) / spacing).toFixed(2);
       const yCoord = ((origin.y - y) / spacing).toFixed(2);
       if (coordText) {
-        coordText.innerText = `(x, y) = (${xCoord}, ${yCoord})`;
+        coordText.innerHTML = `<i>(x, y)</i> = (${xCoord}, ${yCoord})`;
          document.getElementById('note3').innerHTML=`<u style="color:#009;"><strong style="color:#009;">NOTE:</strong></u> The line segment joining the origin(0, 0) and the point chosen in Step1, directed towards the point, is a vector at origin associated with the point.`;
-  document.getElementById('note2').innerHTML=`<u style="color:#009;"><strong style="color:#009;">NOTE:</strong></u><ol><li>The values of x and y are approximate values.</li> <li>The values displayed for x & y are for the last choosen point.</li></ol>`; 
+  document.getElementById('note2').innerHTML=`<u style="color:#009;"><strong style="color:#009;">NOTE:</strong></u><ol><li>The values of <i>x</i> and <i>y</i> are approximate values.</li> <li>The values displayed for <i>x</i> & <i>y</i> are for the last choosen point.</li></ol>`; 
       }
     });
   }
@@ -215,9 +215,9 @@ const aInput = document.getElementById("a_cord").value.trim();
     return;
   }
 
-  displayab.innerHTML = `(a,b) = (${a},${b})`;
-  displaycd.innerHTML = `(c,d) = (${c},${d})`;
-  displayabcd.innerHTML = `S ≡ (a+c , b+d) = (${sumX}, ${sumY})`;
+  displayab.innerHTML = `<i>(a, b)</i> = (${a},${b})`;
+  displaycd.innerHTML = `<i>(c, d)</i> = (${c},${d})`;
+  displayabcd.innerHTML = `<i>S ≡ (a+c , b+d) </i>= (${sumX}, ${sumY})`;
   
   p2note1.innerHTML = "Note: Addition performed w.r.t. the given pair of axes.";
   p2note2.innerHTML = "Note: Addition performed w.r.t. the given pair of axes.";
@@ -300,8 +300,8 @@ const aInput = document.getElementById("a_cord").value.trim();
   }
 
   displayal.innerHTML = `α = ${alpha}`;
-  displaymn.innerHTML = `P(m,n) = (${m},${n})`;
-  displayalmn.innerHTML = `S ≡ α.P = (${alphaM}, ${alphaN})`;
+  displaymn.innerHTML = `<i>P(m,n)</i> = (${m},${n})`;
+  displayalmn.innerHTML = `<i>S</i> ≡ α.<i>P</i> = (${alphaM}, ${alphaN})`;
   
   p2note3.innerHTML = "Note: Scalar Multiplication performed w.r.t. the given pair of axis.";
   p2note4.innerHTML = "Note: Scalar Multiplication performed w.r.t. the given pair of axis.";
