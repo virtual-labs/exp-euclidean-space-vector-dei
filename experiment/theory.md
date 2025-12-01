@@ -11,7 +11,7 @@ This experiment has been designed to help students with the understanding of the
 
 Note that,
 
-**a.** In (ii), "+" on the left side is the addition of R<sup>2</sup> and on the right side it is the addition of R. For example, when (2, 3) and (1, 4) in R<sup>2</sup> are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of R<sup>2</sup> and on the right side it is the addition of R.<br>
+**a.** In (ii), "+" on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of R. For example, when (2, 3) and (1, 4) in R<sup>2</sup> are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of R<sup>2</sup> and on the right side it is the addition of R.<br>
 **b.** In (iii), "." on the left side is the scalar multiplication of R<sup>2</sup> and on the right side it is the multiplication of R.For example, when 2 in R and (2, 3) in R<sup>2</sup> are multiplied, we have 2.(2, 3)=(2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of R<sup>2</sup> and on the right side it is the multiplication of R.<br>
 
 **2. Geometric Visualization:**
