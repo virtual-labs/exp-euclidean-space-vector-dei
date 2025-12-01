@@ -1,7 +1,7 @@
 This experiment has been designed to help students with the understanding of the 2-dimensional Euclidean space which is commonly visualized as the flat plane and is mathematically represented as the real vector space R<sup>2</sup>, essentially the set of all ordered pairs of real numbers, by exploring the relationship between points on the plane and elements in R<sup>2</sup>. Vector representation of a point in plane is also given. Thus students will gain a deeper appreciation of how geometry and linear algebra are interconnected. Besides, the experiment encourages learners to extend this understanding to more abstract, higher-dimensional spaces, thereby building a foundation for studying vector spaces, in general. Here, N and R denote the natural numbers and real number respectively.Let N and R denote the natural numbers and real numbers respectively.
 
 **1. 2-dimensional Euclidean Space:**
- The system ( R<sup>2</sup> ,+ , . ) together with R is the 2-dimensional Euclidean space, where
+ The system ( $R<sup>2</sup>$ ,+ , . ) together with R is the 2-dimensional Euclidean space, where
 
 **(i)** R<sup>2</sup> = { (x , y) | (x , y) ∈ R} <br>
 **(ii)** + , called addition, is defined as <br>
