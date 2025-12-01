@@ -63,7 +63,7 @@ c. Multiplication: (a+ib).(c+id)=(ac-bd+(bc+ad)i), where (a+ib) and (c+id)∈C.
 
 **7. Example** <br>
 &emsp; **i.** The system (R<sup>n</sup>, +, .) is a vector space over R, where addition and scalar multiplication are described above. The zero of this vector space is 0≡(0, 0, 0, …, 0). Thus elements of Rn are vectors and elements of R are scalars. In the particular case when n=1, elements of R are both vectors and scalars. <br>
-&emsp; **ii.** The system (M<sup>2x2</sup>, +, .) is a vector space over R,<br>
+&emsp; **ii.** The system (M<sup>2x2</sup>, +, .) is a vector space over R,where \( M = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \) <br>
  ![Matrix Image](images/exp1theoimg.png "Vector Represntation")
  
 **iii.** The system (R<sup>2</sup>, +, .) is not a vector space over R, where operations addition and scalar multiplication are described as follows: (x, y)+(a, b)=(x+a, 0), where x, y, a, b&isin;R and c(x, y)=(cx, 0); where c, x, y&isin;R. Reason:  There does not exist (a, b) such that (2,1)+(a, b)=(2,1) because if exists, then (2+a, 0)=(2, 1) i.e. 0=1, a contradiction.  
