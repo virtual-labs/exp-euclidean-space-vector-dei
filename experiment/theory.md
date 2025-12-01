@@ -39,7 +39,7 @@ It can be geometrically visualised for 1≤<i>n</i>≤3 only.
 
 **For Addition:** <br>
 &emsp; **i.** For each pair of elements <i>x, y</i> ∈ <i>V</i>, there is a unique element <i>x</i> + <i>y</i> ∈ <i>V</i> <br> 
-&emsp; **ii.** Commutativity: x + y = y + x; for x, y ∈ V <br>
+&emsp; **ii.** Commutativity: <i>x</i> + <i>y</i> = <i>y + x</i>; for x, y ∈ V <br>
 &emsp; **iii.** Associativity: (x + y) + z = x + (y + z), for x, y, z ∈ V <br>
 &emsp; **iv.** Additive identity: There exists an element O ∈ V such that x + O = x, for x ∈ V.<br>
 &emsp;  &emsp; This O which is the additive identity of (V, +), is called the zero of V and is denoted by 0.<br>
