@@ -3,7 +3,7 @@ This experiment has been designed to help students with the understanding of the
 **1. 2-dimensional Euclidean Space:**
  The system ( $R^{2}$ ,+ , . ) together with R is the 2-dimensional Euclidean space, where
 
-**(i)** $R^{2} = { (x , y) | (x , y)\isin R}$ <br>
+**(i)** $R^{2} = { (x , y) | (x , y)\in R}$ <br>
 **(ii)** + , called addition, is defined as <br>
 &emsp; (a , b) + (c , d) = ( a+c , b+d ); where (a , b) and (c , d) ∈ R<sup>2</sup> <br>
 **(iii)** . , called scalar multiplication, is defined as <br> 
