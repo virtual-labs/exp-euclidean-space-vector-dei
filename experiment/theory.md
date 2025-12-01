@@ -1,25 +1,25 @@
-This experiment has been designed to help students with the understanding of the 2-dimensional Euclidean space which is commonly visualized as the flat plane and is mathematically represented as the real vector space R<sup>2</sup>, essentially the set of all ordered pairs of real numbers, by exploring the relationship between points on the plane and elements in $R^{2}$. Vector representation of a point in plane is also given. Thus students will gain a deeper appreciation of how geometry and linear algebra are interconnected. Besides, the experiment encourages learners to extend this understanding to more abstract, higher-dimensional spaces, thereby building a foundation for studying vector spaces, in general. Here, N and R denote the natural numbers and real number respectively.Let N and R denote the natural numbers and real numbers respectively.
+This experiment has been designed to help students with the understanding of the 2-dimensional Euclidean space which is commonly visualized as the flat plane and is mathematically represented as the real vector space <i>R</i><sup>2</sup>, essentially the set of all ordered pairs of real numbers, by exploring the relationship between points on the plane and elements in <i>R</i><sup>2</sup>. Vector representation of a point in plane is also given. Thus students will gain a deeper appreciation of how geometry and linear algebra are interconnected. Besides, the experiment encourages learners to extend this understanding to more abstract, higher-dimensional spaces, thereby building a foundation for studying vector spaces, in general. Here, <i>N</i> and <i>R</i> denote the natural numbers and real number respectively.Let <i>N</i> and <i>R</i> denote the natural numbers and real numbers respectively.
 
 **1. 2-dimensional Euclidean Space:**
- The system ( $R^{2}$ ,+ , . ) together with R is the 2-dimensional Euclidean space, where
+ The system ( <i>R</i><sup>2</sup> ,+ , . ) together with <i>R</i> is the 2-dimensional Euclidean space, where
 
-**(i)** $R^{2} = { (x , y) | (x , y)\in R}$ <br>
+**(i)**  <i>R</i><sup>2</sup> = { (<i>x</i> , <i>y</i>) | (<i>x</i> , <i>y</i>)∈ <i>R</i> } <br>
 **(ii)** + , called addition, is defined as <br>
-&emsp; (a , b) + (c , d) = ( a+c , b+d ); where (a , b) and (c , d) ∈ R<sup>2</sup> <br>
+&emsp; (<i>a</i> , <i>b</i>) + (<i>c</i> , <i>d</i>) = ( <i>a+c</i> , <i>b+d</i> ); where (<i>a</i> , <i>b</i>) and (<i>c</i> , <i>d</i>) ∈ <i>R</i><sup>2</sup> <br>
 **(iii)** . , called scalar multiplication, is defined as <br> 
-&emsp; α . (a , b) = (α . a , α . b); where α ∈ R and (a , b) ∈ R<sup>2</sup> . <br>
+&emsp; <i>α</i> . (<i>a</i> , <i>b</i>) = (<i>α . a</i> , <i>α . b</i>); where α ∈ <i>R</i> and (<i>a</i> , <i>b</i>) ∈ <i>R</i><sup>2</sup> . <br>
 
 Note that,
 
-**a.** In (ii), "+" on the left side is the addition of R<sup>2</sup> and on the right side it is the addition of R. For example, when (2, 3) and (1, 4) in R<sup>2</sup> are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of R<sup>2</sup> and on the right side it is the addition of R.<br>
-**b.** In (iii), "." on the left side is the scalar multiplication of R<sup>2</sup> and on the right side it is the multiplication of R.For example, when 2 in R and (2, 3) in R<sup>2</sup> are multiplied, we have 2.(2, 3)=(2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of R<sup>2</sup> and on the right side it is the multiplication of R.<br>
+**a.** In (ii), "+" on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>. For example, when (2, 3) and (1, 4) in <i>R</i><sup>2</sup> are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>.<br>
+**b.** In (iii), "." on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>. For example, when 2 in <i>R</i> and (2, 3) in <i>R</i><sup>2</sup> are multiplied, we have 2.(2, 3)=(2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>.<br>
 
 **2. Geometric Visualization:**
-It is well known that there is a one-to-one correspondence between the plane and R<sup>2</sup>. That is, for each point on the plane there corresponds an element of R<sup>2</sup> and conversely, to each element of R<sup>2</sup> there is a point in the plane. **It may be noted** that this association between points in the plane and the elements in R<sup>2</sup> is with respect to a given pair of axes. Thus given a point on the plane, if we change the chosen axes, the element in R<sup>2</sup> may be changed. Similarly, given an element in R<sup>2</sup>, if we change the chosen axes, a different point on the plane may be obtained.<br>
-In the same manner, R and R<sup>3</sup> can be identified with the line and space respectively. Such a visualization is not possible for R<sup>n</sup> , for n>3.
+It is well known that there is a one-to-one correspondence between the plane and <i>R</i><sup>2</sup>. That is, for each point on the plane there corresponds an element of <i>R</i><sup>2</sup> and conversely, to each element of <i>R</i><sup>2</sup> there is a point in the plane. **It may be noted** that this association between points in the plane and the elements in <i>R</i><sup>2</sup> is with respect to a given pair of axes. Thus given a point on the plane, if we change the chosen axes, the element in <i>R</i><sup>2</sup> may be changed. Similarly, given an element in <i>R</i><sup>2</sup>, if we change the chosen axes, a different point on the plane may be obtained.<br>
+In the same manner, <i>R</i> and <i>R</i><sup>3</sup> can be identified with the line and space respectively. Such a visualization is not possible for <i>R</i><R<sup>n</sup> , for n>3.
 
 **3. Math Model of Line, Plane and Space:**
-The one-to-one correspondence between the plane and R<sup>2</sup>, described above provides an identification of plane with R<sup>2</sup>. Therefore R<sup>2</sup> serves as a mathematical model for the study of the plane. Similarly, R and R<sup>3</sup> serve as mathematical models for the study of the line and the space, respectively.
+The one-to-one correspondence between the plane and <i>R</i><sup>2</sup>, described above provides an identification of plane with <i>R</i><sup>2</sup>. Therefore <i>R</i><sup>2</sup> serves as a mathematical model for the study of the plane. Similarly, R and <i>R</i>R<sup>3</sup> serve as mathematical models for the study of the line and the space, respectively.
 
 **4. Vector Representation:**
 Let P be a point in the given Fig.1. Let (u, v) be the corresponding ordered pair. The line segment joining the origin and the point directed towards the point is called the vector at the origin associated with the point P. Please see the diagram given below.
@@ -27,7 +27,7 @@ Let P be a point in the given Fig.1. Let (u, v) be the corresponding ordered pai
  ![Vector Representation](images/exp1newimage.jpeg "Vector Represntation")
 
 **5. n-dimensional Euclidean Space:**
- It is the system ( R<sup>n</sup> , + , . ) together with R, where R<sup>n</sup> = {(x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub>) | x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub> ∈ R} and operations + and . called addition and scalar multiplication respectively are defined as:
+ It is the system ( <i>R</i><sup>n</sup> , + , . ) together with R, where <i>R</i><sup>n</sup> = {(x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub>) | x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub> ∈ R} and operations + and . called addition and scalar multiplication respectively are defined as:
 
 **(i)** {(x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub>) + (y<sub>1</sub>, y<sub>2</sub>, y<sub>3</sub>, ... , y<sub>n</sub>) = (x<sub>1</sub>+y<sub>1</sub> , x<sub>2</sub>+y<sub>2</sub> , ... , x<sub>n</sub>+y<sub>n</sub>)}; where (x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub>) , (y<sub>1</sub>, y<sub>2</sub>, y<sub>3</sub>, ... , y<sub>n</sub>) ∈ R<sup>n</sup> <br>
 **(ii)** α . (x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub>) = (α.x<sub>1</sub>, α.x<sub>2</sub>, α.x<sub>3</sub>, ... , α.x<sub>n</sub>); where α ∈ R and (x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub>) ∈ R<sup>n</sup>
@@ -63,7 +63,7 @@ c. Multiplication: (a+ib).(c+id)=(ac-bd+(bc+ad)i), where (a+ib) and (c+id)∈C.
 
 **7. Example** <br>
 &emsp; **i.** The system (R<sup>n</sup>, +, .) is a vector space over R, where addition and scalar multiplication are described above. The zero of this vector space is 0≡(0, 0, 0, …, 0). Thus elements of Rn are vectors and elements of R are scalars. In the particular case when n=1, elements of R are both vectors and scalars. <br>
-&emsp; **ii.** The system (M<sup>2x2</sup>, +, .) is a vector space over R,<br>
+&emsp; **ii.** The system (M<sup>2x2</sup>, +, .) is a vector space over R,where \( M = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \) <br>
  ![Matrix Image](images/exp1theoimg.png "Vector Represntation")
  
 **iii.** The system (R<sup>2</sup>, +, .) is not a vector space over R, where operations addition and scalar multiplication are described as follows: (x, y)+(a, b)=(x+a, 0), where x, y, a, b&isin;R and c(x, y)=(cx, 0); where c, x, y&isin;R. Reason:  There does not exist (a, b) such that (2,1)+(a, b)=(2,1) because if exists, then (2+a, 0)=(2, 1) i.e. 0=1, a contradiction.  
