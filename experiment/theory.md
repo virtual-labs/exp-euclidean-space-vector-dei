@@ -22,23 +22,23 @@ In the same manner, <i>R</i> and <i>R</i><sup>3</sup> can be identified with the
 The one-to-one correspondence between the plane and <i>R</i><sup>2</sup>, described above provides an identification of plane with <i>R</i><sup>2</sup>. Therefore <i>R</i><sup>2</sup> serves as a mathematical model for the study of the plane. Similarly, R and <i>R</i>R<sup>3</sup> serve as mathematical models for the study of the line and the space, respectively.
 
 **4. Vector Representation:**
-Let P be a point in the given Fig.1. Let (u, v) be the corresponding ordered pair. The line segment joining the origin and the point directed towards the point is called the vector at the origin associated with the point P. Please see the diagram given below.
+Let P be a point in the given Fig.1. Let (<i>u</i>, <i>v</i>) be the corresponding ordered pair. The line segment joining the origin and the point directed towards the point is called the vector at the origin associated with the point P. Please see the diagram given below.
 
  ![Vector Representation](images/exp1newimage.jpeg "Vector Represntation")
 
 **5. n-dimensional Euclidean Space:**
- It is the system ( <i>R</i><sup>n</sup> , + , . ) together with R, where <i>R</i><sup>n</sup> = {(x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub>) | x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub> ∈ R} and operations + and . called addition and scalar multiplication respectively are defined as:
+ It is the system ( <i>R</i><sup>n</sup> , + , . ) together with <i>R</i>, where <i>R</i><sup>n</sup> = {(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ... , <i>x</i><sub>n</sub>) | <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ... , <i>x</i><sub>n</sub> ∈ <i>R</i>} and operations + and . called addition and scalar multiplication respectively are defined as:
 
-**(i)** {(x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub>) + (y<sub>1</sub>, y<sub>2</sub>, y<sub>3</sub>, ... , y<sub>n</sub>) = (x<sub>1</sub>+y<sub>1</sub> , x<sub>2</sub>+y<sub>2</sub> , ... , x<sub>n</sub>+y<sub>n</sub>)}; where (x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub>) , (y<sub>1</sub>, y<sub>2</sub>, y<sub>3</sub>, ... , y<sub>n</sub>) ∈ R<sup>n</sup> <br>
-**(ii)** α . (x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub>) = (α.x<sub>1</sub>, α.x<sub>2</sub>, α.x<sub>3</sub>, ... , α.x<sub>n</sub>); where α ∈ R and (x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ... , x<sub>n</sub>) ∈ R<sup>n</sup>
+**(i)** {(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ... , <i>x</i><sub>n</sub>) + (<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>, <i>y</i><sub>3</sub>, ... , <i>y</i><sub>n</sub>) = (<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub> , <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub> , ... , <i>x</i><sub>n</sub>+<i>y</i><sub>n</sub>)}; where (<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ... , <i>x</i><sub>n</sub>) , (<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>, <i>y</i><sub>3</sub>, ... , <i>y</i><sub>n</sub>) ∈ <i>R</i><sup>n</sup> <br>
+**(ii)** α . (<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ... , <i>x</i><sub>n</sub>) = (<i>α.x</i><sub>1</sub>, <i>α.x</i><sub>2</sub>, <i>α.x</i><sub>3</sub>, ... , <i>α.x</i><sub>n</sub>); where <i>α</i> ∈ <i>R</i> and (<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ... , <i>x</i><sub>n</sub>) ∈ <i>R</i><sup>n</sup>
 
-It can be geometrically visualised for 1≤n≤3 only. 
+It can be geometrically visualised for 1≤<i>n</i>≤3 only. 
 
 **6. Vector Space:**
- Let F=R or C, where C is set of complex numbers which is described below in Note (ii). Given a non-empty set V and operations "+" **(called addition)** and "." **(called scalar multiplication)**, the system (V , + , .) together with F is called a **vector space** over F, if the following conditions hold:
+ Let <i>F=R</i> or <i>C</i>, where <i>C</i> is set of complex numbers which is described below in Note (ii). Given a non-empty set <i>V</i> and operations "+" **(called addition)** and "." **(called scalar multiplication)**, the system (<i>V</i> , + , .) together with <i>F</i> is called a **vector space** over <i>F</i>, if the following conditions hold:
 
 **For Addition:** <br>
-&emsp; **i.** For each pair of elements x, y ∈ V, there is a unique element x + y ∈ V <br> 
+&emsp; **i.** For each pair of elements <i>x, y</i> ∈ <i>V</i>, there is a unique element <i>x</i> + <i>y</i> ∈ <i>V</i> <br> 
 &emsp; **ii.** Commutativity: x + y = y + x; for x, y ∈ V <br>
 &emsp; **iii.** Associativity: (x + y) + z = x + (y + z), for x, y, z ∈ V <br>
 &emsp; **iv.** Additive identity: There exists an element O ∈ V such that x + O = x, for x ∈ V.<br>
