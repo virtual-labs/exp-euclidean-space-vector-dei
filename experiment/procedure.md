@@ -8,4 +8,4 @@
 8.	Press “Next” button to go to the next page to understand <i>n</i>-dimensional Euclidean space as a vector space.
 9.	Select desired value of <i>n</i> by pressing the appropriate tab to understand the Euclidean space for different values on <i>n</i>. By default, “<i>n</i>=1” appears.
 10.	Go through the definition of <i>n</i>-dimensional Euclidean space as a vector space given at the end.
-11.	Press “Previous” button to go to the previous page if required.
+11.	Press “Previous” button to go to the previous page, if required.
