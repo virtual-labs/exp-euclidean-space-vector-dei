@@ -39,16 +39,16 @@ It can be geometrically visualised for 1≤<i>n</i>≤3 only.
 
 **For Addition:** <br>
 &emsp; **i.** For each pair of elements <i>x, y</i> ∈ <i>V</i>, there is a unique element <i>x</i> + <i>y</i> ∈ <i>V</i> <br> 
-&emsp; **ii.** Commutativity: <i>x</i> + <i>y</i> = <i>y + x</i>; for x, y ∈ V <br>
-&emsp; **iii.** Associativity: (x + y) + z = x + (y + z), for x, y, z ∈ V <br>
-&emsp; **iv.** Additive identity: There exists an element O ∈ V such that x + O = x, for x ∈ V.<br>
-&emsp;  &emsp; This O which is the additive identity of (V, +), is called the zero of V and is denoted by 0.<br>
-&emsp; **v.** Additive inverse: For every x ∈ V, there exists an element y ∈ V such that x + y = 0. This y is called the additive inverse of x and is denoted by -x.
+&emsp; **ii.** Commutativity: <i>x</i> + <i>y</i> = <i>y + x</i>; for <i>x, y</i> ∈ <i>V</i> <br>
+&emsp; **iii.** Associativity: (<i>x + y</i>) + <i>z</i> = <i>x + (y + z)</i>, for <i>x, y, z</i> ∈ <i>V</i> <br>
+&emsp; **iv.** Additive identity: There exists an element 0 ∈ <i>V</i> such that <i>x</i> + 0 = <i>x</i>, for <i>x</i> ∈ <i>V</i>.<br>
+&emsp;  &emsp; This O which is the additive identity of (<i>V</i>, +), is called the zero of <i>V</i> and is denoted by 0.<br>
+&emsp; **v.** Additive inverse: For every <i>x</i> ∈ <i>V</i>, there exists an element <i>y</i> ∈ <i>V</i> such that <i>x + y</i> = 0. This <i>y</i> is called the additive inverse of <i>x</i> and is denoted by <i>-x</i>.
 
 **For Scalar Multiplication:** <br>
-&emsp; **i.** For each x ∈ V and a ∈ F, there is a unique element a.x ∈ V <br>
-&emsp; **ii.** Associativity: (ab).x = a.(bx) = x.(ab); for x ∈ V and a, b ∈ F. <br>
-&emsp; **iii.** 1.x = x.1 = x, for x ∈ V, where 1 is the additive identity of F.
+&emsp; **i.** For each <i>x</i> ∈ <i>V</i> and <i>a</i> ∈ <i>F</i>, there is a unique element <i>a.x ∈ V</i> <br>
+&emsp; **ii.** Associativity: <i>(ab).x = a.(bx) = x.(ab)</i>; for <i>x ∈ V</i> and <i>a, b ∈ F</i>. <br>
+&emsp; **iii.** <i>1.x = x.1 = x</i>, for <i>x ∈ V</i>, where 1 is the additive identity of <i>F</i>.
 
 **Compatibility Conditions:** <br>
 &emsp; **i.** Distributive Property 1: a.(x+y) = a.x + a.y; for x, y ∈ V and a ∈ F. <br> 
