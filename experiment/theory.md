@@ -63,7 +63,7 @@ c. Multiplication: (<i>a+ib</i>).(<i>c+id</i>)=(<i>ac-bd</i>+(<i>bc+ad</i>)<i>i<
 
 **7. Example** <br>
 &emsp; **i.** The system (<i>R</i><sup>n</sup>, +, .) is a vector space over <i>R</i>, where addition and scalar multiplication are described above. The zero of this vector space is 0≡(0, 0, 0, …, 0). Thus elements of <i>R</i><sup>n</sup> are vectors and elements of <i>R</i> are scalars. In the particular case when <i>n</i>=1, elements of <i>R</i> are both vectors and scalars. <br>
-&emsp; **ii.** The system \(A=\begin{pmatrix}
+&emsp; **ii.** The system \(<i>M</i><sup>2x2</sup>=\begin{pmatrix}
  	a & b  \\
  	
  	c & d
