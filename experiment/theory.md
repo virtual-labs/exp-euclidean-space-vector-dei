@@ -63,7 +63,12 @@ c. Multiplication: (<i>a+ib</i>).(<i>c+id</i>)=(<i>ac-bd</i>+(<i>bc+ad</i>)<i>i<
 
 **7. Example** <br>
 &emsp; **i.** The system (<i>R</i><sup>n</sup>, +, .) is a vector space over <i>R</i>, where addition and scalar multiplication are described above. The zero of this vector space is 0≡(0, 0, 0, …, 0). Thus elements of <i>R</i><sup>n</sup> are vectors and elements of <i>R</i> are scalars. In the particular case when <i>n</i>=1, elements of <i>R</i> are both vectors and scalars. <br>
-&emsp; **ii.** The system (<i>M</i><sup>2x2</sup>, +, .) is a vector space over <i>R</i>, where \( <i>M</i> = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \) <br>
+&emsp; **ii.** The system \(A=\begin{pmatrix}
+ 	a & b  \\
+ 	
+ 	c & d
+ 	
+ \end{pmatrix}\)(<i>M</i><sup>2x2</sup>, +, .) is a vector space over <i>R</i>, where \( <i>M</i> = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \) <br>
  ![Matrix Image](images/exp1theoimg.png "Vector Represntation")
  
 **iii.** The system (<i>R</i><sup>2</sup>, +, .) is not a vector space over R, where operations addition and scalar multiplication are described as follows: (<i>x, y</i>)+(<i>a, b</i>)=(<i>x+a</i>, 0), where <i>x, y, a, b&isin;R</i> and <i>c</i>(<i>x, y</i>)=(<i>cx</i>, 0); where <i>c, x, y&isin;R</i>. Reason:  There does not exist (<i>a, b</i>) such that (2,1)+(<i>a, b</i>)=(2,1) because if exists, then (2+<i>a</i>, 0)=(2, 1) i.e. 0=1, a contradiction.  
