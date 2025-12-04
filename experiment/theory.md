@@ -63,17 +63,17 @@ c. Multiplication: (<i>a+ib</i>).(<i>c+id</i>)=(<i>ac-bd</i>+(<i>bc+ad</i>)<i>i<
 
 **7. Example** <br>
 &emsp; **i.** The system (<i>R</i><sup>n</sup>, +, .) is a vector space over <i>R</i>, where addition and scalar multiplication are described above. The zero of this vector space is 0≡(0, 0, 0, …, 0). Thus elements of <i>R<sup>n</sup></i> are vectors and elements of <i>R</i> are scalars. In the particular case when <i>n</i>=1, elements of <i>R</i> are both vectors and scalars. <br>
-&emsp; **ii.** The system (<i>M</i><sup>2x2</sup>, +, .) is a vector space over <i>R</i>, { where <i>M<sup>2X2</sup></i> = $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} $ <i>a, b, c, d</i> &isin; <i>R</i> }, operation addition is defined to be $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} + \begin{pmatrix} r & s \\ t & u \end{pmatrix} = \begin{pmatrix} a+r & b+s \\ c+t & d+u \end{pmatrix} $ and the operation scaler multiplication is defined to be α. $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{pmatrix} α.a & α.b \\ α.c & α.d \end{pmatrix} $ . The zero of this vector space is 0 $ \equiv \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}. $ <br> 
-**iii.** The system (<i>R</i><sup>2</sup>, +, .) is not a vector space over R, where operations addition and scalar multiplication are described as follows: (<i>x, y</i>)+(<i>a, b</i>)=(<i>x+a</i>, 0), where <i>x, y, a, b&isin;R</i> and <i>c</i>(<i>x, y</i>)=(<i>cx</i>, 0); where <i>c, x, y&isin;R</i>. Reason:  There does not exist (<i>a, b</i>) such that (2,1)+(<i>a, b</i>)=(2,1) because if exists, then (2+<i>a</i>, 0)=(2, 1) i.e. 0=1, a contradiction.  
+&emsp; **ii.** The system (<i>M</i><sup>2x2</sup>, +, .) is a vector space over <i>R</i>, { where <i>M<sup>2X2</sup></i> = $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} $ <i>a, b, c, d</i> &isin; <i>R</i> }, operation addition is defined to be $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} + \begin{pmatrix} r & s \\ t & u \end{pmatrix} = \begin{pmatrix} a+r & b+s \\ c+t & d+u \end{pmatrix} $ and the operation scaler multiplication is defined to be α. $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{pmatrix} α.a & α.b \\ α.c & α.d \end{pmatrix}. $ The zero of this vector space is 0 $ \equiv \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}. $ <br> 
+&emsp; **iii.** The system (<i>R</i><sup>2</sup>, +, .) is not a vector space over <i>R</i>, where operations addition and scalar multiplication are described as follows: (<i>x, y</i>)+(<i>a, b</i>)=(<i>x+a</i>, 0), where <i>x, y, a, b&isin;R</i> and <i>c</i>(<i>x, y</i>)=(<i>cx</i>, 0); where <i>c, x, y&isin;R</i>. Reason:  There does not exist (<i>a, b</i>) such that (2,1)+(<i>a, b</i>)=(2,1) because if exists, then (2+<i>a</i>, 0)=(2, 1) i.e. 0=1, a contradiction.  
  
 **8. Properties**
-Let <i>V</i> be a vector space over <i>R</i>. For <i>v, w ∈ V</i> and <i>α ∈ F</i>,
+Let <i>V</i> be a vector space over <i>R</i>. For <i>v, w</i> <i>∈ V</i> and <i>α</i> ∈ <i>F</i>,
 
 &emsp; **A.** 0.<i>v</i> = 0 <br>
 &emsp;&emsp;   (0 on the left side is the zero of <i>F</i> and on the right side it is the zero of <i>V</i>) <br>
 &emsp; **B.** <i>α.v</i> = 0 implies <i>α</i> = 0 or <i>v</i> = 0<br>
 &emsp;&emsp;   (-1).<i>x</i> = <i>-x</i>, <i>x ∈ V</i>, -1 ∈ <i>F</i><br> 
-&emsp; **C.** <i>α.v = α.w</i> and <i>α</i> ≠ 0 implies <i>v = w</i>.<br>
+&emsp; **C.** <i>α.v = α.w</i> and <i>α</i> ≠ 0 implies $ v = w $.<br>
 &emsp; **D.** Notice that v.w and v.α are not defined.
 
 **9. Significance**
