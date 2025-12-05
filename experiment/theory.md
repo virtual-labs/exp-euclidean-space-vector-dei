@@ -27,7 +27,7 @@ Let $ P $ be a point in the given Fig.1. Let $ (u, v) $ be the corresponding ord
  ![Vector Representation](images/exp1newimage.jpeg "Vector Represntation")
 
 **5. $ n $-dimensional Euclidean Space:**
- It is the system $( R^{n} , + , . ) together with $ R $, where $ R^{n} = {(x_{1}, x_{2}, x_{3}, ... , x_{n}) | x_{1}, x_{2}, x_{3}, ... , x_{n} ∈ R } $ and operations + and . called addition and scalar multiplication respectively are defined as:
+ It is the system $( R^{n} , + , . ) $ together with $ R $, where $ R^{n} = {(x_{1}, x_{2}, x_{3}, ... , x_{n}) | x_{1}, x_{2}, x_{3}, ... , x_{n} ∈ R } $ and operations + and . called addition and scalar multiplication respectively are defined as:
 
 **(i)** $ {(x_{1}, x_{2}, x_{3}, ... , x_{n}) + (y_{1}, y_{2}, y_{3}, ... , (y_{n}) = (x_{1}+y_{1}, x_{2}+y_{2} , ... , x_{n}+y_{n})}; $ where $ (x_{1}, x_{2}, x_{3}, ... , x_{n}), (y_{1}, y_{2}, y_{3}, ... , (y_{n}) ∈ R^{n} $ <br>
 **(ii)** $ α.(x_{1}, x_{2}, x_{3}, ... , x_{n}) = (α.x_{1}, α.x_{2}, α.x_{3}, ... , α.x_{n}); $ where $ α ∈ R $ and $ (x_{1}, x_{2}, x_{3}, ... , x_{n}) ∈ R^{n} $
@@ -58,16 +58,16 @@ It can be geometrically visualised for $ 1 ≤ n ≤ 3 $ only.
 (ii) Let $ C $ be the set of complex numbers and each of its elements is denoted by $ a+ib $, where $ a, b ∈ R $.  The operations ‘‘+’’ (addition), ‘‘.’’ (scalar multiplication) and ‘‘.’’ (multiplication) on $ C $, defined as follows: <br> 
 a. Addition: $ (a+ib)+(c+id)=((a+c)+(b+d)i) $, where $ (a+ib) $ and $ (c+id)∈C $. <br> 
 b. Scalar multiplication: $ α.(a+ib)=(α.a+α.ib) $, where $ α ∈ R $ and $ (a+ib)∈ C $. <br> 
-c. Multiplication: $ (a+ib).(c+id)=(ac-bd+(bc+ad)i) $, where $ (a+ib) $ and $ (c+id ∈ C $.
+c. Multiplication: $ (a+ib).(c+id)=(ac-bd+(bc+ad)i) $, where $ (a+ib) $ and $ (c+id) ∈ C $.
 
 
 **7. Example** <br>
 &emsp; **i.** The system $ (R^{n}, +, .) $ is a vector space over $ R $, where addition and scalar multiplication are described above. The zero of this vector space is 0≡(0, 0, 0, …, 0). Thus elements of $ R^{n} $ are vectors and elements of $ R $ are scalars. In the particular case when $ n=1, $ elements of $ R $ are both vectors and scalars. <br>
-&emsp; **ii.** The system $ (M^{2\times2}, +, .) $ is a vector space over $ R, { $ where $ M^{2\times2} =  \begin{pmatrix} a & b \\ c & d \end{pmatrix} a, b, c, d &isin; R $ }, operation addition is defined to be $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} + \begin{pmatrix} r & s \\ t & u \end{pmatrix} = \begin{pmatrix} a+r & b+s \\ c+t & d+u \end{pmatrix} $ and the operation scaler multiplication is defined to be $ α. \begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{pmatrix} α.a & α.b \\ α.c & α.d \end{pmatrix}. $ The zero of this vector space is 0 $ \equiv \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}. $ <br> 
-&emsp; **iii.** The system $ (R^{2} , +, .) $ is not a vector space over $ R $, where operations addition and scalar multiplication are described as follows:$ (x, y)+(a, b)=(x+a, 0) $, where $ x, y, a, b &isin; R $ and $ c(x, y)=(cx, 0) $; where $ c, x, y &isin; R $. Reason:  There does not exist $ (a, b) $ such that $ (2,1)+(a, b)=(2,1) $ because if exists, then $ (2+a, 0)=(2, 1) $ i.e. 0=1, a contradiction.  
+&emsp; **ii.** The system $ (M^{2\times2}, +, .) $ is a vector space over $ R $, {where $ M^{2\times2} =  \begin{pmatrix} a & b \\ c & d \end{pmatrix} a, b, c, d \in R $ }, operation addition is defined to be $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} + \begin{pmatrix} r & s \\ t & u \end{pmatrix} = \begin{pmatrix} a+r & b+s \\ c+t & d+u \end{pmatrix} $ and the operation scaler multiplication is defined to be $ α. \begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{pmatrix} α.a & α.b \\ α.c & α.d \end{pmatrix}. $ The zero of this vector space is 0 $ \equiv \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}. $ <br> 
+&emsp; **iii.** The system $ (R^{2} , +, .) $ is not a vector space over $ R $, where operations addition and scalar multiplication are described as follows:$ (x, y)+(a, b)=(x+a, 0) $, where $ x, y, a, b \in; R $ and $ c(x, y)=(cx, 0) $; where $ c, x, y &isin; R $. Reason:  There does not exist $ (a, b) $ such that $ (2,1)+(a, b)=(2,1) $ because if exists, then $ (2+a, 0)=(2, 1) $ i.e. 0=1, a contradiction.  
  
 **8. Properties**
-Let $ V $ be a vector space over $ R $. For $ v, w ∈ V and $ α ∈ F $,
+Let $ V $ be a vector space over $ R $. For $ v, w ∈ V $ and $ α ∈ F $,
 
 &emsp; **A.** 0.$ v $ = 0 <br>
 &emsp;&emsp;   (0 on the left side is the zero of $ F $ and on the right side it is the zero of $ V $) <br>
