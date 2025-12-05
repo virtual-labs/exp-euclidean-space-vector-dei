@@ -1,11 +1,11 @@
-This experiment has been designed to help students with the understanding of the 2-dimensional Euclidean space which is commonly visualized as the flat plane and is mathematically represented as the real vector space <i>R</i><sup>2</sup>, essentially the set of all ordered pairs of real numbers, by exploring the relationship between points on the plane and elements in <i>R</i><sup>2</sup>. Vector representation of a point in plane is also given. Thus students will gain a deeper appreciation of how geometry and linear algebra are interconnected. Besides, the experiment encourages learners to extend this understanding to more abstract, higher-dimensional spaces, thereby building a foundation for studying vector spaces, in general. Here, <i>N</i> and <i>R</i> denote the natural numbers and real number respectively.Let <i>N</i> and <i>R</i> denote the natural numbers and real numbers respectively.
+This experiment has been designed to help students with the understanding of the 2-dimensional Euclidean space which is commonly visualized as the flat plane and is mathematically represented as the real vector space $ R^{2} $, essentially the set of all ordered pairs of real numbers, by exploring the relationship between points on the plane and elements in $ R^{2} $. Vector representation of a point in plane is also given. Thus students will gain a deeper appreciation of how geometry and linear algebra are interconnected. Besides, the experiment encourages learners to extend this understanding to more abstract, higher-dimensional spaces, thereby building a foundation for studying vector spaces, in general. Here, $ N $ and $ R $ denote the natural numbers and real number respectively.Let $ N $ and $ R $ denote the natural numbers and real numbers respectively.
 
 **1. 2-dimensional Euclidean Space:**
- The system ( <i>R</i><sup>2</sup> ,+ , . ) together with <i>R</i> is the 2-dimensional Euclidean space, where
+ The system ( $ R^{2} $ ,+ , . ) together with $ R $ is the 2-dimensional Euclidean space, where
 
-**(i)**  <i>R</i><sup>2</sup> = { (<i>x</i> , <i>y</i>) | (<i>x</i> , <i>y</i>)∈ <i>R</i> } <br>
+**(i)**  $ R^{2} = { ( x , y) | (x , y)∈ R } $ <br>
 **(ii)** + , called addition, is defined as <br>
-&emsp; (<i>a</i> , <i>b</i>) + (<i>c</i> , <i>d</i>) = ( <i>a+c</i> , <i>b+d</i> ); where (<i>a</i> , <i>b</i>) and (<i>c</i> , <i>d</i>) ∈ <i>R</i><sup>2</sup> <br>
+&emsp; $ (a , b) + (c, d) = ( a+c , b+d ) $; where (<i>a</i> , <i>b</i>) and (<i>c</i> , <i>d</i>) ∈ <i>R</i><sup>2</sup> <br>
 **(iii)** . , called scalar multiplication, is defined as <br> 
 &emsp; α . (<i>a</i> , <i>b</i>) = (α . <i>a</i> , α . <i>b</i>); where α ∈ <i>R</i> and (<i>a</i> , <i>b</i>) ∈ <i>R</i><sup>2</sup> . <br>
 
