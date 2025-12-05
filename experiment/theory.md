@@ -19,7 +19,7 @@ It is well known that there is a one-to-one correspondence between the plane and
 In the same manner,  $ R $  and  $ R^{3} $  can be identified with the line and space respectively. Such a visualization is not possible for $ R < R^{2} $  , for $ n>3 $.
 
 **3. Math Model of Line, Plane and Space:**
-$ The one-to-one correspondence between the plane and <i>R</i><sup>2</sup>, described above provides an identification of plane with <i>R</i><sup>2</sup>. Therefore <i>R</i><sup>2</sup> serves as a mathematical model for the study of the plane. Similarly, R and $ R^{3} $  serve as mathematical models for the study of the line and the space, respectively. $
+$ \text{The one-to-one correspondence between the plane and } R^{2}, \text{ described above provides an identification of plane with} R^{2}. \text{Therefore} R^{2} \text{serves as a mathematical model for the study of the plane. Similarly,} R \text{and} R^{3} \text{serve as mathematical models for the study of the line and the space, respectively}. $
 
 **4. Vector Representation:**
 Let <i>P</i> be a point in the given Fig.1. Let (<i>u</i>, <i>v</i>) be the corresponding ordered pair. The line segment joining the origin and the point directed towards the point is called the vector at the origin associated with the point <i>P</i>. Please see the diagram given below.
