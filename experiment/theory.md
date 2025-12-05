@@ -5,21 +5,21 @@ This experiment has been designed to help students with the understanding of the
 
 **(i)**  $ R^{2} = { ( x , y) | (x , y)∈ R } $ <br>
 **(ii)** + , called addition, is defined as <br>
-&emsp; $ (a , b) + (c, d) = ( a+c , b+d ) $; where (<i>a</i> , <i>b</i>) and (<i>c</i> , <i>d</i>) ∈ <i>R</i><sup>2</sup> <br>
+&emsp; $ (a , b) + (c, d) = ( a+c , b+d ) $; where $ (a , b) and (c , d) ∈ R^{2} $ <br>
 **(iii)** . , called scalar multiplication, is defined as <br> 
-&emsp; α . (<i>a</i> , <i>b</i>) = (α . <i>a</i> , α . <i>b</i>); where α ∈ <i>R</i> and (<i>a</i> , <i>b</i>) ∈ <i>R</i><sup>2</sup> . <br>
+&emsp;$ α.(a , b) = (α.a , α.b); $where $ α ∈ R $ and $ (a, b) ∈ R^{2} $. <br>
 
 Note that,
 
-**a.** In (ii), "+" on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>. For example, when (2, 3) and (1, 4) in <i>R</i><sup>2</sup> are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>.<br>
-**b.** In (iii), "." on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>. For example, when 2 in <i>R</i> and (2, 3) in <i>R</i><sup>2</sup> are multiplied, we have 2.(2, 3)=(2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>.<br>
+**a.** In (ii), "+" on the left side is the addition of $ R^{2} $ and on the right side it is the addition of $ R^{2} $. For example, when (2, 3) and (1, 4) in $ R^{2} $ are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of $ R^{2} $ and on the right side it is the addition of $ R $.<br>
+**b.** In (iii), "." on the left side is the scalar multiplication of $ R^{2} $ and on the right side it is the multiplication of $ R $. For example, when 2 in $ R $ and (2, 3) in $ R^{2} $ are multiplied, we have 2.(2, 3)=(2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of $ R^{2} $ and on the right side it is the multiplication of $ R $.<br>
 
 **2. Geometric Visualization:**
-It is well known that there is a one-to-one correspondence between the plane and <i>R</i><sup>2</sup>. That is, for each point on the plane there corresponds an element of <i>R</i><sup>2</sup> and conversely, to each element of <i>R</i><sup>2</sup> there is a point in the plane. **It may be noted** that this association between points in the plane and the elements in <i>R</i><sup>2</sup> is with respect to a given pair of axes. Thus given a point on the plane, if we change the chosen axes, the element in <i>R</i><sup>2</sup> may be changed. Similarly, given an element in <i>R</i><sup>2</sup>, if we change the chosen axes, a different point on the plane may be obtained.<br>
-In the same manner, <i>R</i> and <i>R</i><sup>3</sup> can be identified with the line and space respectively. Such a visualization is not possible for <i>R</i><<i>R<sup>n</sup></i> , for <i>n</i>>3.
+It is well known that there is a one-to-one correspondence between the plane and $ R^{2} $. That is, for each point on the plane there corresponds an element of $ R^{2} $ and conversely, to each element of $ R^{2} $ there is a point in the plane.<br> **It may be noted** that this association between points in the plane and the elements in $ R^{2} $ is with respect to a given pair of axes. Thus given a point on the plane, if we change the chosen axes, the element in $ R^{2} $ may be changed. Similarly, given an element in $ R^{2} $, if we change the chosen axes, a different point on the plane may be obtained.<br>
+In the same manner,  $ R $  and  $ R^{3} $  can be identified with the line and space respectively. Such a visualization is not possible for $ R < R^{2} $  , for $ n>3 $.
 
 **3. Math Model of Line, Plane and Space:**
-The one-to-one correspondence between the plane and <i>R</i><sup>2</sup>, described above provides an identification of plane with <i>R</i><sup>2</sup>. Therefore <i>R</i><sup>2</sup> serves as a mathematical model for the study of the plane. Similarly, <i>R</i> and <i>R</i><sup>3</sup> serve as mathematical models for the study of the line and the space, respectively.
+$ The one-to-one correspondence between the plane and <i>R</i><sup>2</sup>, described above provides an identification of plane with <i>R</i><sup>2</sup>. Therefore <i>R</i><sup>2</sup> serves as a mathematical model for the study of the plane. Similarly, R and $ R^{3} $  serve as mathematical models for the study of the line and the space, respectively. $
 
 **4. Vector Representation:**
 Let <i>P</i> be a point in the given Fig.1. Let (<i>u</i>, <i>v</i>) be the corresponding ordered pair. The line segment joining the origin and the point directed towards the point is called the vector at the origin associated with the point <i>P</i>. Please see the diagram given below.
