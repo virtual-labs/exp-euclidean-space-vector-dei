@@ -3,7 +3,7 @@ This experiment has been designed to help students with the understanding of the
 **1. 2-dimensional Euclidean Space:**
  The system ( $ R^{2} $ ,+ , . ) together with $ R $ is the 2-dimensional Euclidean space, where
 
-**(i)**  $ R^{2} = ${$ ( x , y) | (x , y)∈ R $} <br>
+**(i)**  $ R^{2} = \{( x , y) | (x , y)∈ R \}$ <br>
 **(ii)** + , called addition, is defined as <br>
 &emsp; $ (a , b) + (c, d) = ( a+c , b+d ) $; where $ (a , b) $ and $ (c , d) ∈ R^{2} $ <br>
 **(iii)** . , called scalar multiplication, is defined as <br> 
@@ -27,9 +27,9 @@ Let $ P $ be a point in the given Fig.1. Let $ (u, v) $ be the corresponding ord
  ![Vector Representation](images/exp1newimage.jpeg "Vector Represntation")
 
 **5. $ n $-dimensional Euclidean Space:**
- It is the system $( R^{n} , + , . ) $ together with $ R $, where $ R^{n} = ${$ (x_{1}, x_{2}, x_{3}, ... , x_{n}) | x_{1}, x_{2}, x_{3}, ... , x_{n} ∈ R $}  and operations + and . called addition and scalar multiplication respectively are defined as:
+ It is the system $( R^{n} , + , . ) $ together with $ R $, where $ R^{n} = \{(x_{1}, x_{2}, x_{3}, ... , x_{n}) | x_{1}, x_{2}, x_{3}, ... , x_{n} ∈ R\} $  and operations + and . called addition and scalar multiplication respectively are defined as:
 
-**(i)**{$(x_{1}, x_{2}, x_{3}, ... , x_{n}) + (y_{1}, y_{2}, y_{3}, ... , (y_{n}) = (x_{1}+y_{1}, x_{2}+y_{2} , ... , x_{n}+y_{n})  $}; where $ (x_{1}, x_{2}, x_{3}, ... , x_{n}), (y_{1}, y_{2}, y_{3}, ... , (y_{n}) ∈ R^{n} $ <br>
+**(i)**$ \{(x_{1}, x_{2}, x_{3}, ... , x_{n}) + (y_{1}, y_{2}, y_{3}, ... , (y_{n}) = (x_{1}+y_{1}, x_{2}+y_{2} , ... , x_{n}+y_{n})\}  $; where $ (x_{1}, x_{2}, x_{3}, ... , x_{n}), (y_{1}, y_{2}, y_{3}, ... , (y_{n}) ∈ R^{n} $ <br>
 **(ii)** $ α.(x_{1}, x_{2}, x_{3}, ... , x_{n}) = (α.x_{1}, α.x_{2}, α.x_{3}, ... , α.x_{n}); $ where $ α ∈ R $ and $ (x_{1}, x_{2}, x_{3}, ... , x_{n}) ∈ R^{n} $
 
 It can be geometrically visualised for $ 1 ≤ n ≤ 3 $ only. 
