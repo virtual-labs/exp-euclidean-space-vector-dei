@@ -1,6 +1,6 @@
 <style>
  span {
-  'Times New Roman'; 
+  font-family:'Times New Roman'; 
   font-size: 24px;
  }
 </style>
