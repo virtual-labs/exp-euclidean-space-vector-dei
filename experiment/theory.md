@@ -1,18 +1,25 @@
+<style>
+ span {
+  'Times New Roman'; 
+  font-size: 24px;
+ }
+</style>
+
 <span style="font-family: 'Times New Roman'; font-size: 24px;">This experiment has been designed to help students with the understanding of the 2-dimensional Euclidean space which is commonly visualized as the flat plane and is mathematically represented as the real vector space</span> $ R^{2} $, <span style="font-family: 'Times New Roman'; font-size: 24px;">essentially the set of all ordered pairs of real numbers, by exploring the relationship between points on the plane and elements in</span> $ R^{2} $. <span style="font-family: 'Times New Roman'; font-size: 24px;">Vector representation of a point in plane is also given. Thus students will gain a deeper appreciation of how geometry and linear algebra are interconnected. Besides, the experiment encourages learners to extend this understanding to more abstract, higher-dimensional spaces, thereby building a foundation for studying vector spaces, in general. Here,</span> $ N $ <span style="font-family: 'Times New Roman'; font-size: 24px;">and </span>$ R $ <span style="font-family: 'Times New Roman'; font-size: 24px;">denote the natural numbers and real number respectively. Let</span> $ N $ <span style="font-family: 'Times New Roman'; font-size: 24px;">and</span> $ R $ <span style="font-family: 'Times New Roman'; font-size: 24px;">denote the natural numbers and real numbers respectively.</span>
 
 **1. 2-dimensional Euclidean Space:**
- <p>The system (</p> $ R^{2} $ <p>,+ , . ) together with</p> $ R $ <p>is the 2-dimensional Euclidean space, where</p>
+ <span>The system (</span> $ R^{2} $ <span>,+ , . ) together with</span> $ R $ <span>is the 2-dimensional Euclidean space, where</span>
 
 **(i)**  $ R^{2} = \{( x , y) | (x , y)∈ R \}$ <br>
-**(ii)**<p> + , called addition, is defined as</p> <br>
-&emsp; $ (a , b) + (c, d) = ( a+c , b+d ) $; <p>where</p> $ (a , b) $ <p>and</p> $ (c , d) ∈ R^{2} $ <br>
-**(iii)** <p>. , called scalar multiplication, is defined as </p><br> 
-&emsp;$ α.(a , b) = (α.a , α.b); $<p>where</p> $ α ∈ R $ <p>and</p> $ (a, b) ∈ R^{2} $. <br>
+**(ii)**<span> + , called addition, is defined as</span> <br>
+&emsp; $ (a , b) + (c, d) = ( a+c , b+d ) $; <span>where</span> $ (a , b) $ <span>and</span> $ (c , d) ∈ R^{2} $ <br>
+**(iii)** <span>. , called scalar multiplication, is defined as </span><br> 
+&emsp;$ α.(a , b) = (α.a , α.b); $<span>where</span> $ α ∈ R $ <span>and</span> $ (a, b) ∈ R^{2} $. <br>
 
-<p>Note that,</p>
+<span>Note that,</span>
 
-**a.** <p>In (ii), "+" on the left side is the addition of</p> $ R^{2} $ <p>and on the right side it is the addition of</p> $ R^{2} $. <p>For example, when (2, 3) and (1, 4) in</p> $ R^{2} $ <p>are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of </p>$ R^{2} $ <p>and on the right side it is the addition of</p> $ R $.<br>
-**b.** <p>In (iii), "." on the left side is the scalar multiplication of </p>$ R^{2} $<p> and on the right side it is the multiplication of </p>$ R $<p>. For example, when 2 in </p>$ R $<p> and (2, 3) in </p>$ R^{2} $<p> are multiplied, we have 2.(2, 3) = (2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of </p>$ R^{2} $<p> and on the right side it is the multiplication of </p>$ R $.<br>
+**a.** <span>In (ii), "+" on the left side is the addition of</span> $ R^{2} $ <span>and on the right side it is the addition of</span> $ R^{2} $. <span>For example, when (2, 3) and (1, 4) in</span> $ R^{2} $ <span>are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of </span>$ R^{2} $ <span>and on the right side it is the addition of</span> $ R $.<br>
+**b.** <span>In (iii), "." on the left side is the scalar multiplication of </span>$ R^{2} $<span> and on the right side it is the multiplication of </span>$ R $<span>. For example, when 2 in </span>$ R $<span> and (2, 3) in </span>$ R^{2} $<span> are multiplied, we have 2.(2, 3) = (2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of </span>$ R^{2} $<span> and on the right side it is the multiplication of </span>$ R $.<br>
 
 **2. Geometric Visualization:**
 It is well known that there is a one-to-one correspondence between the plane and $ R^{2} $. That is, for each point on the plane there corresponds an element of $ R^{2} $ and conversely, to each element of $ R^{2} $ there is a point in the plane.<br> **It may be noted** that this association between points in the plane and the elements in $ R^{2} $ is with respect to a given pair of axes. Thus given a point on the plane, if we change the chosen axes, the element in $ R^{2} $ may be changed. Similarly, given an element in $ R^{2} $, if we change the chosen axes, a different point on the plane may be obtained.<br>
