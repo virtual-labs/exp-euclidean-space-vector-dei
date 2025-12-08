@@ -6,176 +6,7 @@
 <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 <link rel = "icon" href = "https://www.vlab.co.in/images/logo.jpg" type = "image/x-icon">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-<style>
-    body, html {
-  margin: 0;
-
-}
-	h1{
-  		background-color: #87ceeb;
-  		align-content: center;
-  		text-align: center;
-	}
-
-	.headbtn{
-		font-style: bold;
-  		color:rgb(0, 0, 0);
-  		font-size: 20px;
- 		width: 7em;
-  		height: 1.5em;
-  		background-color: rgb(221,191,218);
-        border:2px solid indigo;
-        padding: 2px;
-        margin-left: 5px;
-        border-radius: 5px;
-	}
-
-	* {
-  box-sizing: border-box;
-}
-.responsive-three-column-grid {
-    display:block;
-    float: center;
-
-}
-
-.responsive-three-column-grid > * {
-    padding:.1rem 1rem;
-    margin: 0.5rem;
-    background-color: silver;
-}
-
-@media (min-width:768px) {
-    .responsive-three-column-grid {
-        display: grid;
-        grid-auto-rows: 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-.col1{
-    border:2px solid indigo;
-}
-.col2{
-    border:2px solid indianred;
-}
-.col3{
-    border:2px solid green;
-}
-form{
-   
-    text-align: center;
-}
-
-.next{
-    background-color: #04AA6D;
-    color: white;
-    font-size: 18px;
-    margin-top: 0.5rem;
-    align-content: center;
-    text-align: center;
-    padding: 8px 16px;
-    text-decoration: none;
-    width:8rem;
-    float:right;
-}
-.next:hover {
-  background-color: #ada;
-  color: black;
-}
-.previous{
-    display: block;
-    float:left;
-    background-color: #04AA6D;
-    color: white;
-    font-size: 18px;
-    margin-top: 0.5rem;
-    align-content: center;
-    text-align: center;
-    padding: 8px 16px;
-    text-decoration: none;
-    width:8rem;
-}
-.previous:hover {
-  background-color: #ada;
-  color: black;
-}
-
-.tablink {
-  background-color: lightgray;
-  color: rgb(0, 0, 0);
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 8px 8px;
-  font-size: 15px;
-  width: 50%;
-}
-
-.tablink:hover {
-  background-color: yellow;
-  color: black;
-}
-
-.tabcontent {
-  display: none;
-  padding: 40px 10px;
-}
-.subbtn{
-    cursor: pointer;
-    background-color: #04AA6D;
-    border: none;
-    color:white;
-    width: 4rem;
-    height:1.2rem;
-}
-#btn1{
-    background-color: red;
-}
-
-.pcont {
-            display: flex;
-           
-            text-align: center;
-        }
-        .p1 {
-           
-           font-size: 23px;
-            flex: 0 0 20%; /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 70% */
-            margin: 10px;
-            
-        }
-       .p2{
-        flex: 0 0 70%; /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 70% */
-            margin: 10px;
-            font-size: 23px;
-            color: blueviolet;
-            text-align: left;
-       }
-       .p1 p{
-        background-color: lightblue;
-        padding: 10px;
-        border: solid blue;
-        margin: 0;
-       }
-       .p2 p{
-        margin-top: 5px;
-        padding: 5px;
-        background-color: greenyellow;
-        width: 40%;
-       }
-       .p3 p{
-        background-color: lightblue;
-        padding: 10px;
-        border: solid blue;
-        margin: 10px 10px;
-        width: 20%;
-        font-size: 23px;
-        text-align: center;
-       }
-       
-</style>
+<link rel="stylesheet" href="css/styleOperations.css">
 </head>
 
 <body>
@@ -209,7 +40,7 @@ form{
 <div id="add" class="tabcontent" style="display: block;">
 	<div class="responsive-three-column-grid">
         <div class="col1" style="background-color:#fbeee6;">
-  	        <h3 style="color:indigo;"> Pick points <i>P(a,b) & Q(c,d)</i> &isin; <i>R</i><sup>2</sup> to obtain <i>S=P+Q</i></h3>
+  	        <h3 style="color:indigo;"> Pick points <i>P</i>(<i>a, b</i>) & <i>Q</i>(<i>c,d</i>)</i> &isin; <i>R</i><sup>2</sup> to obtain <i>S=P+Q</i></h3>
   	
              <form id="cord_form" action="?" method="POST">
     <h4 style="text-align: left;">For point <i>P</i> enter coordinate values:</h4> 
@@ -223,7 +54,7 @@ form{
     <label for="d_cord"><i>d</i>:</label>          
     <input type="number" id="d_cord" name="d_cord"><br><br>
     <button class="subbtn" type="button" onclick="addition();">Submit</button><br/><br>
-    <label style="color:#b22222;">Chosen points in <i>R</i><sup>2</sup>: </label>
+    <label id="dis_label1" style="color:#b22222;display: none;">Chosen points in <i>R</i><sup>2</sup>: </label>
     <p id='displayab' style="color:green;"></p>
     <p id='displaycd' style="color:green;"></p>
       <p id='displayabcd' style="color:deeppink;"></p>
@@ -254,7 +85,7 @@ form{
 <div id="mul" class="tabcontent" style="display: none;">
 	<div class="responsive-three-column-grid">
         <div class="col1" style="background-color:#fbeee6;">
-  	<h3 style="color:indigo;">Pick points &alpha; &isin; <i>R & P(m,n)</i> &isin; <i>R</i><sup>2</sup> to obtain <i>S</i> = &alpha;.<i>P</i></h3>
+  	<h3 style="color:indigo;">Pick points &alpha; &isin; <i>R & P</i>(<i>m,n</i>) &isin; <i>R</i><sup>2</sup> to obtain <i>S</i> = &alpha;.<i>P</i></h3>
   	<h5>For the convenience of presentation &alpha;, <i>m</i> & <i>n</i> should be entered in such a manner where -4 &leq; &alpha; <i>m</i> &leq; 14 and -9 &leq; &alpha; <i>n</i> &leq; 9</h5>
   <form id="cord_form" action="?" method="POST">
   <label for="al_cord">&alpha;:</label>
@@ -264,7 +95,7 @@ form{
   <label for="n_cord"><i>n</i>:</label>
   <input type="number" id="n_cord" name="n_cord"><br><br>
   <button type="button" onclick="multiplication();">Submit</button><br/><br>
-  <label style="color:#b22222;">Coordinate values: </label>
+  <label id="dis_label" style="color:#b22222;display: none;">Coordinate values: </label>
   <p id='displayal' style="color:green;"></p>
   <p id='displaymn' style="color:green;"></p>
   <p id='displayalmn' style="font-style:bold; color:deeppink;"></p>

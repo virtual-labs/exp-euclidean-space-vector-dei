@@ -7,156 +7,8 @@
 <title>Linear Algebra Virtual Lab</title>
 <link rel = "icon" href = "https://www.vlab.co.in/images/logo.jpg" type = "image/x-icon">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="css/styleEuclid.css">
 
-
-<style>
-* {box-sizing: border-box}
-
-
-body, html {
-  margin: 0;
- 
-}
-  h1{
-  background-color: #87ceeb;
-  align-content: center;
-  text-align: center;
-  margin-bottom: 0.2rem;
-  margin-top: 0.5rem;
-}
-
-.responsive-two-column-grid {
-    display:block;
-    float: center;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.responsive-two-column-grid > * {
-    padding:1rem;
-    margin: 0.2rem;
-    background-color: silver;
-    margin-bottom: 0;
-}
-
-@media (min-width:768px) {
-    .responsive-two-column-grid {
-        display: grid;
-        grid-template-columns: .35fr .75fr;
-    }
-} 
-
-.responsive-three-column-grid {
-    display:block;
-    float: center;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.responsive-three-column-grid > * {
-    padding:.1rem 1rem;
-    margin: 0.2rem;
-    background-color: silver;
-    margin-bottom: 0;
-}
-
-
-@media (min-width:768px) {
-    .responsive-three-column-grid {
-        display: grid;
-        grid-auto-rows: 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-.tablink {
-  background-color: gray;
-  color: black;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 12px 12px;
-  font-size: 15px;
-  width: 25%;
-  margin-top: 0.5rem;
-  margin-bottom: 0.1rem;
-}
-
-.tablink:hover {
-  background-color: skyblue;
-}
-
-.tabcontent {
-  /*color: white;*/
-  display: none;
-  padding: 70px 20px 18px 20px;
-}
-
-.next{
-    background-color: #04AA6D;
-    color: white;
-    font-size: 18px;
-    margin-top: 0.5rem;
-    align-content: center;
-    text-align: center;
-    padding: 8px 16px;
-    text-decoration: none;
-    width:8rem;
-    float:right;
-}
-.next:hover {
-  background-color: #ada;
-  color: black;
-}
-.previous{
-    display: block;
-    float:left;
-    background-color: #04AA6D;
-    color: white;
-    font-size: 18px;
-    margin-top: 0.5rem;
-    align-content: center;
-    text-align: center;
-    padding: 8px 16px;
-    text-decoration: none;
-    width:8rem;
-}
-.previous:hover {
-  background-color: #ada;
-  color: black;
-}
-input{
-    background-color:mediumturquoise;
-    align-content: center;
-    text-align: center;
-    font-style:bold italic;
-    font-size: 14px;
-    color:black;
-    border:.5px solid black;
-    color: black;
-}
-input:hover{
-    background-color: darkcyan;
-    color:white;
-}
-.vectorspace{
-  display: block;
-  background-color: #e8f5e9;
-  border: 2px solid darkgreen;
-  padding: 1rem;
-  margin: 80px 10px;
-  
-a{
-  text-decoration: none;
-  color:white;
-}
-input{
-  cursor:pointer;
-}
-
-
-</style>
 </head>
 <body>
   <a href="./operations.html" class="previous">&laquo; Previous</a>
@@ -180,7 +32,7 @@ input{
 <div class="responsive-three-column-grid">
   <div class="column" style="background-color:#fbeee6;">
     <h3 style="color:indigo;"> UNDERSTANDING</h3>
-    <p>1-D is a straight line.<br><br>It can be understood as a edge of a desk extending indefinitely in both the directions.</p>
+    <p>It can be understood as a edge of a desk extending indefinitely in both the directions.</p>
     <img src="./images/1d line.png" alt="1d space" width="250px" height="100px">
   </div>
   
@@ -206,7 +58,7 @@ input{
 <div class="responsive-three-column-grid">
   <div class="column" style="background-color:#fbeee6;">
     <h3 style="color:indigo;"> UNDERSTANDING</h3>
-    <p>2D denotes the point in <i>R</i><sup>2</sup>. <br><br> It can be understood by the top of the table or the surface of the black board extending indefinitely in all the directions.</p>
+    <p>It can be understood by the top of the table or the surface of the black board extending indefinitely in all the directions.</p>
     <img src="./images/2d plane.png" alt="2d space" width="200px" height="200px">
   </div>
   
@@ -221,8 +73,8 @@ input{
 
   <div class="column" style="background-color:#fbeee6;">
     <h3 style="color:darkgreen;">MATH MODEL</h3>
-    <p style="font-size:20px;"><span style="color:purple;"><i>R</i><sup>2</sup> = <i>{(x, y) : x, y</i> &isin; <i>R</i>} </span><BR><BR>
-      <b>Operations:</b> <br><br> 1. Addition: <i>(x</i><sub>1</sub> , <i>x</i><sub>2</sub> ) + (<i>y</i><sub>1</sub> , <i>y</i><sub>2</sub>) = (<i>x</i><sub>1</sub> + <i>y</i><sub>1</sub> , <i>x</i><sub>2</sub> + <i>y</i><sub>2</sub>) ; <i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>y</i><sub>1</sub> , <i>y</i><sub>2</sub></i> &isin; <i>R</i><br> <br>2. Scalar Multiplication: &alpha; . <i>(x</i><sub>1</sub> , <i>y</i><sub>1</sub>) = (&alpha; <i>x</i><sub>1</sub> , &alpha; <i>y</i><sub>1</sub>) ; <i>x</i><sub>1</sub> , <i>y</i><sub>1</sub> &isin; <i>R</i></p>
+    <p style="font-size:20px;"><span style="color:purple;"><i>R</i><sup>2</sup> = {(<i>x, y</i>) : <i>x, y</i> &isin; <i>R</i>} </span><BR><BR>
+      <b>Operations:</b> <br><br> 1. Addition: (<i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> ) + (<i>y</i><sub>1</sub> , <i>y</i><sub>2</sub>) = (<i>x</i><sub>1</sub> + <i>y</i><sub>1</sub> , <i>x</i><sub>2</sub> + <i>y</i><sub>2</sub>) ; <i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>y</i><sub>1</sub> , <i>y</i><sub>2</sub></i> &isin; <i>R</i><br> <br>2. Scalar Multiplication: &alpha; . (<i>x</i><sub>1</sub> , <i>y</i><sub>1</sub>) = (&alpha; <i>x</i><sub>1</sub> , &alpha; <i>y</i><sub>1</sub>) ; <i>x</i><sub>1</sub> , <i>y</i><sub>1</sub> &isin; <i>R</i></p>
     <br>
     </div>
   
@@ -233,7 +85,7 @@ input{
 <div class="responsive-three-column-grid">
   <div class="column" style="background-color:#fbeee6;">
     <h3 style="color:INDIGO;"> UNDERSTANDING</h3>
-    <p>3D denotes the point in <i>R</i><sup>3</sup>. <br><br>It can be understood as a cubical room extending indefinitely in all the directions.</p>
+    <p>It can be understood as a cubical room extending indefinitely in all the directions.</p>
     <img src="./images/3d cube.png" alt="3d space" width="250px" height="250px">
    </div>
   
@@ -249,8 +101,8 @@ input{
 
   <div class="column" style="background-color:#fbeee6;">
     <h3 style="color:darkgreen;">MATH MODEL</h3>
-    <p style=" font-size:20px;"><span style="color:purple;"><i>R</i><sup>3</sup> = <i>{(x, y, z) : x, y, z</i> &isin; <i>R}</i></span><br><br>
-      <b>Operations:</b> <br><br> 1. Addition: (<i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>x</i><sub>3</sub>) + <i>(y</i><sub>1</sub> , <i>y</i><sub>2</sub> , <i>y</i><sub>3</sub>) = (<i>x</i><sub>1</sub> + <i>y</i><sub>1</sub> , <i>x</i><sub>2</sub> + <i>y</i><sub>2</sub> , <i>x</i><sub>3</sub> + <i>y</i><sub>3</sub>) ; <i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>x</i><sub>3</sub> , <i>y</i><sub>1</sub> , <i>y</i><sub>2</sub> , <i>y</i><sub>3</sub> &isin; <i>R</i> <br> <br>2. Scalar Multiplication: &alpha; . <i>(x</i><sub>1</sub> , <i>y</i><sub>1</sub> , <i>z</i><sub>1</sub>) = (&alpha; <i>x</i><sub>1</sub> , &alpha; <i>y</i><sub>1</sub> , &alpha; <i>z</i><sub>1</sub>) ; <i>x</i><sub>1</sub> , <i>y</i><sub>1</sub> , <i>z</i><sub>1</sub> &isin; <i>R</i> </p>
+    <p style=" font-size:20px;"><span style="color:purple;"><i>R</i><sup>3</sup> = {(<i>x, y, z</i>) :<i> x, y, z</i> &isin; <i>R</i>}</span><br><br>
+      <b>Operations:</b> <br><br> 1. Addition: (<i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>x</i><sub>3</sub>) + (<i>y</i><sub>1</sub> , <i>y</i><sub>2</sub> , <i>y</i><sub>3</sub>) = (<i>x</i><sub>1</sub> + <i>y</i><sub>1</sub> , <i>x</i><sub>2</sub> + <i>y</i><sub>2</sub> , <i>x</i><sub>3</sub> + <i>y</i><sub>3</sub>) ; <i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>x</i><sub>3</sub> , <i>y</i><sub>1</sub> , <i>y</i><sub>2</sub> , <i>y</i><sub>3</sub> &isin; <i>R</i> <br> <br>2. Scalar Multiplication: &alpha; . (<i>x</i><sub>1</sub> , <i>y</i><sub>1</sub> , <i>z</i><sub>1</sub>) = (&alpha; <i>x</i><sub>1</sub> , &alpha; <i>y</i><sub>1</sub> , &alpha; <i>z</i><sub>1</sub>) ; <i>x</i><sub>1</sub> , <i>y</i><sub>1</sub> , <i>z</i><sub>1</sub> &isin; <i>R</i> </p>
     <br>
     </div>
 </div>
@@ -272,7 +124,7 @@ input{
   <div class="column" style="background-color:#fbeee6;">
     <h3 style="color:darkgreen;">MATH MODEL</h3>
     <p style="font-size:20px;"><span style="color:purple;"><i>R<sup>n</sup></i> = {(<i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>x</i><sub>3</sub> , ... , <i>x</i><sub><i>n</i></sub>) : <i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>x</i><sub>3</sub> , ... , <i>x</i><sub><i>n</i></sub> &isin; R}</span><br><br>
-      <b>Operations:</b> <br><br> 1. Addition: (<i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>x</i><sub>3</sub> , ... , <i>x</i><sub><i>n</i></sub>) + <i>(y</i><sub>1</sub> , <i>y</i><sub>2</sub> , <i>y</i><sub>3</sub>) , ... , <i>y</i><sub><i>n</i></sub>) = (<i>x</i><sub>1</sub> + <i>y</i><sub>1</sub> , <i>x</i><sub>2</sub> + <i>y</i><sub>2</sub> , <i>x</i><sub>3</sub> + <i>y</i><sub>3</sub> + ... + <i>x</i><sub><i>n</i></sub> + <i>y</i><sub><i>n</i></sub> ) ; <i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>x</i><sub>3</sub> , ... , <i>x</i><sub><i>n</i></sub> , <i>y</i><sub>1</sub> , <i>y</i><sub>2</sub> , <i>y</i><sub>3</sub> , ... , <i>y</i><sub><i>n</i></sub> &isin; <i>R</i> <br> <br>2. Scalar Multiplication: &alpha; . (<i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>x</i><sub>3</sub> , ... , <i>x</i><sub>n</sub>) = (&alpha;<i>x</i><sub>1</sub> , &alpha;<i>x</i><sub>2</sub> , &alpha;<i>x</i><sub>3</sub> , ... , &alpha;<i>x</i><sub>n</sub>) ; <i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>x</i><sub>3</sub> , ... , <i>x</i><sub>n</sub> &isin; <i>R</i></p>
+      <b>Operations:</b> <br><br> 1. Addition: (<i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>x</i><sub>3</sub> , ... , <i>x</i><sub><i>n</i></sub>) + (<i>y</i><sub>1</sub> , <i>y</i><sub>2</sub> , <i>y</i><sub>3</sub>) , ... , <i>y</i><sub><i>n</i></sub>) = (<i>x</i><sub>1</sub> + <i>y</i><sub>1</sub> , <i>x</i><sub>2</sub> + <i>y</i><sub>2</sub> , <i>x</i><sub>3</sub> + <i>y</i><sub>3</sub> + ... + <i>x</i><sub><i>n</i></sub> + <i>y</i><sub><i>n</i></sub> ) ; <i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>x</i><sub>3</sub> , ... , <i>x</i><sub><i>n</i></sub> , <i>y</i><sub>1</sub> , <i>y</i><sub>2</sub> , <i>y</i><sub>3</sub> , ... , <i>y</i><sub><i>n</i></sub> &isin; <i>R</i> <br> <br>2. Scalar Multiplication: &alpha; . (<i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>x</i><sub>3</sub> , ... , <i>x</i><sub>n</sub>) = (&alpha;<i>x</i><sub>1</sub> , &alpha;<i>x</i><sub>2</sub> , &alpha;<i>x</i><sub>3</sub> , ... , &alpha;<i>x</i><sub>n</sub>) ; <i>x</i><sub>1</sub> , <i>x</i><sub>2</sub> , <i>x</i><sub>3</sub> , ... , <i>x</i><sub>n</sub> &isin; <i>R</i></p>
     </div>
 </div>
 
@@ -280,7 +132,7 @@ input{
 <div class="vectorspace">
 
   <!-- <h3 style="color:#eafaf1; background-color:darkgreen; text-align:center; font-size:25px;">Vector Space</h3> -->
-  <p style="text-align: center;">System (<i>R</i><sup>n</sup>, +, .) together with <i>R</i>, denoted by <i>R</i><sup><i>n</i></sup>, is a vector space over <i>R</i>, known as the <i>n</i>-dimensional Euclidean space.</p>
+  <p style="text-align: center;font-size: 1.4rem;">System (<i>R<sup>n</sup></i>, +, .) together with <i>R</i>, denoted by <i>R</i><sup><i>n</i></sup>, is a vector space over <i>R</i>, known as the <span style="color: green;"><i>n</i>-dimensional Euclidean space.</span></p>
   </div>
   <a href="./operations.html" class="previous">&laquo; Previous</a>
   <a href="./" class="next">Home &raquo;</a>
