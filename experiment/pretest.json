@@ -9,10 +9,10 @@
                 "d": "√4"
             },
             "explanations": {
-                "a": "Incorrect by definition of $R$",
-                "b": "Incorrect by definition of $R$",
-                "c": "Incorrect by definition of $R$",
-                "d": "Correct by definition of $R$"
+                "a": "Incorrect. Follows by definition of $R$",
+                "b": "Incorrect. Follows by definition of $R$",
+                "c": "Incorrect. Follows by definition of $R$",
+                "d": "Correct. Follows by definition of $R$"
             },
             "correctAnswer": "d",
             "difficulty": "beginner"
@@ -26,10 +26,10 @@
                 "d": "(-1, √7/2)"
             },
             "explanations": {
-                "a": "Incorrect by definition of $R^{2}$",
-                "b": "Incorrect by definition of $R^{2}$",
-                "c": "Incorrect by definition of $R^{2}$",
-                "d": "Correct by definition of $R^{2}$"
+                "a": "Incorrect. Follows by definition of $R^{2}$",
+                "b": "Incorrect. Follows by definition of $R^{2}$",
+                "c": "Incorrect. Follows by definition of $R^{2}$",
+                "d": "Correct. Follows by definition of $R^{2}$"
             },
             "correctAnswer": "d",
             "difficulty": "beginner"
@@ -43,10 +43,10 @@
                 "d": " A is false, B is false"
             },
             "explanations": {
-                "a": "Incorrect by definition",
-                "b": "Correct by definition",
-                "c": "Incorrect by definition",
-                "d": "Incorrect by definition"
+                "a": "Incorrect. Follows by definition",
+                "b": "Correct. Follows by definition",
+                "c": "Incorrect. Follows by definition",
+                "d": "Incorrect. Follows by definition"
             },
             "correctAnswer": "b",
             "difficulty": "beginner"
@@ -60,10 +60,10 @@
                 "d": "{0 , 0 , 0}"
             },
             "explanations": {
-                "a": "Correct by definition of $R^{3}$",
-                "b": "Incorrect by definition of $R^{3}$",
-                "c": "Incorrect by definition of $R^{3}$",
-                "d": "Incorrect by definition of $R^{3}$"
+                "a": "Correct. Follows by definition of $R^{3}$",
+                "b": "Incorrect. Follows by definition of $R^{3}$",
+                "c": "Incorrect. Follows by definition of $R^{3}$",
+                "d": "Incorrect. Follows by definition of $R^{3}$"
             },
             "correctAnswer": "a",
             "difficulty": "beginner"
