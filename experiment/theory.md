@@ -3,7 +3,6 @@ This experiment has been designed to help students with the understanding of the
 
 **1. 2-dimensional Euclidean Space:**
  The system ( <i>R</i><sup>2</sup> ,+ , . ) together with <i>R</i> is the 2-dimensional Euclidean space, where
-
 **(i)**  <i>R</i><sup>2</sup> = { (<i>x</i> , <i>y</i>) | (<i>x</i> , <i>y</i>)∈ <i>R</i> } <br>
 **(ii)** + , called addition, is defined as <br>
 &emsp; (<i>a</i> , <i>b</i>) + (<i>c</i> , <i>d</i>) = ( <i>a+c</i> , <i>b+d</i> ); where (<i>a</i> , <i>b</i>) and (<i>c</i> , <i>d</i>) ∈ <i>R</i><sup>2</sup> <br>
