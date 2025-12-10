@@ -1,5 +1,5 @@
 This experiment has been designed to help students with the understanding of the 2-dimensional Euclidean space which is commonly visualized as the flat plane and is mathematically represented as the real vector space <i>R</i><sup>2</sup>, essentially the set of all ordered pairs of real numbers, by exploring the relationship between points on the plane and elements in <i>R</i><sup>2</sup>. Vector representation of a point in plane is also given. Thus students will gain a deeper appreciation of how geometry and linear algebra are interconnected. Besides, the experiment encourages learners to extend this understanding to more abstract, higher-dimensional spaces, thereby building a foundation for studying vector spaces, in general. <br>
-**Notation**: Let <i>N</i> and <i>R</i> denote the natural numbers and real numbers respectively.
+**Notation**: Let <i>N</i> and <i>R</i> denote the set of natural numbers and set of real numbers respectively.
 
 **1. 2-dimensional Euclidean Space:**
  The system ( <i>R</i><sup>2</sup> ,+ , . ) together with <i>R</i> is the 2-dimensional Euclidean space, where<br>
@@ -56,7 +56,7 @@ It can be geometrically visualised for 1≤<i>n</i>≤3 only.
 (ii) Let <i>C</i> be the set of complex numbers and each of its elements is denoted by <i>a+ib</i>, where <i>a, b∈R</i>.  The operations ‘‘+’’ (addition), ‘‘.’’ (scalar multiplication) and ‘‘.’’ (multiplication) on <i>C</i>, defined as follows: <br> 
 a. Addition: (<i>a+ib</i>)+(<i>c+id</i>)=((<i>a+c</i>)+(<i>b+d</i>)<i>i</i>), where (<i>a+ib</i>) and (<i>c+id</i>)∈<i>C</i>. <br> 
 b. Scalar multiplication: <i>α</i>.(<i>a+ib</i>)=(<i>α.a+α.ib</i>), where <i>α∈R</i> and (<i>a+ib</i>)∈<i>C</i>. <br> 
-c. Multiplication: (<i>a+ib</i>).(<i>c+id</i>)=(<i>ac-bd</i>+(<i>bc+ad</i>)<i>i</i>), where (<i>a+ib</i>) and (<i>c+id</i>)∈<i>C</i>.
+c. Multiplication: (<i>a+ib</i>).(<i>c+id</i>)=(<i>ac-bd</i>+(<i>bc+ad</i>)<i>i</i>), where (<i>a+ib</i>) and (<i>c+id</i>)∈<i>C</i>.<br>
 (iii) Notice that <i>v.w</i> and <i>v.α</i> are not defined, where <i>v, w</i>∈<i>V</i> and <i>α</i>∈<i>F</i>
 
 
@@ -75,4 +75,4 @@ Let <i>V</i> be a vector space over <i>R</i>. For <i>v, w</i>∈<i>V</i> and <i>
 &emsp; **C.** <i>α.v = α.w</i> and <i>α</i> ≠ 0 implies <i>v</i>=<i>w</i>.<br>
 
 **9. Significance**
-The study of <i>n</i>-dimensional Euclidean space is one of the foundations for formally expressing modern mathematics and physics.
+The study of <i>n</i>-dimensional Euclidean space is a foundational concept for formally expressing modern mathematics and physics.
