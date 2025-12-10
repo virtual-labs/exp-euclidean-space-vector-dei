@@ -62,7 +62,7 @@ function openPage(pageName,elmnt,color) {
   
 
   function onedspaceyes(btn1){
-    alert('Correct!')
+   
     document.getElementById('display1dimage').innerHTML='CORRECT! <br><br> <img src="./images/1d graph.jpg" alt="2-D space" width=220vw height=200vh/>';
     var count=1;
     var property = document.getElementById(btn1);
@@ -77,7 +77,7 @@ function openPage(pageName,elmnt,color) {
 }
 
   function onedspaceno(btn2){
-    alert('Incorrect! It can be visualized.')
+   
     document.getElementById('display1dimage').innerHTML='INCORRECT! <br> It can be visualized.<br><br><img src="./images/1d graph.jpg" alt="2-D space" width=220vw height=200vh/>';
     var count=1;
     var property = document.getElementById(btn2);
@@ -94,7 +94,7 @@ function openPage(pageName,elmnt,color) {
 
 
   function twodspaceyes(btn3){
-    alert('Correct!')
+   
 
     document.getElementById('display2dimage').innerHTML='CORRECT! <br> <br> <img src="./images/twoaxisgraph.jpg" alt="2-D space" width=260vw height=250vh/>';
     var count=1;
@@ -109,7 +109,7 @@ function openPage(pageName,elmnt,color) {
     }
   }
   function twodspaceno(btn4){
-    alert('Incorrect! It can be visualized.')
+
     document.getElementById('display2dimage').innerHTML='INCORRECT! <br> It can be visualized.<br><br> <img src="./images/twoaxisgraph.jpg" alt="2-D space" width=260vw height=250vh/>';
     var count=1;
     var property = document.getElementById(btn4);
@@ -125,7 +125,7 @@ function openPage(pageName,elmnt,color) {
 
 
   function threedspaceyes(btn5){
-    alert('Correct!')
+   
 
     document.getElementById('display3dimage').innerHTML='CORRECT! <br> <br><img src="./images/threeaxisgraph.jpg" alt="3-D space" width=260vw height=250vh/>';
     var count=1;
@@ -140,7 +140,7 @@ function openPage(pageName,elmnt,color) {
     }
   }
   function threedspaceno(btn6){
-    alert('Incorrect! It can be visualized.')
+    
 
     document.getElementById('display3dimage').innerHTML='INCORRECT!<br> It can be visualized.<br><br> <img src="./images/threeaxisgraph.jpg" alt="3-D space" width=260vw height=250vh/>';
     var count=1;
@@ -155,8 +155,8 @@ function openPage(pageName,elmnt,color) {
     }
   }
   function ndspacegeomyes(btn7){
-    alert('Incorrect! It can not be visualized geometrically.')
-    document.getElementById('ndspacegeom').innerHTML="INCORRECT!<br>Ans.: Geometric Visualization not possible."
+    
+    document.getElementById('ndspacegeom').innerHTML="INCORRECT!<br>Geometric Visualization not possible."
     var count=1;
     var property = document.getElementById(btn7);
     if (count == 0){
@@ -170,7 +170,7 @@ function openPage(pageName,elmnt,color) {
     
   }
   function ndspacegeomno(btn8){
-    alert('Correct! It can not be visualized geomterically.')
+   
     document.getElementById('ndspacegeom').innerHTML="CORRECT!"
     var count=1;
     var property = document.getElementById(btn8);

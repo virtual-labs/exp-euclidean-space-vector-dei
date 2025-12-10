@@ -9,10 +9,10 @@
                 "d": "addition and division"
             },
             "explanations": {
-                "a": "Incorrect by definition",
-                "b": "Incorrect by definition",
-                "c": "Correct by definition",
-                "d": "Incorrect by definition"
+                "a": "Incorrect. Follows by definition",
+                "b": "Incorrect. Follows by definition",
+                "c": "Correct. Follows by definition",
+                "d": "Incorrect. Follows by definition"
             },
             "correctAnswer": "c",
             "difficulty": "beginner"
@@ -26,10 +26,10 @@
                 "d": "A is false, B is false"
             },
             "explanations": {
-                "a": "Incorrect by definition",
-                "b": "Incorrect by definition",
-                "c": "Correct by definition",
-                "d": "Incorrect by definition"
+                "a": "Incorrect. Follows by definition",
+                "b": "Incorrect. Follows by definition",
+                "c": "Correct. Follows by definition",
+                "d": "Incorrect. Follows by definition"
             },
             "correctAnswer": "c",
             "difficulty": "beginner"
@@ -43,10 +43,10 @@
                 "d": "only for $n$<3"
             },
             "explanations": {
-                "a": "Incorrect by definition",
-                "b": "Incorrect by definition",
-                "c": "Correct by definition",
-                "d": "Incorrect by definition"
+                "a": "Incorrect. Follows by definition",
+                "b": "Incorrect. Follows by definition",
+                "c": "Correct. Follows by definition",
+                "d": "Incorrect. Follows by definition"
             },
             "correctAnswer": "c",
             "difficulty": "beginner"
@@ -60,10 +60,10 @@
                 "d": "A is false, B is false"
             },
             "explanations": {
-                "a": "Correct by definition",
-                "b": "Incorrect by definition",
-                "c": "Incorrect by definition",
-                "d": "Incorrect by definition"
+                "a": "Correct. Follows by definition",
+                "b": "Incorrect. Follows by definition",
+                "c": "Incorrect. Follows by definition",
+                "d": "Incorrect. Follows by definition"
             },
             "correctAnswer": "a",
             "difficulty": "beginner"

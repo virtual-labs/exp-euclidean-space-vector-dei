@@ -1,16 +1,14 @@
-This experiment has been designed to help students with the understanding of the 2-dimensional Euclidean space which is commonly visualized as the flat plane and is mathematically represented as the real vector space <i>R</i><sup>2</sup>, essentially the set of all ordered pairs of real numbers, by exploring the relationship between points on the plane and elements in <i>R</i><sup>2</sup>. Vector representation of a point in plane is also given. Thus students will gain a deeper appreciation of how geometry and linear algebra are interconnected. Besides, the experiment encourages learners to extend this understanding to more abstract, higher-dimensional spaces, thereby building a foundation for studying vector spaces, in general. Here, <i>N</i> and <i>R</i> denote the natural numbers and real number respectively. Let <i>N</i> and <i>R</i> denote the natural numbers and real numbers respectively.
+This experiment has been designed to help students with the understanding of the 2-dimensional Euclidean space which is commonly visualized as the flat plane and is mathematically represented as the real vector space <i>R</i><sup>2</sup>, essentially the set of all ordered pairs of real numbers, by exploring the relationship between points on the plane and elements in <i>R</i><sup>2</sup>. Vector representation of a point in plane is also given. Thus students will gain a deeper appreciation of how geometry and linear algebra are interconnected. Besides, the experiment encourages learners to extend this understanding to more abstract, higher-dimensional spaces, thereby building a foundation for studying vector spaces, in general. <br>
+**Notation**: Let <i>N</i> and <i>R</i> denote the natural numbers and real numbers respectively.
 
 **1. 2-dimensional Euclidean Space:**
- The system ( <i>R</i><sup>2</sup> ,+ , . ) together with <i>R</i> is the 2-dimensional Euclidean space, where
-
+ The system ( <i>R</i><sup>2</sup> ,+ , . ) together with <i>R</i> is the 2-dimensional Euclidean space, where<br>
 **(i)**  <i>R</i><sup>2</sup> = { (<i>x</i> , <i>y</i>) | (<i>x</i> , <i>y</i>)∈ <i>R</i> } <br>
 **(ii)** + , called addition, is defined as <br>
 &emsp; (<i>a</i> , <i>b</i>) + (<i>c</i> , <i>d</i>) = ( <i>a+c</i> , <i>b+d</i> ); where (<i>a</i> , <i>b</i>) and (<i>c</i> , <i>d</i>) ∈ <i>R</i><sup>2</sup> <br>
 **(iii)** . , called scalar multiplication, is defined as <br> 
 &emsp; <i>α</i> . (<i>a</i> , <i>b</i>) = (<i>α . a</i> , <i>α . b</i>); where α ∈ <i>R</i> and (<i>a</i> , <i>b</i>) ∈ <i>R</i><sup>2</sup> . <br>
-
 Note that,
-
 **a.** In (ii), "+" on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>. For example, when (2, 3) and (1, 4) in <i>R</i><sup>2</sup> are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>.<br>
 **b.** In (iii), "." on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>. For example, when 2 in <i>R</i> and (2, 3) in <i>R</i><sup>2</sup> are multiplied, we have 2.(2, 3)=(2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>.<br>
 
@@ -59,6 +57,7 @@ It can be geometrically visualised for 1≤<i>n</i>≤3 only.
 a. Addition: (<i>a+ib</i>)+(<i>c+id</i>)=((<i>a+c</i>)+(<i>b+d</i>)<i>i</i>), where (<i>a+ib</i>) and (<i>c+id</i>)∈<i>C</i>. <br> 
 b. Scalar multiplication: <i>α</i>.(<i>a+ib</i>)=(<i>α.a+α.ib</i>), where <i>α∈R</i> and (<i>a+ib</i>)∈<i>C</i>. <br> 
 c. Multiplication: (<i>a+ib</i>).(<i>c+id</i>)=(<i>ac-bd</i>+(<i>bc+ad</i>)<i>i</i>), where (<i>a+ib</i>) and (<i>c+id</i>)∈<i>C</i>.
+(iii) Notice that <i>v.w</i> and <i>v.α</i> are not defined, where <i>v, w</i>∈<i>V</i> and <i>α</i>∈<i>F</i>
 
 
 **7. Example** <br>
@@ -67,14 +66,13 @@ c. Multiplication: (<i>a+ib</i>).(<i>c+id</i>)=(<i>ac-bd</i>+(<i>bc+ad</i>)<i>i<
 &emsp; **iii.** The system (<i>R</i><sup>2</sup>, +, .) is not a vector space over <i>R</i>, where operations addition and scalar multiplication are described as follows: (<i>x, y</i>)+(<i>a, b</i>)=(<i>x+a</i>, 0), where <i>x, y, a, b&isin;R</i> and <i>c</i>(<i>x, y</i>)=(<i>cx</i>, 0); where <i>c, x, y&isin;R</i>. Reason:  There does not exist (<i>a, b</i>) such that (2,1)+(<i>a, b</i>)=(2,1) because if exists, then (2+<i>a</i>, 0)=(2, 1) i.e. 0=1, a contradiction.  
  
 **8. Properties**
-Let <i>V</i> be a vector space over <i>R</i>. For <i>v, w</i> <i>∈ V</i> and <i>α</i> ∈ <i>F</i>,
+Let <i>V</i> be a vector space over <i>R</i>. For <i>v, w</i>∈<i>V</i> and <i>α</i>∈<i>F</i>,
 
 &emsp; **A.** 0.<i>v</i> = 0 <br>
 &emsp;&emsp;   (0 on the left side is the zero of <i>F</i> and on the right side it is the zero of <i>V</i>) <br>
 &emsp; **B.** <i>α.v</i> = 0 implies <i>α</i> = 0 or <i>v</i> = 0<br>
 &emsp;&emsp;   (-1).<i>x</i> = <i>-x</i>, <i>x</i> ∈ <i>V</i>, -1 ∈ <i>F</i><br> 
-&emsp; **C.** <i>α.v = α.w</i> and <i>α</i> ≠ 0 implies <i> v = w </i>.<br>
-&emsp; **D.** Notice that <i>v.w</i> and <i>v.α</i> are not defined.
+&emsp; **C.** <i>α.v = α.w</i> and <i>α</i> ≠ 0 implies <i>v</i>=<i>w</i>.<br>
 
 **9. Significance**
-The study of <i>n</i>-dimensional Euclidean space has enlightened research in many broad areas of science over the period of time. <i>n</i>-dimensional spaces have since become one of the foundations for formally expressing modern mathematics and physics.
+The study of <i>n</i>-dimensional Euclidean space is one of the foundations for formally expressing modern mathematics and physics.
