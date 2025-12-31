@@ -20,7 +20,7 @@ In the same manner, <i>R</i> and <i>R</i><sup>3</sup> can be identified with the
 The one-to-one correspondence between the plane and <i>R</i><sup>2</sup>, described above provides an identification of plane with <i>R</i><sup>2</sup>. Therefore <i>R</i><sup>2</sup> serves as a mathematical model for the study of the plane. Similarly, <i>R</i> and <i>R</i><sup>3</sup> serve as mathematical models for the study of the line and the space, respectively.
 
 **4. Vector Representation:**
-Let P be a point in the given Fig.1. Let (<i>u</i>, <i>v</i>) be the corresponding ordered pair. The line segment joining the origin and the point directed towards the point is called the vector at the origin associated with the point P. Please see the diagram given below.
+Let <i>P</i> be a point in the given Fig.1. Let (<i>u</i>, <i>v</i>) be the corresponding ordered pair. The line segment joining the origin and the point directed towards the point is called the vector at the origin associated with the point P. Please see the diagram given below.
 
  ![Vector Representation](images/exp1newimage.jpeg "Vector Represntation")
 
