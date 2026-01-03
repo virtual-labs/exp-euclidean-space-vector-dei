@@ -40,7 +40,7 @@ It can be geometrically visualised for 1≤<i>n</i>≤3 only.
 &emsp; **ii.** Commutativity: <i>x</i> + <i>y</i> = <i>y + x</i>; for <i>x, y</i> ∈ <i>V</i> <br>
 &emsp; **iii.** Associativity: (<i>x + y</i>) + <i>z</i> = <i>x + (y + z)</i>, for <i>x, y, z</i> ∈ <i>V</i> <br>
 &emsp; **iv.** Additive identity: There exists an element 0 ∈ <i>V</i> such that <i>x</i> + 0 = <i>x</i>, for <i>x</i> ∈ <i>V</i>.<br>
-&emsp;  &emsp; This O which is the additive identity of (<i>V</i>, +), is called the zero of <i>V</i> and is denoted by 0.<br>
+&emsp;  &emsp; This 0 which is the additive identity of (<i>V</i>, +), is called the zero of <i>V</i> and is denoted by 0.<br>
 &emsp; **v.** Additive inverse: For every <i>x</i> ∈ <i>V</i>, there exists an element <i>y</i> ∈ <i>V</i> such that <i>x + y</i> = 0. This <i>y</i> is called the additive inverse of <i>x</i> and is denoted by <i>-x</i>.
 
 **For Scalar Multiplication:** <br>
