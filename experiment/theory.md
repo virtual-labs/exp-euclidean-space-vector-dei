@@ -9,8 +9,8 @@
 **(iii)** . , called scalar multiplication, is defined as <br> 
 &emsp; <i>α</i> . (<i>a</i> , <i>b</i>) = (<i>α . a</i> , <i>α . b</i>); where α ∈ <i>R</i> and (<i>a</i> , <i>b</i>) ∈ <i>R</i><sup>2</sup> . <br>
 Note that,
-**a.** In (ii), "+" on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>. For example, when (2, 3) and (1, 4) in <i>R</i><sup>2</sup> are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>.<br>
-**b.** In (iii), "." on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>. For example, when 2 in <i>R</i> and (2, 3) in <i>R</i><sup>2</sup> are multiplied, we have 2.(2, 3)=(2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>.<br>
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">a.** In (ii), "+" on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>. For example, when (2, 3) and (1, 4) in <i>R</i><sup>2</sup> are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>. <br>
+**b.** In (iii), "." on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>. For example, when 2 in <i>R</i> and (2, 3) in <i>R</i><sup>2</sup> are multiplied, we have 2.(2, 3)=(2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>.</span><br>
 
 **2. Geometric Visualization:**
 It is well known that there is a one-to-one correspondence between the plane and <i>R</i><sup>2</sup>. That is, for each point on the plane there corresponds an element of <i>R</i><sup>2</sup> and conversely, to each element of <i>R</i><sup>2</sup> there is a point in the plane. **It may be noted** that this association between points in the plane and the elements in <i>R</i><sup>2</sup> is with respect to a given pair of axes. Thus given a point on the plane, if we change the chosen axes, the element in <i>R</i><sup>2</sup> may be changed. Similarly, given an element in <i>R</i><sup>2</sup>, if we change the chosen axes, a different point on the plane may be obtained.<br>
@@ -40,7 +40,7 @@ It can be geometrically visualised for 1≤<i>n</i>≤3 only.
 &emsp; **ii.** Commutativity: <i>x</i> + <i>y</i> = <i>y + x</i>; for <i>x, y</i> ∈ <i>V</i> <br>
 &emsp; **iii.** Associativity: (<i>x + y</i>) + <i>z</i> = <i>x + (y + z)</i>, for <i>x, y, z</i> ∈ <i>V</i> <br>
 &emsp; **iv.** Additive identity: There exists an element 0 ∈ <i>V</i> such that <i>x</i> + 0 = <i>x</i>, for <i>x</i> ∈ <i>V</i>.<br>
-&emsp;  &emsp; This O which is the additive identity of (<i>V</i>, +), is called the zero of <i>V</i> and is denoted by 0.<br>
+&emsp;  &emsp; This 0 which is the additive identity of (<i>V</i>, +), is called the zero of <i>V</i> and is denoted by 0.<br>
 &emsp; **v.** Additive inverse: For every <i>x</i> ∈ <i>V</i>, there exists an element <i>y</i> ∈ <i>V</i> such that <i>x + y</i> = 0. This <i>y</i> is called the additive inverse of <i>x</i> and is denoted by <i>-x</i>.
 
 **For Scalar Multiplication:** <br>
