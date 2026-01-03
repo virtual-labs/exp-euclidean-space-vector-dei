@@ -3,12 +3,12 @@
 
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">1. 2-dimensional Euclidean Space:</span>**
  <span style="font-family: 'Times New Roman'; font-size: 24px;">The system ( <i>R</i><sup>2</sup> ,+ , . ) together with <i>R</i> is the 2-dimensional Euclidean space, where</span><br>
-**<span style="font-family: 'Times New Roman'; font-size: 24px;">(i)</span>** <span style="font-family: 'Times New Roman'; font-size: 24px;"> <i>R</i><sup>2</sup> = (<i>x</i> , <i>y</i>) | (<i>x</i> , <i>y</i>)∈ <i>R</i> </span> <br>
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">(i)</span>** <span style="font-family: 'Times New Roman'; font-size: 24px;"> <i>R</i><sup>2</sup> = {(<i>x</i> , <i>y</i>) | <i>x</i> , <i>y</i>∈ <i>R</i>} </span> <br>
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">(ii)</span>** <span style="font-family: 'Times New Roman'; font-size: 24px;">+ , called addition, is defined as <br>
 &emsp; (<i>a</i> , <i>b</i>) + (<i>c</i> , <i>d</i>) = ( <i>a+c</i> , <i>b+d</i> ); where (<i>a</i> , <i>b</i>) and (<i>c</i> , <i>d</i>) ∈ <i>R</i><sup>2</sup></span> <br>
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">(iii)</span>** <span style="font-family: 'Times New Roman'; font-size: 24px;">. , called scalar multiplication, is defined as <br> 
 &emsp; <i>α</i> . (<i>a</i> , <i>b</i>) = (<i>α . a</i> , <i>α . b</i>); where α ∈ <i>R</i> and (<i>a</i> , <i>b</i>) ∈ <i>R</i><sup>2</sup> . <br>
-Note that,</span>
+Note that,</span><br>
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">a.</span>**<span style="font-family: 'Times New Roman'; font-size: 24px;"> In (ii), "+" on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>. For example, when (2, 3) and (1, 4) in <i>R</i><sup>2</sup> are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>.</span> <br>
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">b.</span>**<span style="font-family: 'Times New Roman'; font-size: 24px;"> In (iii), "." on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>. For example, when 2 in <i>R</i> and (2, 3) in <i>R</i><sup>2</sup> are multiplied, we have 2.(2, 3)=(2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>.</span><br>
 
@@ -55,15 +55,15 @@ It can be geometrically visualised for 1≤<i>n</i>≤3 only. </span>
 **NOTE:** (i) The elements of <i>F</i> are called **scalars** and the elements of <i>V</i> are **vectors**. A vector space over <i>F</i> will be denoted by <i>V</i>.<br> 
 (ii) Let <i>C</i> be the set of complex numbers and each of its elements is denoted by <i>a+ib</i>, where <i>a, b∈R</i>.  The operations ‘‘+’’ (addition), ‘‘.’’ (scalar multiplication) and ‘‘.’’ (multiplication) on <i>C</i>, defined as follows: <br> 
 a. Addition: (<i>a+ib</i>)+(<i>c+id</i>)=(<i>a+c</i>)+(<i>b+d</i>)<i>i</i>, where (<i>a+ib</i>) and (<i>c+id</i>)∈<i>C</i>. <br> 
-b. Scalar multiplication: <i>α</i>.(<i>a+ib</i>)=<i>α.a+α.ib</i>, where <i>α∈R</i> and (<i>a+ib</i>)∈<i>C</i>. <br> 
+b. Scalar multiplication: <i>α</i>.(<i>a+ib</i>)=<i>α.a+α.bi</i>, where <i>α∈R</i> and (<i>a+ib</i>)∈<i>C</i>. <br> 
 c. Multiplication: (<i>a+ib</i>).(<i>c+id</i>)=<i>ac-bd</i>+(<i>bc+ad</i>)<i>i</i>, where (<i>a+ib</i>) and (<i>c+id</i>)∈<i>C</i>.<br>
 (iii) Notice that <i>v.w</i> and <i>v.α</i> are not defined, where <i>v, w</i>∈<i>V</i> and <i>α</i>∈<i>F</i>
 
 
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">7. Example</span>** <br>
 &emsp; **i.** <span style="font-family: 'Times New Roman'; font-size: 24px;">The system (<i>R<sup>n</sup></i>, +, .) is a vector space over <i>R</i>, where addition and scalar multiplication are described above. The zero of this vector space is 0≡(0, 0, 0, …, 0). Thus elements of <i>R<sup>n</sup></i> are vectors and elements of <i>R</i> are scalars. In the particular case when <i>n</i>=1, elements of <i>R</i> are both vectors and scalars.</span> <br>
-&emsp; **ii.** The system (<i>M</i><sup>2x2</sup>, +, .) is a vector space over <i>R</i>,  where <i>M<sup></i>2x2</sup> = $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} $ <i>a, b, c, d</i> &isin; <i>R</i>, operation addition is defined to be $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} + \begin{pmatrix} r & s \\ t & u \end{pmatrix} = \begin{pmatrix} a+r & b+s \\ c+t & d+u \end{pmatrix} $ and the operation scaler multiplication is defined to be α. $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{pmatrix} α.a & α.b \\ α.c & α.d \end{pmatrix}. $ The zero of this vector space is 0 $ \equiv \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}. $ <br> 
-&emsp; **iii.** The system (<i>R</i><sup>2</sup>, +, .) is not a vector space over <i>R</i>, where operations addition and scalar multiplication are described as follows: (<i>x, y</i>)+(<i>a, b</i>)=(<i>x+a</i>, 0), where <i>x, y, a, b&isin;R</i> and <i>c</i>(<i>x, y</i>)=(<i>cx</i>, 0); where <i>c, x, y&isin;R</i>. Reason:  There does not exist (<i>a, b</i>) such that (2,1)+(<i>a, b</i>)=(2,1) because if exists, then (2+<i>a</i>, 0)=(2, 1) i.e. 0=1, a contradiction.  
+&emsp; **ii.** The system (<i>M</i><sup>2x2</sup>, +, .) is a vector space over <i>R</i>,  where {<i>M</i><sup>2x2</sup> = $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} $ <i>a, b, c, d</i> &isin; <i>R</i>}, operation addition is defined to be $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} + \begin{pmatrix} r & s \\ t & u \end{pmatrix} = \begin{pmatrix} a+r & b+s \\ c+t & d+u \end{pmatrix} $ and the operation scaler multiplication is defined to be α. $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{pmatrix} α.a & α.b \\ α.c & α.d \end{pmatrix}. $ The zero of this vector space is 0 $ \equiv \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}. $ <br> 
+&emsp; **iii.** The system (<i>R</i><sup>2</sup>, +, .) is not a vector space over <i>R</i>, where operations addition and scalar multiplication are described as follows: (<i>x, y</i>)+(<i>a, b</i>)=(<i>x+a</i>, 0), where <i>x, y, a, b&isin;R</i> and <i>c</i>(<i>x, y</i>)=(<i>cx</i>, 0); where <i>c, x, y&isin;R</i>. Reason:  There does not exist (<i>a, b</i>) such that (2, 1)+(<i>a, b</i>)=(2, 1) because if exists, then (2+<i>a</i>, 0)=(2, 1) i.e. 0=1, a contradiction.  
  
 **8. Properties**
 Let <i>V</i> be a vector space over <i>R</i>. For <i>v, w</i>∈<i>V</i> and <i>α</i>∈<i>F</i>,
