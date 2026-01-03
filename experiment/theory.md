@@ -2,15 +2,15 @@
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">Notation</span>**: <span style="font-family: 'Times New Roman'; font-size: 24px;">Let <i>N</i> and <i>R</i> denote the set of natural numbers and set of real numbers respectively.</span>
 
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">1. 2-dimensional Euclidean Space:</span>**
- The system ( <i>R</i><sup>2</sup> ,+ , . ) together with <i>R</i> is the 2-dimensional Euclidean space, where<br>
-**(i)**  <i>R</i><sup>2</sup> = { (<i>x</i> , <i>y</i>) | (<i>x</i> , <i>y</i>)∈ <i>R</i> } <br>
-**(ii)** + , called addition, is defined as <br>
-&emsp; (<i>a</i> , <i>b</i>) + (<i>c</i> , <i>d</i>) = ( <i>a+c</i> , <i>b+d</i> ); where (<i>a</i> , <i>b</i>) and (<i>c</i> , <i>d</i>) ∈ <i>R</i><sup>2</sup> <br>
-**(iii)** . , called scalar multiplication, is defined as <br> 
+ <span style="font-family: 'Times New Roman'; font-size: 24px;">The system ( <i>R</i><sup>2</sup> ,+ , . ) together with <i>R</i> is the 2-dimensional Euclidean space, where</span><br>
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">(i)</span>** <span style="font-family: 'Times New Roman'; font-size: 24px;"> <i>R</i><sup>2</sup> = { (<i>x</i> , <i>y</i>) | (<i>x</i> , <i>y</i>)∈ <i>R</i> } </span> <br>
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">(ii)</span>** <span style="font-family: 'Times New Roman'; font-size: 24px;">+ , called addition, is defined as <br>
+&emsp; (<i>a</i> , <i>b</i>) + (<i>c</i> , <i>d</i>) = ( <i>a+c</i> , <i>b+d</i> ); where (<i>a</i> , <i>b</i>) and (<i>c</i> , <i>d</i>) ∈ <i>R</i><sup>2</sup></span> <br>
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">(iii)</span>** <span style="font-family: 'Times New Roman'; font-size: 24px;">. , called scalar multiplication, is defined as <br> 
 &emsp; <i>α</i> . (<i>a</i> , <i>b</i>) = (<i>α . a</i> , <i>α . b</i>); where α ∈ <i>R</i> and (<i>a</i> , <i>b</i>) ∈ <i>R</i><sup>2</sup> . <br>
-Note that,
-**<span style="font-family: 'Times New Roman'; font-size: 24px;">a.** In (ii), "+" on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>. For example, when (2, 3) and (1, 4) in <i>R</i><sup>2</sup> are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>. <br>
-**b.** In (iii), "." on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>. For example, when 2 in <i>R</i> and (2, 3) in <i>R</i><sup>2</sup> are multiplied, we have 2.(2, 3)=(2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>.</span><br>
+Note that,</span>
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">a.</span>**<span style="font-family: 'Times New Roman'; font-size: 24px;"> In (ii), "+" on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>. For example, when (2, 3) and (1, 4) in <i>R</i><sup>2</sup> are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>.</span> <br>
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">b.</span>**<span style="font-family: 'Times New Roman'; font-size: 24px;"> In (iii), "." on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>. For example, when 2 in <i>R</i> and (2, 3) in <i>R</i><sup>2</sup> are multiplied, we have 2.(2, 3)=(2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>.</span><br>
 
 **2. Geometric Visualization:**
 It is well known that there is a one-to-one correspondence between the plane and <i>R</i><sup>2</sup>. That is, for each point on the plane there corresponds an element of <i>R</i><sup>2</sup> and conversely, to each element of <i>R</i><sup>2</sup> there is a point in the plane. **It may be noted** that this association between points in the plane and the elements in <i>R</i><sup>2</sup> is with respect to a given pair of axes. Thus given a point on the plane, if we change the chosen axes, the element in <i>R</i><sup>2</sup> may be changed. Similarly, given an element in <i>R</i><sup>2</sup>, if we change the chosen axes, a different point on the plane may be obtained.<br>
