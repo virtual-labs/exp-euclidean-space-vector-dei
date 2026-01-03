@@ -1,0 +1,72 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "Which of the following is an element of $R$?",
+            "answers": {
+                "a": "∞",
+                "b": "{2}",
+                "c": "(0 , 6)",
+                "d": "√4"
+            },
+            "explanations": {
+                "a": "Incorrect. Follows by definition of $R$.",
+                "b": "Incorrect. Follows by definition of $R$.",
+                "c": "Incorrect. Follows by definition of $R$.",
+                "d": "Correct. Follows by definition of $R$."
+            },
+            "correctAnswer": "d",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "Which of the following is an element of $R$<sup>2</sup>?",
+            "answers": {
+                "a": "( 3 , i ), where i is √(-1)",
+                "b": "[0 , 2]",
+                "c": "{5 , 0}",
+                "d": "(-1, √7/2)"
+            },
+            "explanations": {
+                "a": "Incorrect. Follows by definition of $R^{2}.$",
+                "b": "Incorrect. Follows by definition of $R^{2}.$",
+                "c": "Incorrect. Follows by definition of $R^{2}.$",
+                "d": "Correct. Follows by definition of $R^{2}$."
+            },
+            "correctAnswer": "d",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "Let A and B be the statements as given below : <br> A : π is a rational number <br> B : 1/0 is not a real number <br> Then",
+            "answers": {
+                "a": " A is true, B is false",
+                "b": " A is false, B is true",
+                "c": " A is true, B is true",
+                "d": " A is false, B is false"
+            },
+            "explanations": {
+                "a": "Incorrect. Follows by definition.",
+                "b": "Correct. Follows by definition.",
+                "c": "Incorrect. Follows by definition.",
+                "d": "Incorrect. Follows by definition."
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "Which of the following is an element of $R$<sup>3</sup>?",
+            "answers": {
+                "a": "(π, i<sup>2</sup>, log(1))",
+                "b": "(3, 11, √(-2))",
+                "c": "√2, i, 3",
+                "d": "{0 , 0 , 0}"
+            },
+            "explanations": {
+                "a": "Correct. Follows by definition of $R^{3}.$",
+                "b": "Incorrect. Follows by definition of $R^{3}.$",
+                "c": "Incorrect. Follows by definition of $R^{3}.$",
+                "d": "Incorrect. Follows by definition of $R^{3}.$"
+            },
+            "correctAnswer": "a",
+            "difficulty": "beginner"
+        }
+    ]
+}

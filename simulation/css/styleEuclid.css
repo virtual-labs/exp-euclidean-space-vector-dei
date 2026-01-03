@@ -1,0 +1,145 @@
+
+* {box-sizing: border-box}
+
+
+body, html {
+  margin: 0;
+ 
+}
+  h1{
+  background-color: #87ceeb;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 0.2rem;
+  margin-top: 0.5rem;
+}
+
+.responsive-two-column-grid {
+    display:block;
+    float: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.responsive-two-column-grid > * {
+    padding:1rem;
+    margin: 0.2rem;
+    background-color: silver;
+    margin-bottom: 0;
+}
+
+@media (min-width:768px) {
+    .responsive-two-column-grid {
+        display: grid;
+        grid-template-columns: .35fr .75fr;
+    }
+} 
+
+.responsive-three-column-grid {
+    display:block;
+    float: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.responsive-three-column-grid > * {
+    padding:.1rem 1rem;
+    margin: 0.2rem;
+    background-color: silver;
+    margin-bottom: 0;
+}
+
+
+@media (min-width:768px) {
+    .responsive-three-column-grid {
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.tablink {
+  background-color: gray;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 12px;
+  font-size: 15px;
+  width: 25%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+
+.tablink:hover {
+  background-color: skyblue;
+}
+
+.tabcontent {
+  /*color: white;*/
+  display: none;
+  padding: 70px 20px 18px 20px;
+}
+
+.next{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    align-content: center;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    width:8rem;
+    float:right;
+}
+.next:hover {
+  background-color: #ada;
+  color: black;
+}
+.previous{
+    display: block;
+    float:left;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    align-content: center;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    width:8rem;
+}
+.previous:hover {
+  background-color: #ada;
+  color: black;
+}
+input{
+    background-color:mediumturquoise;
+    align-content: center;
+    text-align: center;
+    font-style:bold italic;
+    font-size: 14px;
+    color:black;
+    border:.5px solid black;
+    color: black;
+}
+input:hover{
+    background-color: darkcyan;
+    color:white;
+}
+.vectorspace{
+  display: block;
+  background-color: #e8f5e9;
+  border: 2px solid darkgreen;
+  padding: 1rem;
+  margin: 80px 10px;
+  
+a{
+  text-decoration: none;
+  color:white;
+}
+input{
+  cursor:pointer;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+<title>Linear Algebra Virtual Lab</title>
+<link rel = "icon" href = "https://www.vlab.co.in/images/logo.jpg" type = "image/x-icon">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="css/style1.css">
+
+</head>
+<body>
+    
+    <p style="float: center; align-content:right;">
+        <a href="./" class="previous">&laquo; Home</a>
+        <a href="operations.html" class="next" >Next &raquo;</a>
+    </p>
+    <br><br><br>
+    <h1 class="exphead"><i>n</i>-Dimensional Euclidean Space</h1>
+    <h2 class="linkhead">Link (One-to-One Correspondence) between Plane, <i>R</i><sup>2</sup> and Vectors at Origin</h2>
+	<div class="responsive-three-column-grid">
+    
+    <div class="col1" style="background-color:#fbeee6;">
+        <div class="stepbtn">Step-1</div>
+    	  <h3 class="boxhead" style="color:darkred; background-color: #fadbd8; text-align: center; font-size: 25px;">1. Points on Plane</h3>
+        <p style="background-color: #e8f5e9">(<span style="font-weight: bold;">Plane: </span> It is not a well defined term. It can be understood as a flat surface like top of a table that extends indefinitely in all the directions.)</p>
+        <p style="font-weight: bold; color:red;">Pick a point by clicking on plane given below</p>
+        <canvas id="planeCanvas" width="250" height="250"></canvas>
+         <p id="note1" style="color:blue;"></p>
+    </div>
+
+    <div class="col2" style="background-color:#fbeee6;">
+        <div class="stepbtn">Step-2</div>
+        <h3 class="boxhead" style="color:darkgreen; background-color:#e8f6f3; text-align:center; font-size:25px;">2. Geometric Visualization</h3>
+        <p style="color:darkgreen;"><strong>Given pair of axes</strong></p>
+        <canvas id="gridCanvas" width="250" height="250"></canvas>
+        <p id='printpoint1cords' style="font-size: 20px; color: green;"></p>
+        <p id="note2" style="color:blue"></p>
+    </div>
+
+    <div class="col3" style="background-color:#fbeee6;">
+        <div class="stepbtn">Step-3</div>
+        <h3 class="boxhead" style="color:#000099; background-color: #ccffff; text-align: center; font-size: 25px;">3. Vector Representation</h3>
+        <canvas id="vectorCanvas" width="250" height="250"></canvas>
+        <p id="note3" style="color:blue"></p>
+    </div>
+    
+</div>
+
+<div class="modelcol">
+    <h3 class="boxhead" style="color:firebrick; background-color: rgb(255,255,179); text-align: center; font-size: 25px;">MATH MODEL of Plane</h3>
+    <p style="font-weight: bold; font-size: 24px;"><i>R</i><sup>2</sup> = {(<i>x , y</i>) | <i>x , y</i> &isin; <i>R</i>}</i></p>
+</div>
+
+<p style="float: center; align-content:right;">
+    <a href="./" class="previous">&laquo; Home</a>
+<a href="operations.html" class="next" >Next &raquo;</a></p>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+<script type="text/javascript" src="js/homepage.js"></script>
+</html>
