@@ -54,9 +54,9 @@ It can be geometrically visualised for 1≤<i>n</i>≤3 only.
 
 **NOTE:** (i) The elements of <i>F</i> are called **scalars** and the elements of <i>V</i> are **vectors**. A vector space over <i>F</i> will be denoted by <i>V</i>.<br> 
 (ii) Let <i>C</i> be the set of complex numbers and each of its elements is denoted by <i>a+ib</i>, where <i>a, b∈R</i>.  The operations ‘‘+’’ (addition), ‘‘.’’ (scalar multiplication) and ‘‘.’’ (multiplication) on <i>C</i>, defined as follows: <br> 
-a. Addition: (<i>a+ib</i>)+(<i>c+id</i>)=((<i>a+c</i>)+(<i>b+d</i>)<i>i</i>), where (<i>a+ib</i>) and (<i>c+id</i>)∈<i>C</i>. <br> 
+a. Addition: (<i>a+ib</i>)+(<i>c+id</i>)=(<i>a+c</i>)+(<i>b+d</i>)<i>i</i>, where (<i>a+ib</i>) and (<i>c+id</i>)∈<i>C</i>. <br> 
 b. Scalar multiplication: <i>α</i>.(<i>a+ib</i>)=(<i>α.a+α.ib</i>), where <i>α∈R</i> and (<i>a+ib</i>)∈<i>C</i>. <br> 
-c. Multiplication: (<i>a+ib</i>).(<i>c+id</i>)=(<i>ac-bd</i>+(<i>bc+ad</i>)<i>i</i>), where (<i>a+ib</i>) and (<i>c+id</i>)∈<i>C</i>.<br>
+c. Multiplication: (<i>a+ib</i>).(<i>c+id</i>)=<i>ac-bd</i>+(<i>bc+ad</i>)<i>i</i>, where (<i>a+ib</i>) and (<i>c+id</i>)∈<i>C</i>.<br>
 (iii) Notice that <i>v.w</i> and <i>v.α</i> are not defined, where <i>v, w</i>∈<i>V</i> and <i>α</i>∈<i>F</i>
 
 
