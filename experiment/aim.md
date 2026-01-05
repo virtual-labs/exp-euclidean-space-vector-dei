@@ -1,1 +1,1 @@
-The aim is to appreciate 2-dimensional Euclidean space as a vector space over <i>R</i> by visualizing connection between <i>R</i><sup>2</sup> and the plane, and to extend this understanding to higher-dimensional spaces.
+<span style="font-family: 'Times New Roman'; font-size: 24px;">The aim is to appreciate 2-dimensional Euclidean space as a vector space over <i>R</i> by visualizing connection between <i>R</i><sup>2</sup> and the plane, and to extend this understanding to higher-dimensional spaces.</span>
