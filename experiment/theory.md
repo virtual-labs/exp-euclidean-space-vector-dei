@@ -36,7 +36,7 @@ In the same manner, <i>R</i> and <i>R</i><sup>3</sup> can be identified with the
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">6. Vector space:</span>**
 <span style="font-family: 'Times New Roman'; font-size: 24px;"> Let <i>F=R</i> or <i>C</i>, where <i>C</i> is set of complex numbers which is described below in Note (ii). Given a non-empty set <i>V</i> and operations "+" **(called addition)** and "." **(called scalar multiplication)**, the system (<i>V</i>, +, .) together with <i>F</i> is called a **vector space** over <i>F</i>, if the following conditions hold:</span>
 
-<span style="font-family: 'Times New Roman'; font-size: 24px;"><b>For Addition:</b> <br>
+<span style="font-family: 'Times New Roman'; font-size: 24px;"><b>For addition:</b> <br>
 &emsp; <b>i.</b> For each pair of elements <i>x, y</i> ∈ <i>V</i>, there is a unique element <i>x</i> + <i>y</i> ∈ <i>V</i> <br> 
 &emsp; <b>ii.</b> Commutativity: <i>x</i> + <i>y</i> = <i>y + x</i>; for <i>x, y</i> ∈ <i>V</i> <br>
 &emsp; <b>iii.</b> Associativity: (<i>x + y</i>) + <i>z</i> = <i>x + (y + z)</i>, for <i>x, y, z</i> ∈ <i>V</i> <br>
@@ -44,12 +44,12 @@ In the same manner, <i>R</i> and <i>R</i><sup>3</sup> can be identified with the
 &emsp;  &emsp; This 0 which is the additive identity of (<i>V</i>, +), is called the zero of <i>V</i> and is denoted by 0.<br>
 &emsp; <b>v.</b> Additive inverse: For every <i>x</i> ∈ <i>V</i>, there exists an element <i>y</i> ∈ <i>V</i> such that <i>x + y</i> = 0. This <i>y</i> is called the additive inverse of <i>x</i> and is denoted by <i>-x</i>.</span>
 
-<span style="font-family: 'Times New Roman'; font-size: 24px;"><b>For Scalar Multiplication:</b> <br>
+<span style="font-family: 'Times New Roman'; font-size: 24px;"><b>For Scalar multiplication:</b> <br>
 &emsp; <b>i.</b> For each <i>x</i> ∈ <i>V</i> and <i>a</i> ∈ <i>F</i>, there is a unique element <i>a.x ∈ V</i> <br>
 &emsp; <b>ii.</b> Associativity: (<i>ab</i>).<i>x</i> = <i>a</i>.(<i>bx</i>) = <i>x</i>.(<i>ab</i>); for <i>x ∈ V</i> and <i>a, b ∈ F</i>. <br>
 &emsp; <b>iii.</b> <i>1.x = x.1 = x</i>, for <i>x ∈ V</i>, where 1 is the additive identity of <i>F</i>.</span>
 
-<span style="font-family: 'Times New Roman'; font-size: 24px;"><b>Compatibility Conditions:</b> <br>
+<span style="font-family: 'Times New Roman'; font-size: 24px;"><b>Compatibility conditions:</b> <br>
 &emsp; <b>i.</b> Distributive Property 1: <i>a</i>.(<i>x+y</i>) = <i>a.x + a.y</i>; for <i>x, y ∈ V</i> and <i>a ∈ F</i>. <br> 
 &emsp; <b>ii.</b> Distributive Property 2: (<i>a+b</i>).<i>x</i> = <i>a.x + b.x</i>; for <i>x ∈ V</i> and <i>a, b ∈ F</i>.</span>
 
