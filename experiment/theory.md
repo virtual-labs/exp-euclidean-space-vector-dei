@@ -61,12 +61,12 @@ c. Multiplication: (<i>a+ib</i>).(<i>c+id</i>)=<i>ac-bd</i>+(<i>bc+ad</i>)<i>i</
 (iii) Notice that <i>v.w</i> and <i>v.α</i> are not defined, where <i>v, w</i>∈<i>V</i> and <i>α</i>∈<i>F</i></span>
 
 
-**<span style="font-family: 'Times New Roman'; font-size: 24px;">7. Example</span>** <br>
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">7. Example:</span>** <br>
 &emsp; **i.** <span style="font-family: 'Times New Roman'; font-size: 24px;">The system (<i>R<sup>n</sup></i>, +, .) is a vector space over <i>R</i>, where addition and scalar multiplication are described above. The zero of this vector space is 0≡(0, 0, 0, …, 0). Thus elements of <i>R<sup>n</sup></i> are vectors and elements of <i>R</i> are scalars. In the particular case when <i>n</i>=1, elements of <i>R</i> are both vectors and scalars.</span> <br>
 &emsp; **ii.** <span style="font-family: 'Times New Roman'; font-size: 24px;">The system (<i>M</i><sup>2x2</sup>, +, .) is a vector space over <i>R</i>,  where {<i>M</i><sup>2x2</sup> = $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} $ <i>a, b, c, d</i> &isin; <i>R</i>}, operation addition is defined to be $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} + \begin{pmatrix} r & s \\ t & u \end{pmatrix} = \begin{pmatrix} a+r & b+s \\ c+t & d+u \end{pmatrix} $ and the operation scaler multiplication is defined to be α. $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{pmatrix} α.a & α.b \\ α.c & α.d \end{pmatrix}. $ The zero of this vector space is 0 $ \equiv \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}. $ </span><br> 
 &emsp; **iii.** <span style="font-family: 'Times New Roman'; font-size: 24px;">The system (<i>R</i><sup>2</sup>, +, .) is not a vector space over <i>R</i>, where operations addition and scalar multiplication are described as follows: (<i>x, y</i>)+(<i>a, b</i>)=(<i>x+a</i>, 0), where <i>x, y, a, b&isin;R</i> and <i>c</i>(<i>x, y</i>)=(<i>cx</i>, 0); where <i>c, x, y&isin;R</i>. Reason:  There does not exist (<i>a, b</i>) such that (2, 1)+(<i>a, b</i>)=(2, 1) because if exists, then (2+<i>a</i>, 0)=(2, 1) i.e. 0=1, a contradiction.  </span>
  
-<span style="font-family: 'Times New Roman'; font-size: 24px;"><b>8. Properties</b>
+<span style="font-family: 'Times New Roman'; font-size: 24px;"><b>8. Properties:</b>
 Let <i>V</i> be a vector space over <i>R</i>. For <i>v, w</i>∈<i>V</i> and <i>α</i>∈<i>F</i>,</span>
 
 &emsp; **A.** <span style="font-family: 'Times New Roman'; font-size: 24px;">0.<i>v</i> = 0 <br>
@@ -75,5 +75,5 @@ Let <i>V</i> be a vector space over <i>R</i>. For <i>v, w</i>∈<i>V</i> and <i>
 &emsp;&emsp;   (-1).<i>x</i> = <i>-x</i>, <i>x</i> ∈ <i>V</i>, -1 ∈ <i>F</i></span><br> 
 &emsp; **C.** <span style="font-family: 'Times New Roman'; font-size: 24px;"><i>α.v = α.w</i> and <i>α</i> ≠ 0 implies <i>v</i>=<i>w</i>.</span><br>
 
-**<span style="font-family: 'Times New Roman'; font-size: 24px;">9. Significance</span>**
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">9. Significance:</span>**
 <span style="font-family: 'Times New Roman'; font-size: 24px;">The study of <i>n</i>-dimensional Euclidean space is a foundational concept for formally expressing modern mathematics and physics.</span>
