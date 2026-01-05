@@ -1,7 +1,7 @@
 <span style="font-family: 'Times New Roman'; font-size: 24px;"> This experiment has been designed to help students with the understanding of the 2-dimensional Euclidean space which is commonly visualized as the flat plane and is mathematically represented as the real vector space <i>R</i><sup>2</sup>, essentially the set of all ordered pairs of real numbers, by exploring the relationship between points on the plane and elements in <i>R</i><sup>2</sup>. Vector representation of a point in plane is also given. Thus students will gain a deeper appreciation of how geometry and linear algebra are interconnected. Besides, the experiment encourages learners to extend this understanding to more abstract, higher-dimensional spaces, thereby building a foundation for studying vector spaces, in general.</span> <br>
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">Notation</span>**: <span style="font-family: 'Times New Roman'; font-size: 24px;">Let <i>N</i> and <i>R</i> denote the set of natural numbers and set of real numbers respectively.</span>
 
-**<span style="font-family: 'Times New Roman'; font-size: 24px;">1. 2-dimensional euclidean space:</span>**
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">1. 2-dimensional Euclidean space:</span>**
  <span style="font-family: 'Times New Roman'; font-size: 24px;">The system ( <i>R</i><sup>2</sup>, +, . ) together with <i>R</i> is the 2-dimensional Euclidean space, where</span><br>
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">(i)</span>** <span style="font-family: 'Times New Roman'; font-size: 24px;"> <i>R</i><sup>2</sup> = {(<i>x</i>, <i>y</i>) | <i>x</i>, <i>y</i>∈ <i>R</i>} </span> <br>
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">(ii)</span>** <span style="font-family: 'Times New Roman'; font-size: 24px;">+, called addition, is defined as <br>
@@ -25,7 +25,7 @@ In the same manner, <i>R</i> and <i>R</i><sup>3</sup> can be identified with the
 
  ![Vector Representation](images/exp1newimage.jpeg "Vector Represntation")
 
-**<span style="font-family: 'Times New Roman'; font-size: 24px;">5. n-dimensional euclidean space:</span>**
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">5. n-dimensional Euclidean space:</span>**
 <span style="font-family: 'Times New Roman'; font-size: 24px;"> It is the system ( <i>R<sup>n</sup></i>, +, . ) together with <i>R</i>, where <i>R<sup>n</sup></i> = {(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ..., <i>x<sub>n</sub></i>) | <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ..., <i>x<sub>n</sub></i> ∈ <i>R</i>} and operations + and . called addition and scalar multiplication respectively are defined as:</span>
 
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">(i)</span>** <span style="font-family: 'Times New Roman'; font-size: 24px;">(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ..., <i>x<sub>n</sub></i>) + (<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>, <i>y</i><sub>3</sub>, ..., <i>y<sub>n</sub></i>) = (<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>, ..., <i>x<sub>n</sub></i>+<i>y<sub>n</sub></i>); where (<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ..., <i>x<sub>n</sub></i>), (<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>, <i>y</i><sub>3</sub>, ..., <i>y<sub>n</sub></i>) ∈ <i>R<sup>n</sup></i></span> <br>
@@ -44,7 +44,7 @@ In the same manner, <i>R</i> and <i>R</i><sup>3</sup> can be identified with the
 &emsp;  &emsp; This 0 which is the additive identity of (<i>V</i>, +), is called the zero of <i>V</i> and is denoted by 0.<br>
 &emsp; <b>v.</b> Additive inverse: For every <i>x</i> ∈ <i>V</i>, there exists an element <i>y</i> ∈ <i>V</i> such that <i>x + y</i> = 0. This <i>y</i> is called the additive inverse of <i>x</i> and is denoted by <i>-x</i>.</span>
 
-<span style="font-family: 'Times New Roman'; font-size: 24px;"><b>For Scalar multiplication:</b> <br>
+<span style="font-family: 'Times New Roman'; font-size: 24px;"><b>For scalar multiplication:</b> <br>
 &emsp; <b>i.</b> For each <i>x</i> ∈ <i>V</i> and <i>a</i> ∈ <i>F</i>, there is a unique element <i>a.x ∈ V</i> <br>
 &emsp; <b>ii.</b> Associativity: (<i>ab</i>).<i>x</i> = <i>a</i>.(<i>bx</i>) = <i>x</i>.(<i>ab</i>); for <i>x ∈ V</i> and <i>a, b ∈ F</i>. <br>
 &emsp; <b>iii.</b> <i>1.x = x.1 = x</i>, for <i>x ∈ V</i>, where 1 is the additive identity of <i>F</i>.</span>
