@@ -66,14 +66,14 @@ c. Multiplication: (<i>a+ib</i>).(<i>c+id</i>)=<i>ac-bd</i>+(<i>bc+ad</i>)<i>i</
 &emsp; **ii.** <span style="font-family: 'Times New Roman'; font-size: 24px;">The system (<i>M</i><sup>2x2</sup>, +, .) is a vector space over <i>R</i>,  where {<i>M</i><sup>2x2</sup> = $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} $ <i>a, b, c, d</i> &isin; <i>R</i>}, operation addition is defined to be $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} + \begin{pmatrix} r & s \\ t & u \end{pmatrix} = \begin{pmatrix} a+r & b+s \\ c+t & d+u \end{pmatrix} $ and the operation scaler multiplication is defined to be α. $ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{pmatrix} α.a & α.b \\ α.c & α.d \end{pmatrix}. $ The zero of this vector space is 0 $ \equiv \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}. $ </span><br> 
 &emsp; **iii.** The system (<i>R</i><sup>2</sup>, +, .) is not a vector space over <i>R</i>, where operations addition and scalar multiplication are described as follows: (<i>x, y</i>)+(<i>a, b</i>)=(<i>x+a</i>, 0), where <i>x, y, a, b&isin;R</i> and <i>c</i>(<i>x, y</i>)=(<i>cx</i>, 0); where <i>c, x, y&isin;R</i>. Reason:  There does not exist (<i>a, b</i>) such that (2, 1)+(<i>a, b</i>)=(2, 1) because if exists, then (2+<i>a</i>, 0)=(2, 1) i.e. 0=1, a contradiction.  
  
-**8. Properties**
-Let <i>V</i> be a vector space over <i>R</i>. For <i>v, w</i>∈<i>V</i> and <i>α</i>∈<i>F</i>,
+<span style="font-family: 'Times New Roman'; font-size: 24px;"><b>8. Properties</b>
+Let <i>V</i> be a vector space over <i>R</i>. For <i>v, w</i>∈<i>V</i> and <i>α</i>∈<i>F</i>,</span>
 
-&emsp; **A.** 0.<i>v</i> = 0 <br>
-&emsp;&emsp;   (0 on the left side is the zero of <i>F</i> and on the right side it is the zero of <i>V</i>) <br>
-&emsp; **B.** <i>α.v</i> = 0 implies <i>α</i> = 0 or <i>v</i> = 0<br>
-&emsp;&emsp;   (-1).<i>x</i> = <i>-x</i>, <i>x</i> ∈ <i>V</i>, -1 ∈ <i>F</i><br> 
-&emsp; **C.** <i>α.v = α.w</i> and <i>α</i> ≠ 0 implies <i>v</i>=<i>w</i>.<br>
+&emsp; **A.** <span style="font-family: 'Times New Roman'; font-size: 24px;">0.<i>v</i> = 0 <br>
+&emsp;&emsp;   (0 on the left side is the zero of <i>F</i> and on the right side it is the zero of <i>V</i>) </span><br>
+&emsp; **B.** <span style="font-family: 'Times New Roman'; font-size: 24px;"><i>α.v</i> = 0 implies <i>α</i> = 0 or <i>v</i> = 0<br>
+&emsp;&emsp;   (-1).<i>x</i> = <i>-x</i>, <i>x</i> ∈ <i>V</i>, -1 ∈ <i>F</i></span><br> 
+&emsp; **C.** <span style="font-family: 'Times New Roman'; font-size: 24px;"><i>α.v = α.w</i> and <i>α</i> ≠ 0 implies <i>v</i>=<i>w</i>.</span><br>
 
-**9. Significance**
-The study of <i>n</i>-dimensional Euclidean space is a foundational concept for formally expressing modern mathematics and physics.
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">9. Significance</span>**
+<span style="font-family: 'Times New Roman'; font-size: 24px;">The study of <i>n</i>-dimensional Euclidean space is a foundational concept for formally expressing modern mathematics and physics.</span>
