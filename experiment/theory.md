@@ -1,8 +1,8 @@
 <span style="font-family: 'Times New Roman'; font-size: 24px;"> This experiment has been designed to help students with the understanding of the 2-dimensional Euclidean space which is commonly visualized as the flat plane and is mathematically represented as the real vector space <i>R</i><sup>2</sup>, essentially the set of all ordered pairs of real numbers, by exploring the relationship between points on the plane and elements in <i>R</i><sup>2</sup>. Vector representation of a point in plane is also given. Thus students will gain a deeper appreciation of how geometry and linear algebra are interconnected. Besides, the experiment encourages learners to extend this understanding to more abstract, higher-dimensional spaces, thereby building a foundation for studying vector spaces, in general.</span> <br>
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">Notation</span>**: <span style="font-family: 'Times New Roman'; font-size: 24px;">Let <i>N</i> and <i>R</i> denote the set of natural numbers and set of real numbers respectively.</span>
 
-**<span style="font-family: 'Times New Roman'; font-size: 24px;">1. 2-dimensional Euclidean Space:</span>**
- <span style="font-family: 'Times New Roman'; font-size: 24px;">The system ( <i>R</i><sup>2</sup> ,+ , . ) together with <i>R</i> is the 2-dimensional Euclidean space, where</span><br>
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">1. 2-dimensional euclidean space:</span>**
+ <span style="font-family: 'Times New Roman'; font-size: 24px;">The system ( <i>R</i><sup>2</sup>, + , . ) together with <i>R</i> is the 2-dimensional Euclidean space, where</span><br>
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">(i)</span>** <span style="font-family: 'Times New Roman'; font-size: 24px;"> <i>R</i><sup>2</sup> = {(<i>x</i> , <i>y</i>) | <i>x</i> , <i>y</i>∈ <i>R</i>} </span> <br>
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">(ii)</span>** <span style="font-family: 'Times New Roman'; font-size: 24px;">+ , called addition, is defined as <br>
 &emsp; (<i>a</i> , <i>b</i>) + (<i>c</i> , <i>d</i>) = ( <i>a+c</i> , <i>b+d</i> ); where (<i>a</i> , <i>b</i>) and (<i>c</i> , <i>d</i>) ∈ <i>R</i><sup>2</sup></span> <br>
@@ -13,19 +13,19 @@ Note that,</span><br>
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">a.</span>**<span style="font-family: 'Times New Roman'; font-size: 24px;"> In (ii), "+" on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>. For example, when (2, 3) and (1, 4) in <i>R</i><sup>2</sup> are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>.</span> <br>
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">b.</span>**<span style="font-family: 'Times New Roman'; font-size: 24px;"> In (iii), "." on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>. For example, when 2 in <i>R</i> and (2, 3) in <i>R</i><sup>2</sup> are multiplied, we have 2.(2, 3)=(2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>.</span><br>
 
-**<span style="font-family: 'Times New Roman'; font-size: 24px;">2. Geometric Visualization:</span>**
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">2. Geometric visualization:</span>**
 <span style="font-family: 'Times New Roman'; font-size: 24px;">It is well known that there is a one-to-one correspondence between the plane and <i>R</i><sup>2</sup>. That is, for each point on the plane there corresponds an element of <i>R</i><sup>2</sup> and conversely, to each element of <i>R</i><sup>2</sup> there is a point in the plane. <b>It may be noted</b> that this association between points in the plane and the elements in <i>R</i><sup>2</sup> is with respect to a given pair of axes. Thus given a point on the plane, if we change the chosen axes, the element in <i>R</i><sup>2</sup> may be changed. Similarly, given an element in <i>R</i><sup>2</sup>, if we change the chosen axes, a different point on the plane may be obtained.<br>
 In the same manner, <i>R</i> and <i>R</i><sup>3</sup> can be identified with the line and space respectively. Such a visualization is not possible for <i>R<sup>n</sup></i> , for <i>n</i>>3.</span>
 
-**<span style="font-family: 'Times New Roman'; font-size: 24px;">3. Math Model of Line, Plane and Space:</span>**
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">3. Math model of line, plane and space:</span>**
 <span style="font-family: 'Times New Roman'; font-size: 24px;">The one-to-one correspondence between the plane and <i>R</i><sup>2</sup>, described above provides an identification of plane with <i>R</i><sup>2</sup>. Therefore <i>R</i><sup>2</sup> serves as a mathematical model for the study of the plane. Similarly, <i>R</i> and <i>R</i><sup>3</sup> serve as mathematical models for the study of the line and the space, respectively.</span>
 
-**<span style="font-family: 'Times New Roman'; font-size: 24px;">4. Vector Representation:</span>**
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">4. Vector representation:</span>**
 <span style="font-family: 'Times New Roman'; font-size: 24px;">Let <i>P</i> be a point in the given Fig.1. Let (<i>u</i>, <i>v</i>) be the corresponding ordered pair. The line segment joining the origin and the point directed towards the point is called the vector at the origin associated with the point P. Please see the diagram given below.</span>
 
  ![Vector Representation](images/exp1newimage.jpeg "Vector Represntation")
 
-**<span style="font-family: 'Times New Roman'; font-size: 24px;">5. n-dimensional Euclidean Space:</span>**
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">5. n-dimensional euclidean space:</span>**
 <span style="font-family: 'Times New Roman'; font-size: 24px;"> It is the system ( <i>R<sup>n</sup></i> , + , . ) together with <i>R</i>, where <i>R<sup>n</sup></i> = {(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ... , <i>x<sub>n</sub></i>) | <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ... , <i>x<sub>n</sub></i> ∈ <i>R</i>} and operations + and . called addition and scalar multiplication respectively are defined as:</span>
 
 **<span style="font-family: 'Times New Roman'; font-size: 24px;">(i)</span>** <span style="font-family: 'Times New Roman'; font-size: 24px;">(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ... , <i>x<sub>n</sub></i>) + (<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>, <i>y</i><sub>3</sub>, ... , <i>y<sub>n</sub></i>) = (<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub> , <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub> , ... , <i>x<sub>n</sub></i>+<i>y<sub>n</sub></i>); where (<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ... , <i>x<sub>n</sub></i>) , (<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>, <i>y</i><sub>3</sub>, ... , <i>y<sub>n</sub></i>) ∈ <i>R<sup>n</sup></i></span> <br>
@@ -33,7 +33,7 @@ In the same manner, <i>R</i> and <i>R</i><sup>3</sup> can be identified with the
 
 <span style="font-family: 'Times New Roman'; font-size: 24px;">It can be geometrically visualised for 1≤<i>n</i>≤3 only. </span>
 
-**<span style="font-family: 'Times New Roman'; font-size: 24px;">6. Vector Space:</span>**
+**<span style="font-family: 'Times New Roman'; font-size: 24px;">6. Vector space:</span>**
 <span style="font-family: 'Times New Roman'; font-size: 24px;"> Let <i>F=R</i> or <i>C</i>, where <i>C</i> is set of complex numbers which is described below in Note (ii). Given a non-empty set <i>V</i> and operations "+" **(called addition)** and "." **(called scalar multiplication)**, the system (<i>V</i> , + , .) together with <i>F</i> is called a **vector space** over <i>F</i>, if the following conditions hold:</span>
 
 <span style="font-family: 'Times New Roman'; font-size: 24px;"><b>For Addition:</b> <br>
