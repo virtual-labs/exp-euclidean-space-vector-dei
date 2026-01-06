@@ -1,4 +1,4 @@
-1.	<span style="font-family: 'Times New Roman'; font-size: 22px;">On the first page of simulation, first step is to choose a point on plane. Given a pair of axes, there is a corresponding point in <i>R</i><sup>2</sup>. It is provided in Step 2 on the same page.<br>
+<span style="font-family: 'Times New Roman'; font-size: 22px;">1.	On the first page of simulation, first step is to choose a point on plane. Given a pair of axes, there is a corresponding point in <i>R</i><sup>2</sup>. It is provided in Step 2 on the same page.<br>
 2.	On the same page, Step 3 provides the vector representation of the point in <i>R</i><sup>2</sup> corresponding to the chosen point in the plane in Step 1.<br>
 3.	This provides mathematical model for the plane as given below these steps.<br>
 4.	Press “Next” to go to the next page to understand 2- dimensional Euclidean space.<br>
