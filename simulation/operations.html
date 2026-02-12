@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+<link rel = "icon" href = "https://www.vlab.co.in/images/logo.jpg" type = "image/x-icon">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="css/styleOperations.css">
+</head>
+
+<body>
+    <p style="float: center; align-content:right;">
+<a href="index.html" class="previous">&laquo; Previous</a>
+<a href="ndeuclideanspace.html" class="next" >Next &raquo;</a></p><br><br>
+<h1> 2-Dimensional Euclidean Space</h1>
+
+
+    
+    <div class="pcont">
+        <div class="p1" id="p1">
+            <p>Underlying Set</p>
+        </div>
+        <div class="p2" id="p1">
+            <p> &emsp; <i>R</i><sup>2</sup> (i.e. Plane / Vectors at Origin)</p>
+        </div>
+   </div>
+   <div class="p3" id="p3">
+    <p>OPERATIONS</p>
+</div>
+    <div class="btnsdiv">
+       <button class="tablink" id="btn1" onclick=showAdd()>Addition</button>
+    <button class="tablink" id="btn2" onclick=showMul()>Scalar Multiplication</button>
+    
+   </div>
+	
+   
+    
+</div>
+<div id="add" class="tabcontent" style="display: block;">
+	<div class="responsive-three-column-grid">
+        <div class="col1" style="background-color:#fbeee6;">
+  	        <h3 style="color:indigo;"> Pick points <i>P</i>(<i>a, b</i>) & <i>Q</i>(<i>c,d</i>)</i> &isin; <i>R</i><sup>2</sup> to obtain <i>S=P+Q</i></h3>
+  	
+             <form id="cord_form" action="?" method="POST">
+    <h4 style="text-align: left;">For point <i>P</i> enter coordinate values:</h4> 
+    <label for="a_cord"><i>a</i>:</label>
+    <input type="number" id="a_cord" name="a_cord"><br><br>
+    <label for="b_cord"><i>b</i>:</label>
+    <input type="number" id="b_cord" name="b_cord"><br><br>
+    <h4 style="text-align: left;">For point <i>Q</i> enter coordinate values::</h4> 
+    <label for="c_cord"><i>c</i>:</label>
+    <input type="number" id="c_cord" name="c_cord"><br><br>
+    <label for="d_cord"><i>d</i>:</label>          
+    <input type="number" id="d_cord" name="d_cord"><br><br>
+    <button class="subbtn" type="button" onclick="addition();">Submit</button><br/><br>
+    <label id="dis_label1" style="color:#b22222;display: none;">Chosen points in <i>R</i><sup>2</sup>: </label>
+    <p id='displayab' style="color:green;"></p>
+    <p id='displaycd' style="color:green;"></p>
+      <p id='displayabcd' style="color:deeppink;"></p>
+             </form>
+  
+        </div>
+  
+        <div class="col2" style="background-color:#fbeee6;">
+  	<h3 style="color:maroon;"> Location of Points and Sum</h3>
+    <canvas id="graphcanvas" width="250vw" height="250vh"></canvas>
+    <br>
+    <p id="note1" style="color:#b22222;"></p>
+        </div>
+
+        <div class="col3" style="background-color:#fbeee6;">
+  	<h3 style="color:darkgreen;"> Vector Representation of Points and Sum</h3>
+    <canvas id="my-canvas" width="250vw" height="250vh"></canvas>
+
+    <br>
+    <p id="note2" style="color:#b22222;"></p>
+        </div>
+    </div>
+    <div class="statement" style="background-color: #fff9c4; font-size: 20px; text-align:center;">
+    <p>-- Practice operations in <i>R</i><sup><i>n</i></sup> as you have done for <i>R</i><sup>2</sup> --</p>
+    </div>
+</div>
+
+<div id="mul" class="tabcontent" style="display: none;">
+	<div class="responsive-three-column-grid">
+        <div class="col1" style="background-color:#fbeee6;">
+  	<h3 style="color:indigo;">Pick points &alpha; &isin; <i>R & P</i>(<i>m,n</i>) &isin; <i>R</i><sup>2</sup> to obtain <i>S</i> = &alpha;.<i>P</i></h3>
+  	<h5>For the convenience of presentation &alpha;, <i>m</i> & <i>n</i> should be entered in such a manner where -4 &leq; &alpha; <i>m</i> &leq; 14 and -9 &leq; &alpha; <i>n</i> &leq; 9</h5>
+  <form id="cord_form" action="?" method="POST">
+  <label for="al_cord">&alpha;:</label>
+  <input type="number" id="al_cord" name="al_cord"><br><br>
+  <label for="m_cord"><i>m</i>:</label>
+  <input type="number" id="m_cord" name="m_cord"><br><br>
+  <label for="n_cord"><i>n</i>:</label>
+  <input type="number" id="n_cord" name="n_cord"><br><br>
+  <button type="button" onclick="multiplication();">Submit</button><br/><br>
+  <label id="dis_label" style="color:#b22222;display: none;">Coordinate values: </label>
+  <p id='displayal' style="color:green;"></p>
+  <p id='displaymn' style="color:green;"></p>
+  <p id='displayalmn' style="font-style:bold; color:deeppink;"></p>
+</form>
+
+        </div>
+  
+        <div class="col2" style="background-color:#fbeee6;">
+  	<h3 style="color:maroon;">Location of Points and Scalar Multiplication</h3>
+    <canvas id="grphcanvas" width="250vw" height="250vh"></canvas>
+    <br>
+    <p id="note3" style="color:#b22222;"></p>
+        </div>
+
+        <div class="col3" style="background-color:#fbeee6;">
+  	<h3 style="color:green;">Vector Representation of Points and Scalar Multiplication</h3>
+    <canvas id="grphcnvs" width="250vw" height="250vh"></canvas>
+    <br>
+    <p id="note4" style="color:#b22222;"></p>
+        </div>
+    </div>
+    <div class="statement" style="background-color: #fff9c4; font-size: 20px; text-align:center;">
+    <p>-- Practice operations in <i>R</i><sup><i>n</i></sup> as you have done for <i>R</i><sup>2</sup> --</p>
+    </div>
+
+</div>
+
+
+    <p style="float: center; align-content:right;">
+    <a href="index.html" class="previous">&laquo; Previous</a>
+    <a href="ndeuclideanspace.html" class="next" >Next &raquo;</a></p>
+
+<script type="text/javascript" src="js/operations1.js"></script>
+<script type="text/javascript" src="js/homepage.js"></script>
+
+</body>
+</html>
