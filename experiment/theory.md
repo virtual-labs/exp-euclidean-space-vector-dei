@@ -9,7 +9,6 @@
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">(iii)</span>** <span style="font-family: 'Times New Roman'; font-size: 22px;">., called scalar multiplication, is defined as <br> 
 &emsp; <i>α</i> . (<i>a</i>, <i>b</i>) = (<i>α . a</i>, <i>α . b</i>); where α ∈ <i>R</i> and (<i>a</i>, <i>b</i>) ∈ <i>R</i><sup>2</sup> . <br>
 Note that,</span><br>
-
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">a.</span>**<span style="font-family: 'Times New Roman'; font-size: 22px;"> In (ii), "+" on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>. For example, when (2, 3) and (1, 4) in <i>R</i><sup>2</sup> are added, we have (2, 3) + (1, 4) = (2+1, 3+4). Here ‘‘+’’ on the left side is the addition of <i>R</i><sup>2</sup> and on the right side it is the addition of <i>R</i>.</span> <br>
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">b.</span>**<span style="font-family: 'Times New Roman'; font-size: 22px;"> In (iii), "." on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>. For example, when 2 in <i>R</i> and (2, 3) in <i>R</i><sup>2</sup> are multiplied, we have 2.(2, 3)=(2.2, 2.3). Here ‘‘.’’ on the left side is the scalar multiplication of <i>R</i><sup>2</sup> and on the right side it is the multiplication of <i>R</i>.</span><br>
 
@@ -21,11 +20,11 @@ In the same manner, <i>R</i> and <i>R</i><sup>3</sup> can be identified with the
 <span style="font-family: 'Times New Roman'; font-size: 22px;">The one-to-one correspondence between the plane and <i>R</i><sup>2</sup>, described above provides an identification of plane with <i>R</i><sup>2</sup>. Therefore <i>R</i><sup>2</sup> serves as a mathematical model for the study of the plane. Similarly, <i>R</i> and <i>R</i><sup>3</sup> serve as mathematical models for the study of the line and the space, respectively.</span>
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">4. Vector representation:</span>**
-<span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>P</i> be a point in the given Fig.1. Let (<i>u</i>, <i>v</i>) be the corresponding ordered pair. The line segment joining the origin and the point directed towards the point is called the vector at the origin associated with the point P. Please see the diagram given below.</span>
+<span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>P</i> be a point in the given Fig.1. Let (<i>u</i>, <i>v</i>) be the corresponding ordered pair. The line segment joining the origin and the point directed towards the point is called the vector at the origin associated with the point <i>P</i>. Please see the diagram given below.</span>
 
  ![Vector Representation](images/exp1newimage.jpeg "Vector Represntation")
 
-**<span style="font-family: 'Times New Roman'; font-size: 22px;">5. n-Dimensional Euclidean space:</span>**
+**<span style="font-family: 'Times New Roman'; font-size: 22px;">5. <i>n</i>-Dimensional Euclidean space:</span>**
 <span style="font-family: 'Times New Roman'; font-size: 22px;"> It is the system ( <i>R<sup>n</sup></i>, +, . ) together with <i>R</i>, where <i>R<sup>n</sup></i> = {(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ..., <i>x<sub>n</sub></i>) | <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ..., <i>x<sub>n</sub></i> ∈ <i>R</i>} and operations + and . called addition and scalar multiplication respectively are defined as:</span>
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">(i)</span>** <span style="font-family: 'Times New Roman'; font-size: 22px;">(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ..., <i>x<sub>n</sub></i>) + (<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>, <i>y</i><sub>3</sub>, ..., <i>y<sub>n</sub></i>) = (<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>, ..., <i>x<sub>n</sub></i>+<i>y<sub>n</sub></i>); where (<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, ..., <i>x<sub>n</sub></i>), (<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>, <i>y</i><sub>3</sub>, ..., <i>y<sub>n</sub></i>) ∈ <i>R<sup>n</sup></i></span> <br>
