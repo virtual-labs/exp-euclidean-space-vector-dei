@@ -62,7 +62,7 @@ body, html {
   background-color: gray;
   color: black;
   float: left;
-  border: none;
+  border: solid black 1px;
   outline: none;
   cursor: pointer;
   padding: 12px 12px;
