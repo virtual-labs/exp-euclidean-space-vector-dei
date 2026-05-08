@@ -3,10 +3,10 @@ function forn1(){
     document.getElementById('2d').style.display = "none";
     document.getElementById('3d').style.display = "none";
     document.getElementById('nd').style.display = "none";
-    document.getElementById("btn1").style.backgroundColor = "#8E44AD";
-    document.getElementById("btn2").style.backgroundColor = "rgb(4, 255, 63)";
-    document.getElementById("btn3").style.backgroundColor = "#4857ff"; 
-    document.getElementById("btn4").style.backgroundColor = "#67eb53"; 
+    document.getElementById("btn1").style.backgroundColor = "#fbeee6";
+    document.getElementById("btn2").style.backgroundColor = "rgb(20, 184, 255)";
+    document.getElementById("btn3").style.backgroundColor = "rgb(20, 184, 255)"; 
+    document.getElementById("btn4").style.backgroundColor = "rgb(20, 184, 255)"; 
   
     
 }
@@ -17,20 +17,20 @@ function forn2(){
     document.getElementById('3d').style.display = "none";
     document.getElementById('nd').style.display = "none";
    
-    document.getElementById("btn1").style.backgroundColor = "green";
-    document.getElementById("btn2").style.backgroundColor = "#8E44AD";
-    document.getElementById("btn3").style.backgroundColor = "#4857ff"; 
-    document.getElementById("btn4").style.backgroundColor = "#67eb53"; 
+        document.getElementById("btn2").style.backgroundColor = "#fbeee6";
+    document.getElementById("btn1").style.backgroundColor = "rgb(20, 184, 255)";
+    document.getElementById("btn3").style.backgroundColor = "rgb(20, 184, 255)"; 
+    document.getElementById("btn4").style.backgroundColor = "rgb(20, 184, 255)"; 
 }
 function forn3(){
     document.getElementById('1d').style.display = "none";
     document.getElementById('2d').style.display = "none";
     document.getElementById('3d').style.display = "block";
     document.getElementById('nd').style.display = "none";
-    document.getElementById("btn1").style.backgroundColor = "green";
-    document.getElementById("btn2").style.backgroundColor = "rgb(4, 255, 63)";
-    document.getElementById("btn3").style.backgroundColor = "#8E44AD"; 
-    document.getElementById("btn4").style.backgroundColor = "#67eb53"; 
+    document.getElementById("btn1").style.backgroundColor = "rgb(20, 184, 255)";
+    document.getElementById("btn2").style.backgroundColor = "rgb(20, 184, 255)";
+    document.getElementById("btn3").style.backgroundColor = "#fbeee6"; 
+    document.getElementById("btn4").style.backgroundColor = "rgb(20, 184, 255)"; 
     
 }
 function foranyn(){
@@ -39,10 +39,10 @@ function foranyn(){
     document.getElementById('3d').style.display = "none";
     document.getElementById('nd').style.display = "block";
    
-    document.getElementById("btn1").style.backgroundColor = "green";
-    document.getElementById("btn2").style.backgroundColor = "rgb(4, 255, 63)";
-    document.getElementById("btn3").style.backgroundColor = "#4857ff"; 
-    document.getElementById("btn4").style.backgroundColor = "#8E44AD";
+    document.getElementById("btn1").style.backgroundColor = "rgb(20, 184, 255)";
+    document.getElementById("btn2").style.backgroundColor = "rgb(20, 184, 255)";
+    document.getElementById("btn3").style.backgroundColor = "rgb(20, 184, 255)"; 
+    document.getElementById("btn4").style.backgroundColor = "#fbeee6";
     
 }
 
@@ -154,9 +154,10 @@ function openPage(pageName,elmnt,color) {
         count=0;
     }
   }
+
   function ndspacegeomyes(btn7){
     
-    document.getElementById('ndspacegeom').innerHTML="INCORRECT!<br>Geometric Visualization not possible."
+    document.getElementById('ndspacegeom').innerHTML="INCORRECT!<br>Geometric Visualization is not possible."
     var count=1;
     var property = document.getElementById(btn7);
     if (count == 0){
