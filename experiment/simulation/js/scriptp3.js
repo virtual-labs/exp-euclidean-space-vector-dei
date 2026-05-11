@@ -4,9 +4,9 @@ function forn1(){
     document.getElementById('3d').style.display = "none";
     document.getElementById('nd').style.display = "none";
     document.getElementById("btn1").style.backgroundColor = "#fbeee6";
-    document.getElementById("btn2").style.backgroundColor = "rgb(20, 184, 255)";
-    document.getElementById("btn3").style.backgroundColor = "rgb(20, 184, 255)"; 
-    document.getElementById("btn4").style.backgroundColor = "rgb(20, 184, 255)"; 
+    document.getElementById("btn2").style.backgroundColor = "rgb(178, 225, 245)";
+    document.getElementById("btn3").style.backgroundColor = "rgb(178, 225, 245)"; 
+    document.getElementById("btn4").style.backgroundColor = "rgb(178, 225, 245)"; 
   
     
 }
@@ -18,19 +18,19 @@ function forn2(){
     document.getElementById('nd').style.display = "none";
    
         document.getElementById("btn2").style.backgroundColor = "#fbeee6";
-    document.getElementById("btn1").style.backgroundColor = "rgb(20, 184, 255)";
-    document.getElementById("btn3").style.backgroundColor = "rgb(20, 184, 255)"; 
-    document.getElementById("btn4").style.backgroundColor = "rgb(20, 184, 255)"; 
+    document.getElementById("btn1").style.backgroundColor = "rgb(178, 225, 245)";
+    document.getElementById("btn3").style.backgroundColor = "rgb(178, 225, 245)"; 
+    document.getElementById("btn4").style.backgroundColor = "rgb(178, 225, 245)"; 
 }
 function forn3(){
     document.getElementById('1d').style.display = "none";
     document.getElementById('2d').style.display = "none";
     document.getElementById('3d').style.display = "block";
     document.getElementById('nd').style.display = "none";
-    document.getElementById("btn1").style.backgroundColor = "rgb(20, 184, 255)";
-    document.getElementById("btn2").style.backgroundColor = "rgb(20, 184, 255)";
+    document.getElementById("btn1").style.backgroundColor = "rgb(178, 225, 245)";
+    document.getElementById("btn2").style.backgroundColor = "rgb(178, 225, 245)";
     document.getElementById("btn3").style.backgroundColor = "#fbeee6"; 
-    document.getElementById("btn4").style.backgroundColor = "rgb(20, 184, 255)"; 
+    document.getElementById("btn4").style.backgroundColor = "rgb(178, 225, 245)"; 
     
 }
 function foranyn(){
@@ -39,9 +39,9 @@ function foranyn(){
     document.getElementById('3d').style.display = "none";
     document.getElementById('nd').style.display = "block";
    
-    document.getElementById("btn1").style.backgroundColor = "rgb(20, 184, 255)";
-    document.getElementById("btn2").style.backgroundColor = "rgb(20, 184, 255)";
-    document.getElementById("btn3").style.backgroundColor = "rgb(20, 184, 255)"; 
+    document.getElementById("btn1").style.backgroundColor = "rgb(178, 225, 245)";
+    document.getElementById("btn2").style.backgroundColor = "rgb(178, 225, 245)";
+    document.getElementById("btn3").style.backgroundColor = "rgb(178, 225, 245)"; 
     document.getElementById("btn4").style.backgroundColor = "#fbeee6";
     
 }
